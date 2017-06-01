@@ -1,0 +1,4 @@
+Stanford parser - works out the structure of sentences by probabilistically determining which words are most likely to occupy which parts of speech. Main page: https://nlp.stanford.edu/software/lex-parser.shtml. Package is Java implementation of probabilistic natural language parsers. Provides Universal and Stanford Dependencies. 
+
+Run lexicalized parser = ./lexparser.sh <filepath, file name>
+
