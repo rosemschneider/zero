@@ -12,16 +12,14 @@ def find_sents():
     #pull out the lines corresponding to the word you're querying
     import re
     word_occur = []
-    pattern = re.compile(substr, re.IGNORECASE)
-    with open (fname, 'rt', encoding = 'latin1') as in_file:
+    pattern = re.compile('zero', re.IGNORECASE)
+    with open ('input.txt', 'rt', encoding = 'latin1') as in_file:
         for linenum, line in enumerate(in_file):
             if pattern.search(line) !=None:
-                word_occur.append((line))
-                
-    filename = (substr + "_search.txt")
-
+                word_occur.append((line.rstrip('\n')))
+    
     import numpy
-    numpy.savetxt(filename, word_occur)
+    numpy.savetxt('test1.txt', word_occur, fmt = '%s')
         
  
               
