@@ -2,3 +2,55 @@ Stanford parser - works out the structure of sentences by probabilistically dete
 
 Run lexicalized parser = ./lexparser.sh <filepath, file name>
 
+POS parsing --
+Part of Speech (POS) tagging assigns POS labels to words
+Aids in information extraction - how are different words used across frames?
+
+The main problem in the task of POS tagging is how to differentiate between the tags for ambgiuous words
+
+A naive approach would be to pick the most common tag for the word, but we are not just tagging words, we are tagging sequences of words, and sequences of tags with P(T|W) is maximized >> the problem here is that most sequences will never occur, or will occur too few times for good predictions
+
+Here's where Bayes' rule comes in - to find P(T|W) = [P(W|T) * P(T)]/P(W) - we can maximize P(T|W) by maximizing P(W|T) * P(T)
+
+We need to estimate tag bigrams - we need to learn the probabilities of tags (with words, I think??) NB: Look into bigrams with NLTK - I think you can do this
+
+Markov assumption = assume that the probability of a tag only depends on the tag that came directly before 
+
+HMM = Hidden Markov Model
+
+Expectation Maximization - unsupervised learning. Expectation = calculate probability of all sequences using set of parameters, while Maximization = re-estimating parameters using results from Expectation
+
+Penn Treebank POS-tagging accuracy = human ceiling (in English)
+
+Parsing extracts the syntax from a sentence
+
+HMMs can't generate hierarchical structure
+
+Constituents - words or groupings of words that function as single units
+
+The key parsing decision: How do we 'attach' various kinds of constituents - PPs, adverbial or participial phrases, coordinations, etc. 
+
+In parsing - we want to run a grammar backwards to find possible structures for a sentence. It can be viewed as a search problem, or a hidden data problem. 
+
+What is a context-free grammar? It specifies a set of tree structures that capture constituency and ordering in language. 
+
+Phrase structure grammar = context-free grammar
+	G = (T, N, S, R), where T is the set of terminals (i.e., words), N is the set of non-terminals (usually separate the set P of preterminals -- POS tags -- from the rest of the non-terminals), S is the start symbol, and R is the set of rules/productions of the form X --> gamma, where X is a nonterminal, and gamma is a sequence of terminals and nonterminals (possibly empty)
+	A grammar G generates language L
+
+BUT a sentence can have more than one parse - Probabilistic context-free grammars
+
+Top-down parsing - goal driven. You know that you have a sentence - what are the ways you can parse that sentence?
+	Problems with recursion - he said that she said, etc. A top-down parser will do badly if there are many different rules for the same LHS. If there a 600 rules for S, 599 of which start with NP. but one of which starts with V, and the sentence starts with V - hopeless for going from POS to word
+
+Bottom up is data driven - you have a sequence of words, but how can we build those words into a sentence structure?
+	Has its own problems with creating 
+
+Given a sentence (S), we want to find the most likely parse (tau) - but there are infinitely many trees in the language
+	Finding P(tau) - define probability distributions over the rues in the grammar (context-free)
+	The probability of a tree is the product of the proabbility of the rules that created it
+
+A Probabilistic context-free grammar uses the actual words only to determine the probability of POS (preterminals)
+
+
+
