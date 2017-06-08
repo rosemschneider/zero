@@ -1,12 +1,18 @@
+def corpusClean(txt):
+    clean = txt.replace('\n', '')
+    return clean
+
 def getTokens(txt):
     """Takes a piece of text (a single string) as the argument.
     Returns a list of tokenized words.
     Symbols are separated out, and upper case is lowered.
     """
+    corpusClean(txt)
     sym = "~!@#$%^&*()_+-=`{}[]|\\:;\"',./<>?"
     new = txt.lower()
     for s in sym :
         new = new.replace(s, " "+s+" ")
+        new = new.rstrip('\n') #for childes input
     return new.split()
 
 
@@ -81,6 +87,7 @@ def foxDemo():
 
 
 def getWord2Grams(wds):
+    wds = corpusClean(wds)
     wds = wds.split(' ')
     output = []
     for i in range(len(wds)-2+1):
@@ -89,6 +96,7 @@ def getWord2Grams(wds):
     return tuples
 
 def getWord3Grams(wds):
+    wds = corpusClean(wds)
     wds = wds.split(' ')
     output = ()
     for i in range(len(wds)-3+1):
@@ -105,4 +113,8 @@ def getFreq(li):
         else: di[x] += 1
     return di
 
+
+##To do after lunch
+    #ignore special characters
+    #substring-specific bigrams
     
