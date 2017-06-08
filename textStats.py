@@ -1,5 +1,7 @@
 def corpusClean(txt):
     clean = txt.replace('\n', '')
+    import re
+    clean = re.sub('[!?.,]', '', clean)
     return clean
 
 def getTokens(txt):
@@ -110,8 +112,14 @@ def getFreq(li):
     di = {}
     for x in li:
         if x not in di: di[x] = 1
-        else: di[x] += 1
+        else: di[x] += 1            
     return di
+
+def sortFreqs(di):
+    #takes a dictionary as input, and sorts based on values
+    import operator
+    di_sorted = sorted(di.items(), key = operator.itemgetter(1))
+    return di_sorted
 
 
 ##To do after lunch
