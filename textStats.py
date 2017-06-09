@@ -10,7 +10,7 @@ def getTokens(txt):
     Symbols are separated out, and upper case is lowered.
     """
     corpusClean(txt)
-    sym = "~!@#$%^&*()_+-=`{}[]|\\:;\"',./<>?"
+    sym = "~!@#$%^&*()+-=`{}[]|\\:;\"',./<>?"
     new = txt.lower()
     for s in sym :
         new = new.replace(s, " "+s+" ")
@@ -88,22 +88,14 @@ def foxDemo():
         print(' ', "'"+w+"'", 'occurs', foxfreq[w], 'times.')
 
 
-def getWord2Grams(wds):
+def getWordnGrams(wds, n):
+    """Takes txt as input, and generates list of tuples of ngrams."""
     wds = corpusClean(wds)
     wds = wds.split(' ')
     output = []
-    for i in range(len(wds)-2+1):
-        output.append(wds[i:i+2])
+    for i in range(len(wds)-n+1):
+        output.append(wds[i:i+n])
     tuples = [tuple(l) for l in output]    
-    return tuples
-
-def getWord3Grams(wds):
-    wds = corpusClean(wds)
-    wds = wds.split(' ')
-    output = ()
-    for i in range(len(wds)-3+1):
-        output.append(wds[i:i+3])
-    tuples = [tuple(l) for l in output]
     return tuples
 
 
@@ -116,12 +108,28 @@ def getFreq(li):
     return di
 
 def sortFreqs(di):
-    #takes a dictionary as input, and sorts based on values
+    """Takes a dictionary as input and sorts based on those values."""
     import operator
     di_sorted = sorted(di.items(), key = operator.itemgetter(1))
     return di_sorted
 
+#pull out tags
+def getSpec(di, substr):
+    """Takes a dictionary and string as input, returns a dictionary
+    filtered down to entries containing that string."""
+    new_dict = dict()
+    for key, value in di.items():
+        if substr in str(key):
+            new_dict[key] = value
+    return new_dict
 
+#make histogram
+def makeBar(di):
+    """Takes a dictionary as input and generates a bar plot."""
+    import matplotlib.pyplot as plt
+    plt.bar(range(len(di)),di.values(), align = 'center')
+    plt.xticks(range(len(di)), di.keys(), rotation = 'vertical')
+    plt.show()
 ##To do after lunch
     #ignore special characters
     #substring-specific bigrams
