@@ -1,7 +1,7 @@
 def corpusClean(txt):
     clean = txt.replace('\n', '')
     import re
-    clean = re.sub('[!?.,]', '', clean)
+    clean = re.sub('[\!?.,]', '', clean)
     return clean
 
 def getTokens(txt):
@@ -130,7 +130,9 @@ def makeBar(di):
     plt.bar(range(len(di)),di.values(), align = 'center')
     plt.xticks(range(len(di)), di.keys(), rotation = 'vertical')
     plt.show()
-##To do after lunch
-    #ignore special characters
-    #substring-specific bigrams
+    
+ #to do
+    #make a word-classifier (numbers vs. other words)
+    
+
     
