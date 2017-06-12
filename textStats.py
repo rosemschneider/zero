@@ -1,13 +1,17 @@
 
 
+#def corpusClean(txt):
+#    sym = "~!@#$%^&*()+=`{}[]|\\:;\"',./<>?"
+#    clean = txt.lower()
+#    for s in sym:
+#        clean = clean.replace(s, "" +s+"")
+#    clean = clean.split('\n')
+#    clean_str = str(clean)
+#    return clean_str
+
 def corpusClean(txt):
-    sym = "~!@#$%^&*()+=`{}[]|\\:;\"',./<>?"
-    clean = txt.lower()
-    for s in sym:
-        clean = clean.replace(s, "" +s+"")
-    clean = clean.split('\n')
-    clean_str = str(clean)
-    return clean_str
+    clean = re.sub('[^A-Za-z0-9]+', ' ', txt)
+    return clean
 
 def getTokens(txt):
     """Takes a piece of text (a single string) as the argument.
