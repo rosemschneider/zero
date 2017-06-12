@@ -1,8 +1,13 @@
+
+
 def corpusClean(txt):
-    clean = txt.replace('\n', '')
-    import re
-    clean = re.sub('[\!?.,]', '', clean)
-    return clean
+    sym = "~!@#$%^&*()+=`{}[]|\\:;\"',./<>?"
+    clean = txt.lower()
+    for s in sym:
+        clean = clean.replace(s, "" +s+"")
+    clean = clean.split('\n')
+    clean_str = str(clean)
+    return clean_str
 
 def getTokens(txt):
     """Takes a piece of text (a single string) as the argument.
@@ -10,7 +15,7 @@ def getTokens(txt):
     Symbols are separated out, and upper case is lowered.
     """
     corpusClean(txt)
-    sym = "~!@#$%^&*()+-=`{}[]|\\:;\"',./<>?"
+    sym = "~!@#$%^&*()+=`{}[]|\\:;\"',./<>?"
     new = txt.lower()
     for s in sym :
         new = new.replace(s, " "+s+" ")
@@ -119,10 +124,17 @@ def getSpec(di, substr):
     filtered down to entries containing that string."""
     new_dict = dict()
     for key, value in di.items():
-        if substr in str(key):
-            new_dict[key] = value
-    return new_dict
+        for s in substr:
+            if s == str(key):
+                new_dict[key] = value
+    import operator
+    new_dict = sorted(new_dict.items(), key = operator.itemgetter(1), reverse = True)    
+    new = dict(new_dict)                
+    return new
 
+    
+    
+    
 #make histogram
 def makeBar(di):
     """Takes a dictionary as input and generates a bar plot."""
