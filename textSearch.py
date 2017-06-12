@@ -5,7 +5,8 @@ def find_sents(fname, substr):
     #pull out the lines corresponding to the word you're querying
     import re
     word_occur = []
-    pattern = re.compile(substr, re.IGNORECASE)
+    search = '\\b' + substr + '\\b'
+    pattern = re.compile(search, re.IGNORECASE)
     with open (fname, 'rt', encoding = 'latin1') as in_file:
         for linenum, line in enumerate(in_file):
             if pattern.search(line) !=None:
@@ -18,8 +19,7 @@ def find_sents(fname, substr):
     numpy.savetxt(filename, word_occur, fmt = '%s')
     
 def find_nums_to_ten(fname):
-     nums_to_ten = 'zero|one|two|three|four|five|six|seven|eight|nine|ten'
-     
+     nums_to_ten = '\\bzero\\b|\\bone\\b|\\btwo\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b'
      import re
      word_occur = []
      pattern = re.compile(nums_to_ten, re.IGNORECASE)
@@ -34,7 +34,7 @@ def find_nums_to_ten(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')
      
 def find_nums_teens(fname):
-     nums_teens = 'eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen'
+     nums_teens = '\\beleven\\b|\\btwelve\\b|\\bthirteen\\b|\\bfourteen\\b|\\bfifteen\\b|\\bsixteen\\b|\\bseventeen\\b|\\beighteen\\b|\\bnineteen\\b'
      
      import re
      word_occur = []
@@ -50,7 +50,7 @@ def find_nums_teens(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')
 
 def find_nums_decades(fname):
-     nums_decades = 'twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety'
+     nums_decades = '\\btwenty\\b|\\bthirty\\b|\\bforty\\b|\\bfifty\\b|\\bsixty\\b|\\bseventy\\b|\\beighty\\b|\\bninety\\b'
      
      import re
      word_occur = []
@@ -66,7 +66,7 @@ def find_nums_decades(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')      
      
 def find_nums_large(fname):
-     nums_large = 'hundred|thousand|million|billion|trillion'
+     nums_large = '\\bhundred\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b'
      
      import re
      word_occur = []
