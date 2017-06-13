@@ -8,12 +8,14 @@
 #    clean = clean.split('\n')
 #    clean_str = str(clean)
 #    return clean_str
-
+import re
 def corpusClean(txt):
+    
     clean = re.sub('[^A-Za-z0-9]+', ' ', txt)
     return clean
 
 def getTokens(txt):
+#    import re
     """Takes a piece of text (a single string) as the argument.
     Returns a list of tokenized words.
     Symbols are separated out, and upper case is lowered.
@@ -28,6 +30,7 @@ def getTokens(txt):
 
 
 def getTypeFreq(txt):
+#    import re
     """Takes a piece of text (a single string) as the argument.
     Returns a frequency count dictionary.
     KEY is a word, VALUE is its frequency count.
@@ -43,6 +46,7 @@ def getTypeFreq(txt):
 
 
 def getTypes(txt):
+#    import re
     """Takes a piece of text (a single string) as the argument.
     Returns a alphabetically sorted list of unique word types.
     """ 
@@ -52,6 +56,7 @@ def getTypes(txt):
 
 
 def getXLengthWords(wtypes, x):
+#    import re
     """Takes a list of unique words (= word types) and integer x as
     arguments. Returns a sorted list of words whose length is at least x.
     """
@@ -64,6 +69,7 @@ def getXLengthWords(wtypes, x):
 
 
 def getXFreqWords(freqdi, x):
+#    import re
     """Takes a word frequency dictionary and integer x as arguments.
     Returns a sorted list of words that are at least x in frequency.
     """
@@ -75,29 +81,30 @@ def getXFreqWords(freqdi, x):
     return new
 
 
-def foxDemo():
-    "A void function that demonstrates how the functions are used."
-    foxtoks = getTokens(fox)      # Function-internal objects:
-    foxtypes = getTypes(fox)      #   not accessible from IDLE shell!
-    foxfreq = getTypeFreq(fox)    # You can however retrace the steps 
-                                  #   to re-create these objects. 
-    print('There are', len(foxtoks), 'word tokens in fox.')
-    print('There are', len(foxtypes), 'unique word types in fox.')
-    print('The word "freezy" occurs', foxfreq['freezy'], 'times.')
-
-    len6 = getXLengthWords(foxtypes, 6)
-    freq3 = getXFreqWords(foxfreq, 3)
-
-    print('Words that are at least 6-characters long: ')
-    for w in len6 :
-        print(' ', "'"+w+"'", 'has', len(w), 'chars.')
-
-    print('Words with 3 or higher frequency: ')
-    for w in freq3 :
-        print(' ', "'"+w+"'", 'occurs', foxfreq[w], 'times.')
+#def foxDemo():
+#    "A void function that demonstrates how the functions are used."
+#    foxtoks = getTokens(fox)      # Function-internal objects:
+#    foxtypes = getTypes(fox)      #   not accessible from IDLE shell!
+#    foxfreq = getTypeFreq(fox)    # You can however retrace the steps 
+#                                  #   to re-create these objects. 
+#    print('There are', len(foxtoks), 'word tokens in fox.')
+#    print('There are', len(foxtypes), 'unique word types in fox.')
+#    print('The word "freezy" occurs', foxfreq['freezy'], 'times.')
+#
+#    len6 = getXLengthWords(foxtypes, 6)
+#    freq3 = getXFreqWords(foxfreq, 3)
+#
+#    print('Words that are at least 6-characters long: ')
+#    for w in len6 :
+#        print(' ', "'"+w+"'", 'has', len(w), 'chars.')
+#
+#    print('Words with 3 or higher frequency: ')
+#    for w in freq3 :
+#        print(' ', "'"+w+"'", 'occurs', foxfreq[w], 'times.')
 
 
 def getWordnGrams(wds, n):
+#    import re
     """Takes txt as input, and generates list of tuples of ngrams."""
     wds = corpusClean(wds)
     wds = wds.split(' ')
@@ -109,6 +116,7 @@ def getWordnGrams(wds, n):
 
 
 def getFreq(li):
+#    import re
     "Takes a list as input, returns a dictionary of frequency count."
     di = {}
     for x in li:
@@ -117,6 +125,7 @@ def getFreq(li):
     return di
 
 def sortFreqs(di):
+#    import re
     """Takes a dictionary as input and sorts based on those values."""
     import operator
     di_sorted = sorted(di.items(), key = operator.itemgetter(1))
@@ -124,6 +133,7 @@ def sortFreqs(di):
 
 #pull out tags
 def getSpec(di, substr):
+#    import re
     """Takes a dictionary and string as input, returns a dictionary
     filtered down to entries containing that string."""
     new_dict = dict()
@@ -141,6 +151,7 @@ def getSpec(di, substr):
     
 #make histogram
 def makeBar(di):
+#    import re
     """Takes a dictionary as input and generates a bar plot."""
     import matplotlib.pyplot as plt
     plt.bar(range(len(di)),di.values(), align = 'center')

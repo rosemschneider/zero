@@ -1,9 +1,10 @@
 ##script for pulling out text from yang clean corpus
 
 #read in the text file
+import re
 def find_sents(fname, substr):
+
     #pull out the lines corresponding to the word you're querying
-    import re
     word_occur = []
     search = '\\b' + substr + '\\b'
     pattern = re.compile(search, re.IGNORECASE)
@@ -19,8 +20,8 @@ def find_sents(fname, substr):
     numpy.savetxt(filename, word_occur, fmt = '%s')
     
 def find_nums_to_ten(fname):
+#    import re
      nums_to_ten = '\\bzero\\b|\\bone\\b|\\btwo\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b'
-     import re
      word_occur = []
      pattern = re.compile(nums_to_ten, re.IGNORECASE)
      with open (fname, 'rt', encoding = 'latin1') as in_file:
@@ -34,9 +35,10 @@ def find_nums_to_ten(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')
      
 def find_nums_teens(fname):
+#    import re
      nums_teens = '\\beleven\\b|\\btwelve\\b|\\bthirteen\\b|\\bfourteen\\b|\\bfifteen\\b|\\bsixteen\\b|\\bseventeen\\b|\\beighteen\\b|\\bnineteen\\b'
      
-     import re
+     
      word_occur = []
      pattern = re.compile(nums_teens, re.IGNORECASE)
      with open (fname, 'rt', encoding = 'latin1') as in_file:
@@ -50,9 +52,10 @@ def find_nums_teens(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')
 
 def find_nums_decades(fname):
+#    import re
      nums_decades = '\\btwenty\\b|\\bthirty\\b|\\bforty\\b|\\bfifty\\b|\\bsixty\\b|\\bseventy\\b|\\beighty\\b|\\bninety\\b'
      
-     import re
+     
      word_occur = []
      pattern = re.compile(nums_decades, re.IGNORECASE)
      with open (fname, 'rt', encoding = 'latin1') as in_file:
@@ -66,9 +69,10 @@ def find_nums_decades(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')      
      
 def find_nums_large(fname):
+#    import re
      nums_large = '\\bhundred\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b'
      
-     import re
+     
      word_occur = []
      pattern = re.compile(nums_large, re.IGNORECASE)
      with open (fname, 'rt', encoding = 'latin1') as in_file:
@@ -82,6 +86,7 @@ def find_nums_large(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')      
 
 def parse_sents(fname, substr):
+#    import re
     find_sents(fname, substr)
     
     parsename = ('parse_tag_out/' + substr + '_parse.txt')
@@ -94,12 +99,13 @@ def parse_sents(fname, substr):
     #this is also saving the results of the parse as a txt file in the cwd
     os.system(cmd)
     
-def tag_sents(fname, substr): 
-    find_sents(fname, substr)
+def tag_sents(fname, outputName):
+#    import re
+#    find_sents(fname, substr)
     
-    filename = (' ../../parse_tag_out/' + substr + '_search.txt')
+    filename = (' ../../parse_tag_out/' + fname + '_search.txt')
     
-    tagname = (' ../../parse_tag_out/' + substr + '_tag.txt')
+    tagname = (' ../../parse_tag_out/tag/' + outputName + '_tag.txt')
     
     import os
     os.chdir('/Users/rschneid/Documents/Projects/zero/parse_tag/tag')
