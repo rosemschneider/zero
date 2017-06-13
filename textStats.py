@@ -146,7 +146,19 @@ def getSpec(di, substr):
     new = dict(new_dict)                
     return new
 
-    
+def getTags(di, substr):
+#    import re
+    """Takes a dictionary and string as input, returns a dictionary
+    filtered down to entries containing that string."""
+    new_dict = dict()
+    for key, value in di.items():
+        for s in substr:
+            if s in str(key):
+                new_dict[key] = value
+    import operator
+    new_dict = sorted(new_dict.items(), key = operator.itemgetter(1), reverse = True)    
+    new = dict(new_dict)                
+    return new    
     
     
 #make histogram

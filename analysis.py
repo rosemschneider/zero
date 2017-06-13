@@ -65,6 +65,29 @@ num_tags = readFiles('parse_tag_out/tag/*.txt')
 num_tags = str(num_tags)
 
 freqs = textStats.getTypeFreq(num_tags)
-test = textStats.getTags(freqs, ('one', 'two'))
 
-def tag_freq_analysis  
+def tag_freq_analysis(di, substr):
+    new = []
+    for s in substr:
+        for key, value in di.items():
+            if key.startswith(s):
+                new.append((key, value))
+    new = dict(new)
+    return new         
+
+num_tags_ten = tag_freq_analysis(freqs, ('one_', 'two_', 'three_', 
+                                         'four_', 'five_', 'six_', 
+                                         'seven_', 'eight_', 'nine_', 'zero_'))
+num_tags_decades = tag_freq_analysis(freqs, ('zero_', 'twenty_', 'thirty_', 
+                                             'forty_', 'fifty_', 'sixty_', 
+                                             'seventy_', 'eighty_', 'ninety_'))
+num_tags_large = tag_freq_analysis(freqs, ('zero_', 'hundred_', 'thousand_', 
+                                           'million_', 'billion_', 'trillion_'))
+num_tags_teens = tag_freq_analysis(freqs, ('zero_', 'eleven_', 'twelve_', 'thirteen_', 
+                                           'fourteen_', 'fifteen_', 'sixteen_', 
+                                           'seventeen_', 'eighteen_', 'nineteen_'))
+
+textStats.makeBar(num_tags_ten)
+textStats.makeBar(num_tags_decades)
+textStats.makeBar(num_tags_teens) 
+textStats.makeBar(num_tags_large)  
