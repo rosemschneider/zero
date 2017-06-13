@@ -1,0 +1,3 @@
+Loading default properties from tagger models/english-left3words-distsim.tagger
+Loading POS tagger from models/english-left3words-distsim.tagger ... done [1.0 sec].
+Tagged 0 words at 0.00 words per second.

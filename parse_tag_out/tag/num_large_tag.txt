@@ -1,0 +1,8 @@
+Loading default properties from tagger models/english-left3words-distsim.tagger
+Loading POS tagger from models/english-left3words-distsim.tagger ... done [0.8 sec].
+Exception in thread "main" java.io.IOException: Unable to open "../../parse_tag_out/num_large_search.txt" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:470)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:627)
+	at edu.stanford.nlp.tagger.maxent.MaxentTagger.runTagger(MaxentTagger.java:1589)
+	at edu.stanford.nlp.tagger.maxent.MaxentTagger.runTagger(MaxentTagger.java:1546)
+	at edu.stanford.nlp.tagger.maxent.MaxentTagger.main(MaxentTagger.java:1889)
