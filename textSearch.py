@@ -108,7 +108,8 @@ def tag_sents(fname, outputName):
     tagname = (' ../../parse_tag_out/tag/' + outputName + '_tag.txt')
     
     import os
-    os.chdir('/Users/rschneid/Documents/Projects/zero/parse_tag/tag')
+#    os.chdir('/Users/rschneid/Documents/Projects/zero/parse_tag/tag')
+    os.chdir('/Users/roseschneider/Documents/Projects/zero/parse_tag/tag')
     cmd = ('./stanford-postagger.sh models/english-left3words-distsim.tagger' +
            filename + ' > ' + tagname + ' 2>&1')
     

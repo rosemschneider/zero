@@ -10,7 +10,8 @@ Code for loading corpora
 import os
 import glob
 import re
-os.chdir('/Users/rschneid/Documents/Projects/zero')
+#os.chdir('/Users/rschneid/Documents/Projects/zero')
+os.chdir('/Users/roseschneider/Documents/Projects/zero')
 
 import textSearch
 import textStats
@@ -31,7 +32,8 @@ def readFiles(fname):
     return array       
             
 num_text = readFiles('parse_tag_out/search/*.txt') 
-num_text = str(num_text) 
+num_text = str(num_text)
+num_text = textStats.corpusClean(num_text) 
 
 #get type frequencies and make a bar plot of number word frequencies
 def freq_analysis(txt):
@@ -52,13 +54,17 @@ freq_analysis(num_text)
 
 #first tag sentences
 textSearch.tag_sents('num_to_ten', 'num_to_ten')
-os.chdir('/Users/rschneid/Documents/Projects/zero')
+#os.chdir('/Users/rschneid/Documents/Projects/zero')
+os.chdir('/Users/roseschneider/Documents/Projects/zero')
 textSearch.tag_sents('num_teens', 'num_teens')
-os.chdir('/Users/rschneid/Documents/Projects/zero')
+#os.chdir('/Users/rschneid/Documents/Projects/zero')
+os.chdir('/Users/roseschneider/Documents/Projects/zero')
 textSearch.tag_sents('num_decades', 'num_decades')
-os.chdir('/Users/rschneid/Documents/Projects/zero')
+#os.chdir('/Users/rschneid/Documents/Projects/zero')
+os.chdir('/Users/roseschneider/Documents/Projects/zero')
 textSearch.tag_sents('num_large', 'num_large')
-os.chdir('/Users/rschneid/Documents/Projects/zero')
+#os.chdir('/Users/rschneid/Documents/Projects/zero')
+os.chdir('/Users/roseschneider/Documents/Projects/zero')
 
 #read in those files
 num_tags = readFiles('parse_tag_out/tag/*.txt')
@@ -90,4 +96,26 @@ num_tags_teens = tag_freq_analysis(freqs, ('zero_', 'eleven_', 'twelve_', 'thirt
 textStats.makeBar(num_tags_ten)
 textStats.makeBar(num_tags_decades)
 textStats.makeBar(num_tags_teens) 
-textStats.makeBar(num_tags_large)  
+textStats.makeBar(num_tags_large)
+
+###bigram analysis
+#first get the bigrams
+bigrams = textStats.getWordnGrams(num_text, 2)
+
+#next, filter down to only number word bigrams
+#this is for ALL number words, but it's rather large, so see below for up to ten, etc.
+filter_set = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 
+              'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 
+              'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'thirty', 
+              'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred'
+              'thousand', 'million', 'billion', 'trillion']
+tuples_filtered = [tup for tup in bigrams if tup[0] in filter_set] + [tup for tup in bigrams if tup[1] in filter_set]
+
+#up to ten (including zero)
+filter_set = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 
+              'nine', 'ten']
+ten_bigrams_filtered = [tup for tup in bigrams if tup[0] in filter_set] + [tup for tup in bigrams if tup[1] in filter_set]
+ten_bigram_freqs = textStats.getFreq(ten_bigrams_filtered)
+textStats.makeBar(ten_bigram_freqs)
+
+ 

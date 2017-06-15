@@ -10,8 +10,10 @@
 #    return clean_str
 import re
 def corpusClean(txt):
-    
-    clean = re.sub('[^A-Za-z0-9]+', ' ', txt)
+    clean = txt.lower()
+    clean = re.sub(r".\\n", " ", clean)
+    clean = re.sub(r'[^A-Za-z0-9]+', ' ', clean)
+    clean = re.sub(r"x\d*", " ", clean)
     return clean
 
 def getTokens(txt):
@@ -106,14 +108,13 @@ def getXFreqWords(freqdi, x):
 def getWordnGrams(wds, n):
 #    import re
     """Takes txt as input, and generates list of tuples of ngrams."""
-    wds = corpusClean(wds)
+#    wds = corpusClean(wds)
     wds = wds.split(' ')
     output = []
     for i in range(len(wds)-n+1):
         output.append(wds[i:i+n])
     tuples = [tuple(l) for l in output]    
     return tuples
-
 
 def getFreq(li):
 #    import re
