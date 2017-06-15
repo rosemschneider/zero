@@ -109,13 +109,59 @@ filter_set = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight',
               'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'thirty', 
               'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred'
               'thousand', 'million', 'billion', 'trillion']
-tuples_filtered = [tup for tup in bigrams if tup[0] in filter_set] + [tup for tup in bigrams if tup[1] in filter_set]
+
+##THIS does not work - have to figure out why later
+##THE PLAN: I want to get only number-number bigrams, make confusion matrix
+##Next, I want to get top 10 most frequent bigrams for each number word
+tuples_filtered = (([tup for tup in bigrams if tup[0] in filter_set]) & ([tup for tup in bigrams if tup[1] in filter_set]))
 
 #up to ten (including zero)
-filter_set = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 
-              'nine', 'ten']
-ten_bigrams_filtered = [tup for tup in bigrams if tup[0] in filter_set] + [tup for tup in bigrams if tup[1] in filter_set]
-ten_bigram_freqs = textStats.getFreq(ten_bigrams_filtered)
-textStats.makeBar(ten_bigram_freqs)
+def getExactNgrams(dataset, filter_set):
+    ngrams_filtered = []
+    ngrams_filtered = ([tup for tup in dataset if tup[0] in filter_set and tup[1] in filter_set])
+    ngrams = textStats.getFreq(ngrams_filtered)
+    ngrams = dict(textStats.sortFreqs(dict(ngrams)))
+    return ngrams
+
+if(t[0] in x or t[1] in x):
+   print('????')
+
+###The plan for below: 
+    #now that we have some basics stats, the plan going forward is to dive into the corpora
+    #step 1 is to compile the appropriate corpora
+    #split by production and reception
+    #mak a graph of prod/recep by age for zero (and none)
+    #intensive corpus analysis: brown, providence, manchester - look at how zero is used, when it's said
+    
+#First, create the large corpus
+
+#Pull out the Brown, Providence, and Manchester corpora
+import nltk
+from nltk.corpus.reader import CHILDESCorpusReader
+corpus_root = nltk.data.find('corpora/CHILDES/Eng-NA')
+
+brown = CHILDESCorpusReader(corpus_root, 'Brown/.*.xml')
+sarah = [f for f in brown.fileids() if f[6:11] == 'Sarah']
+adam = [f for f in brown.fileids() if f[6:10] == 'Adam']
+eve = [f for f in brown.fileids() if f[6:9] == 'Eve']
+
+#create key for matching fileid with age and MLU
+def createKey(corpus):
+    age = brown.age(corpus)
+    fileids = eve
+    mlu = brown.MLU(corpus)
+    corpus_key = zip(fileids, age, mlu)
+    return list(corpus_key)
+
+sarah_key = createKey(sarah)
+adam_key = createKey(adam)
+eve_key = createKey(eve)
+
+#read the sentences, export to txt file
+eve_sents_child = brown.sents(eve, speaker = 'CHI')
+
+
+    
+   
 
  
