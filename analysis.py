@@ -160,7 +160,28 @@ eve_key = createKey(eve)
 #read the sentences, export to txt file
 eve_sents_child = brown.sents(eve, speaker = 'CHI')
 
+def createCorpus(main_corpus, child, participant):
+    sents = []
+    age = []
+    mlu = []
+    fileid = []
+#    key = createKey(child)
+    for i in child:
+        fileid.append(i)
+        age.append(brown.age(i))
+        sents.append(main_corpus.sents(i, speaker = participant))
+        mlu.append(brown.MLU(i))
+    corpus = zip(fileid, age, mlu, sents) 
+#    return sents
+    return list(corpus)
 
+#need to figure out dataframe here
+#to get the sentences into a string: str(sents[i][j]), then run corpus clean on that
+
+
+
+
+        
     
    
 
