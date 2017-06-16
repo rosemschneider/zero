@@ -159,7 +159,7 @@ adam_key = createKey(adam)
 eve_key = createKey(eve)
 
 #read the sentences, export to txt file
-eve_sents_child = brown.sents(eve, speaker = 'CHI')
+#eve_sents_child = brown.sents(eve, speaker = 'CHI')
 
 def createCorpus(main_corpus, child, participant):
     sents = []
@@ -206,7 +206,6 @@ def cleanDict(lst):
             clean.append(i.pop(s, None))
     return lst
 
-###this whole nonsense below needs to be optimized, but I have a df with freqs and metadata!!!
 
 ##okay so I have type frequencies - let's do this for all the kids in the corpus
 eve_corpus_child = makeDF(createCorpus(brown, eve, 'CHI'))
@@ -217,7 +216,8 @@ sarah_corpus_child = makeDF(createCorpus(brown, sarah, 'CHI'))
 sarah_corpus_mot = makeDF(createCorpus(brown, sarah, 'MOT'))
 
 #frequencies df
-def freqDF(lst, main_corpus, child):
+def freqDF(main_corpus, child, speaker):
+    lst = makeDF(createCorpus(main_corpus, child, speaker))
     lst = cleanDict(dfTypeFreq(lst, 'sentences'))
     fileids = []
     age = []
@@ -232,12 +232,20 @@ def freqDF(lst, main_corpus, child):
     corpus = zip(fileids, age, mlu, freqs)    
     return list(corpus)
     
+#now make frequency corpora
+eve_freqs_chi = freqDF(brown, eve, 'CHI')
+eve_freqs_mot = freqDF(brown, eve, 'MOT')
+adam_freqs_chi = freqDF(brown, adam, 'CHI')
+adam_freqs_mot = freqDF(brown, adam, 'MOT')
+sarah_freqs_chi = freqDF(brown, sarah, 'CHI')
+sarah_freqs_mot = freqDF(brown, sarah, 'MOT')
 
 #now search for zero
-
-
-#need to figure out dataframe here
-#to get the sentences into a string: str(sents[i][j]), then run corpus clean on that
+def getSpecDF(df, column_name, searchString):
+    word_occur = dict()
+    for i in df[column]:
+        word_occur = textStats.getSpec(searchString)
+    return word_occur    
 
 
 
