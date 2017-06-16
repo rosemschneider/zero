@@ -229,8 +229,10 @@ def freqDF(main_corpus, child, speaker):
         mlu.append(main_corpus.MLU(i))
         for j in lst:
             freqs.append(j)
-    corpus = zip(fileids, age, mlu, freqs)    
-    return list(corpus)
+    corpus = zip(fileids, age, mlu, freqs)
+    corpus = list(corpus)
+    corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'freqs'])    
+    return corpus
     
 #now make frequency corpora
 eve_freqs_chi = freqDF(brown, eve, 'CHI')
@@ -241,12 +243,16 @@ sarah_freqs_chi = freqDF(brown, sarah, 'CHI')
 sarah_freqs_mot = freqDF(brown, sarah, 'MOT')
 
 #now search for zero
-def getSpecDF(df, column_name, searchString):
-    word_occur = dict()
-    for i in df[column]:
-        word_occur = textStats.getSpec(searchString)
-    return word_occur    
-
+def filterDF(obj, substr):
+    tmp = []
+    new_dict = dict()
+    for i in obj:
+        for key, value in i.items():
+            for s in substr:
+                if s == str(key):
+                    new_dict[key] = value
+                    tmp.append(new_dict)
+    return tmp    
 
 
 
