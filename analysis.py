@@ -10,6 +10,7 @@ Code for loading corpora
 import os
 import glob
 import re
+import pandas as pd
 #os.chdir('/Users/rschneid/Documents/Projects/zero')
 os.chdir('/Users/roseschneider/Documents/Projects/zero')
 
@@ -168,12 +169,42 @@ def createCorpus(main_corpus, child, participant):
 #    key = createKey(child)
     for i in child:
         fileid.append(i)
-        age.append(brown.age(i))
-        sents.append(main_corpus.sents(i, speaker = participant))
+        age.append(str(brown.age(i)))
+        utterance = str(main_corpus.sents(i, speaker = participant))
+        sents.append(textStats.corpusClean(utterance))
         mlu.append(brown.MLU(i))
     corpus = zip(fileid, age, mlu, sents) 
-#    return sents
-    return list(corpus)
+#    what I need to do here is convert the sentences to text and run the corpus cleaner on them
+    corpus = list(corpus)
+#    for i in corpus:
+#        i[3] = str(i[3])
+    return corpus
+
+##now make a dataframe for that corpus
+#goal is to have this function also convert everything to appropriate format
+def makeDF(lst):
+    df = pd.DataFrame(lst, columns = ['fileid', 'age', 'mlu', 'sentences'])
+    return df
+
+#now get types and frequencies
+def dfTypeFreq(df, column):
+    all_counts = []
+    counts = dict()
+    for i in df[column]:
+        string = str(i)
+        toks = textStats.getTokens(string)   
+        freqs = textStats.getTypeFreq(str(toks))
+        all_counts.append(freqs)
+    return all_counts
+
+def cleanDict(lst):
+    #inputs a list of dictionaries to remove special characters
+    clean = []
+    symbols = ["'", ',', '[', ']']
+    for i in lst:
+        for s in symbols:
+            clean.append(i.pop(s, None))
+    return lst
 
 #need to figure out dataframe here
 #to get the sentences into a string: str(sents[i][j]), then run corpus clean on that
