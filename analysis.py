@@ -206,6 +206,43 @@ def cleanDict(lst):
             clean.append(i.pop(s, None))
     return lst
 
+##okay so I have type frequencies - let's do this for all the kids in the corpus
+eve_corpus_child = makeDF(createCorpus(brown, eve, 'CHI'))
+eve_corpus_mot = makeDF(createCorpus(brown, eve, 'MOT'))
+adam_corpus_child = makeDF(createCorpus(brown, adam, 'CHI'))
+adam_corpus_mot = makeDF(createCorpus(brown, adam, 'MOT'))
+sarah_corpus_child = makeDF(createCorpus(brown, sarah, 'CHI'))
+sarah_corpus_mot = makeDF(createCorpus(brown, sarah, 'MOT'))
+
+#frequencies
+def freqDF(lst):
+    age = []
+    mlu = []
+    fileid = []
+    freqs = []
+#    key = createKey(child)
+    for i in lst:
+        fileid.append(i)
+        age.append(str(brown.age(i)))
+        freqs.append(i)
+        mlu.append(brown.MLU(i))
+    corpus = zip(fileid, age, mlu, freqs) 
+#    what I need to do here is convert the sentences to text and run the corpus cleaner on them
+    corpus = list(corpus)
+#    for i in corpus:
+#        i[3] = str(i[3])
+    return corpus
+
+
+
+
+
+eve_child_freqs = cleanDict(dfTypeFreq(eve_corpus_child, 'sentences'))
+eve_mother_freqs = zip(eve_key, cleanDict(dfTypeFreq(eve_corpus_mot, 'sentences')))
+
+#now search for zero
+
+
 #need to figure out dataframe here
 #to get the sentences into a string: str(sents[i][j]), then run corpus clean on that
 
