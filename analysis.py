@@ -155,6 +155,22 @@ naima = [f for f in providence.fileids() if f[11] == 'N']
 violet = [f for f in providence.fileids() if f[11] == 'V']
 william = [f for f in providence.fileids() if f[11] == 'W']
 
+corpus_root = nltk.data.find('corpora/CHILDES/Eng-UK')
+manchester = CHILDESCorpusReader(corpus_root, 'Manchester/.*.xml')
+anne = [f for f in manchester.fileids() if f[11:14] == 'anne']
+aran = [f for f in manchester.fileids() if f[11:14] == 'aran']
+becky = [f for f in manchester.fileids() if f[11] == 'b']
+carl = [f for f in manchester.fileids() if f[11] == 'c']
+domin = [f for f in manchester.fileids() if f[11] == 'd']
+gail = [f for f in manchester.fileids() if f[11] == 'g']
+joel = [f for f in manchester.fileids() if f[11:13] == 'joe']
+john = [f for f in manchester.fileids() if f[11:13] == 'joh']
+liz = [f for f in manchester.fileids() if f[11] == 'l']
+nic = [f for f in manchester.fileids() if f[11] == 'n']
+ruth = [f for f in manchester.fileids() if f[11] == 'r']
+warr = [f for f in manchester.fileids() if f[11] == 'w']
+
+
 #create key for matching fileid with age and MLU
 def createKey(corpus):
     age = brown.age(corpus)
@@ -252,15 +268,23 @@ adam_freqs_mot = freqDF(brown, adam, 'MOT')
 sarah_freqs_chi = freqDF(brown, sarah, 'CHI')
 sarah_freqs_mot = freqDF(brown, sarah, 'MOT')
 
-#providence
+#providence - no zero...
 alex_freqs_chi = freqDF(providence, alex, 'CHI') #no zero
 alex_freqs_mot = freqDF(providence, alex, 'MOT') #no zero
 ethan_freqs_chi = freqDF(providence, ethan, 'CHI') #no zero
 ethan_freqs_mot = freqDF(providence, ethan, 'MOT') #no zero
 lily_freqs_chi = freqDF(providence, lily, 'CHI') #no zero
 lily_freqs_mot = freqDF(providence, lily, 'MOT') #no zero
-naima_freqs_chi = freqDF(providence, naima, 'CHI')
-naima_freqs_mot = freqDF(providence, naima, 'MOT')
+naima_freqs_chi = freqDF(providence, naima, 'CHI') #no zero
+naima_freqs_mot = freqDF(providence, naima, 'MOT') #no zero
+violet_freqs_chi = freqDF(providence, violet, 'CHI') #no zero
+violet_freqs_mot = freqDF(providence, violet, 'MOT') #no zero
+william_freqs_chi = freqDF(providence, william, 'CHI') #no zero
+william_freqs_mot = freqDF(providence, william, 'MOT') #no zero
+
+#now manchester
+anne_freqs_chi = freqDF(manchester, anne, 'CHI')
+becky_freqs_chi = freqDF(manchester, becky, 'CHI')
 
 #now search for zero
 def filterDF(df, column, substr):
