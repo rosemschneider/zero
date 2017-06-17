@@ -155,7 +155,6 @@ naima = [f for f in providence.fileids() if f[11] == 'N']
 violet = [f for f in providence.fileids() if f[11] == 'V']
 william = [f for f in providence.fileids() if f[11] == 'W']
 
-corpus_root = nltk.data.find('corpora/CHILDES/Eng-UK')
 manchester = CHILDESCorpusReader(corpus_root, 'Manchester/.*.xml')
 anne = [f for f in manchester.fileids() if f[11:14] == 'anne']
 aran = [f for f in manchester.fileids() if f[11:14] == 'aran']
@@ -282,10 +281,22 @@ violet_freqs_mot = freqDF(providence, violet, 'MOT') #no zero
 william_freqs_chi = freqDF(providence, william, 'CHI') #no zero
 william_freqs_mot = freqDF(providence, william, 'MOT') #no zero
 
-#now manchester
+#now manchester - no zeros here either
 anne_freqs_chi = freqDF(manchester, anne, 'CHI')
 becky_freqs_chi = freqDF(manchester, becky, 'CHI')
-
+becky_freqs_mot = freqDF(manchester, becky, 'MOT')
+carl_freqs_chi = freqDF(manchester, carl, 'CHI')
+carl_freqs_mot = freqDF(manchester, carl, 'MOT')
+domin_freqs_chi = freqDF(manchester, domin, 'CHI')
+domin_freqs_mot = freqDF(manchester, domin, 'MOT')
+gail_freqs_chi = freqDF(manchester, gail, 'CHI')
+gail_freqs_mot = freqDF(manchester, gail, 'MOT')
+liz_freqs_chil = freqDF(manchester, liz, 'CHI')
+liz_freqs_mot = freqDF(manchester, liz, 'MOT')
+nic_freqs_chi = freqDF(manchester, nic, 'CHI')
+nic_freqs_mot = freqDF(manchester, nic, 'MOT')
+ruth_freqs_mot = freqDF(manchester, ruth, 'MOT')
+warr_freqs_mot = freqDF(manchester, warr, 'MOT')
 #now search for zero
 def filterDF(df, column, substr):
     filtered = []
