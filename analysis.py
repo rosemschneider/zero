@@ -141,10 +141,19 @@ import nltk
 from nltk.corpus.reader import CHILDESCorpusReader
 corpus_root = nltk.data.find('corpora/CHILDES/Eng-NA')
 
+#setting up brown, providence, and manchester corpora
 brown = CHILDESCorpusReader(corpus_root, 'Brown/.*.xml')
 sarah = [f for f in brown.fileids() if f[6:11] == 'Sarah']
 adam = [f for f in brown.fileids() if f[6:10] == 'Adam']
 eve = [f for f in brown.fileids() if f[6:9] == 'Eve']
+
+providence = CHILDESCorpusReader(corpus_root, 'Providence/.*.xml')
+alex = [f for f in providence.fileids() if f[11] == 'A']
+ethan = [f for f in providence.fileids() if f[11] == 'E']
+lily = [f for f in providence.fileids() if f[11] == 'L']
+naima = [f for f in providence.fileids() if f[11] == 'N']
+violet = [f for f in providence.fileids() if f[11] == 'V']
+william = [f for f in providence.fileids() if f[11] == 'W']
 
 #create key for matching fileid with age and MLU
 def createKey(corpus):
@@ -235,6 +244,7 @@ def freqDF(main_corpus, child, speaker):
     return corpus
     
 #now make frequency corpora
+#brown - no instances of zero
 eve_freqs_chi = freqDF(brown, eve, 'CHI')
 eve_freqs_mot = freqDF(brown, eve, 'MOT')
 adam_freqs_chi = freqDF(brown, adam, 'CHI')
@@ -242,17 +252,31 @@ adam_freqs_mot = freqDF(brown, adam, 'MOT')
 sarah_freqs_chi = freqDF(brown, sarah, 'CHI')
 sarah_freqs_mot = freqDF(brown, sarah, 'MOT')
 
+#providence
+alex_freqs_chi = freqDF(providence, alex, 'CHI') #no zero
+alex_freqs_mot = freqDF(providence, alex, 'MOT') #no zero
+ethan_freqs_chi = freqDF(providence, ethan, 'CHI') #no zero
+ethan_freqs_mot = freqDF(providence, ethan, 'MOT') #no zero
+lily_freqs_chi = freqDF(providence, lily, 'CHI') #no zero
+lily_freqs_mot = freqDF(providence, lily, 'MOT') #no zero
+naima_freqs_chi = freqDF(providence, naima, 'CHI')
+naima_freqs_mot = freqDF(providence, naima, 'MOT')
+
 #now search for zero
-def filterDF(obj, substr):
-    tmp = []
+def filterDF(df, column, substr):
+    filtered = []
     new_dict = dict()
-    for i in obj:
+    for i in df[column]:
         for key, value in i.items():
-            for s in substr:
-                if s == str(key):
+            if(type(substr) == tuple):
+                for s in substr:
+                    if s == str(key):
+                        new_dict[key] = value
+            else:
+                if substr == str(key):
                     new_dict[key] = value
-                    tmp.append(new_dict)
-    return tmp    
+    filtered.append(new_dict)
+    return filtered    
 
 #making some changes to test something
 
