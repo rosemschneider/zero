@@ -139,7 +139,7 @@ if(t[0] in x or t[1] in x):
 #Pull out the Brown, Providence, and Manchester corpora
 import nltk
 from nltk.corpus.reader import CHILDESCorpusReader
-corpus_root = nltk.data.find('corpora/CHILDES/Eng-NA')
+corpus_root = nltk.data.find('corpora/childes/data-xml/english')
 
 #setting up brown, providence, and manchester corpora
 brown = CHILDESCorpusReader(corpus_root, 'Brown/.*.xml')
@@ -185,18 +185,18 @@ eve_key = createKey(eve)
 #read the sentences, export to txt file
 #eve_sents_child = brown.sents(eve, speaker = 'CHI')
 
-def createCorpus(main_corpus, child, participant):
+def createCorpus(main_corpus):
     sents = []
     age = []
     mlu = []
     fileid = []
 #    key = createKey(child)
-    for i in child:
+    for i in main_corpus.fileids():
         fileid.append(i)
-        age.append(str(brown.age(i)))
-        utterance = str(main_corpus.sents(i, speaker = participant))
+        age.append(str(main_corpus.age(i)))
+        utterance = str(main_corpus.sents(fileids = i))
         sents.append(textStats.corpusClean(utterance))
-        mlu.append(brown.MLU(i))
+        mlu.append(main_corpus.MLU(i))
     corpus = zip(fileid, age, mlu, sents) 
 #    what I need to do here is convert the sentences to text and run the corpus cleaner on them
     corpus = list(corpus)
@@ -209,6 +209,33 @@ def createCorpus(main_corpus, child, participant):
 def makeDF(lst):
     df = pd.DataFrame(lst, columns = ['fileid', 'age', 'mlu', 'sentences'])
     return df
+
+#here make a function that creates the dataframe for each corpus
+#then outputs to csv
+corpus = ['Manchester', 'Brown']
+
+def createCSV(corpora):
+  for c in corpora: #for each individual corpus
+      string = c + '/.*.xml'
+      subcorp = CHILDESCorpusReader(corpus_root, string)
+      sents = []
+      age = []
+      mlu = []
+      fileid = []
+      for i in subcorp.fileids():
+          fileid.append(i)
+          age.append(str(subcorp.age(i)))
+          utterance = str(subcorp.sents(fileids = i))
+          sents.append(textStats.corpusClean(utterance))
+          mlu.append(subcorp.MLU(i))
+      corpus = zip(fileid, age, mlu, sents)
+      corpus = list(corpus)
+      #now we need to make that corpus a df
+      df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
+      #now write that sucker to csv)
+      with open('test1.csv', 'a') as f:
+          df_corpus.to_csv(f, header=f)  
+
 
 #now get types and frequencies
 def dfTypeFreq(df, column):
