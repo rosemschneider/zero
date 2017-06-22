@@ -212,20 +212,34 @@ def makeDF(lst):
 
 #here make a function that creates the dataframe for each corpus
 #then outputs to csv
-corpus = ['Manchester', 'Brown']
+corpus = ['Bates' ,'Gathercole', 'Peters', 'Belfast',			
+             'Gillam',	 'Post', 'Bernstein',	'Gleason', 'Providence', 
+             'Bliss',	'HSLLD', 'Rollins', 'Bloom70', 'Haggerty', 'Sachs',
+             'Bloom73', 'Hall', 'Sawyer', 'Bohannon', 'Higginson', 'Snow',
+             'Braunwald', 'Howe', 'Soderstrom', 'Brent', 	'Korman', 'Sprott',
+             'Brown',	'Kuczaj', 'Suppes', 'Clark', 'Lara', 'Tardif', 
+             'Cornell', 'MPI-EVA-Manchester', 'Thomas', 
+             'Cruttenden', 'MacWhinney', 'Tommerdahl',
+             'Davis',	'Manchester',	'Valian', 'Demetras1',	 'McMillan',		
+             'VanHouten' 'ErvinTripp', 'Morisset', 'VanKleeck',
+             'Fletcher', 'NH', 'Warren', 'Forrester', 'Nelson'	, 'Weist',
+             'Garvey', 'NewEngland', 'Wells', 'Gathburn', 'Normal']
 
 def createCSV(corpora):
   for c in corpora: #for each individual corpus
       string = c + '/.*.xml'
       subcorp = CHILDESCorpusReader(corpus_root, string)
+      tmp_sents = []
       sents = []
       age = []
       mlu = []
       fileid = []
       for i in subcorp.fileids():
+          for j in subcorp.sents(fileids = i, speaker = 'ALL'):
+              tmp_sents.append(j)
+          utterance = str(tmp_sents)    
           fileid.append(i)
           age.append(str(subcorp.age(i)))
-          utterance = str(subcorp.sents(fileids = i))
           sents.append(textStats.corpusClean(utterance))
           mlu.append(subcorp.MLU(i))
       corpus = zip(fileid, age, mlu, sents)
@@ -234,7 +248,14 @@ def createCSV(corpora):
       df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
       #now write that sucker to csv)
       with open('test1.csv', 'a') as f:
-          df_corpus.to_csv(f, header=f)  
+          df_corpus.to_csv(f, header=f)
+      #now clear memory to make sure python doesn't freak
+      string = ""
+      subcorp = ""
+      sents = []
+      age = []
+      mlu = []
+      fileid = []
 
 
 #now get types and frequencies
