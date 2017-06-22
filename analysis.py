@@ -225,7 +225,18 @@ corpus = ['Bates' ,'Gathercole', 'Peters', 'Belfast',
              'Fletcher', 'NH', 'Warren', 'Forrester', 'Nelson'	, 'Weist',
              'Garvey', 'NewEngland', 'Wells', 'Gathburn', 'Normal']
 
-def createCSV(corpora):
+numbers = ['zero', 'one', 'two', 'three', 'four', 
+                                'five', 'six', 'seven', 'eight', 'nine',
+                                'ten', 'eleven', 'twelve', 'thirteen', 
+                                'fourteen', 'fifteen', 'sixteen', 'seventeen',
+                                'eighteen', 'nineteen', 'twenty', 'thirty',
+                                'forty', 'fifty', 'sixty', 'seventy', 'eighty',
+                                'ninety', 'hundred', 'thousand', 'million', 'trillion', 'billion']
+
+numbers = '\\bzero\\b|\\bone\\b|\\btwo\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b\\beleven\\b|\\btwelve\\b|\\bthirteen\\b|\\bfourteen\\b|\\bfifteen\\b|\\bsixteen\\b|\\bseventeen\\b|\\beighteen\\b|\\bnineteen\\b\\btwenty\\b|\\bthirty\\b|\\bforty\\b|\\bfifty\\b|\\bsixty\\b|\\bseventy\\b|\\beighty\\b|\\bninety\\b\\bhundred\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b'
+
+
+def createCSV(corpora, numbers):
   for c in corpora: #for each individual corpus
       string = c + '/.*.xml'
       subcorp = CHILDESCorpusReader(corpus_root, string)
@@ -236,18 +247,21 @@ def createCSV(corpora):
       fileid = []
       for i in subcorp.fileids():
           for j in subcorp.sents(fileids = i, speaker = 'ALL'):
-              tmp_sents.append(j)
-          utterance = str(tmp_sents)    
-          fileid.append(i)
-          age.append(str(subcorp.age(i)))
-          sents.append(textStats.corpusClean(utterance))
-          mlu.append(subcorp.MLU(i))
+              tmp_utterance = str(j)
+              pattern = re.compile(numbers, re.IGNORECASE)
+              if pattern.search(tmp_utterance) !=None:
+                utterance = str(j)  
+                sents.append(textStats.corpusClean(utterance)) 
+                fileid.append(i)
+                age.append(str(subcorp.age(i)))
+                mlu.append(subcorp.MLU(i))
+                tmp_sents = []
       corpus = zip(fileid, age, mlu, sents)
       corpus = list(corpus)
       #now we need to make that corpus a df
       df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
       #now write that sucker to csv)
-      with open('test1.csv', 'a') as f:
+      with open('test.csv', 'a') as f:
           df_corpus.to_csv(f, header=f)
       #now clear memory to make sure python doesn't freak
       string = ""
