@@ -1,105 +1,109 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Script to cycle through corpora and create large corpora
+This is a script to read in corpora and output to csv for future analysis. 
+Comes with two functions - can be used to import only utterances containing [x] words, 
+Or can be used to import all utterances. 
+
+NB still to be done - metadata about context and sex of child, if possible. Also, 
+need to get participants so I can do this separately for input and production.
 """
-
-#Things that need to be done:
-    #cycle through a small amount of the corpus at a time
-    #write that with pertinent metadata to a csv, I think
-    #clear memory, return to beginning of loop
-    
-#Preliminaries    
-#import nltk
-#import analysis
-#from nltk.corpus.reader import CHILDESCorpusReader
-#corpus_root = nltk.data.find('corpora/CHILDES/Eng-NA')
-#
-##just for starters, let's do the brown and bloom
-#brown = CHILDESCorpusReader(corpus_root, 'Brown/.*.xml')
-#bloom = CHILDESCorpusReader(corpus_root, 'Bloom70/.*.xml')
-
-
-#list of corpora to be used 
-#temp commented out
-#corp_list = ['Bates', 'Gathercole', 'Peters', 'Belfast',			
-#             'Gillam',	 'Post', 'Bernstein',	'Gleason', 'Providence', 
-#             'Bliss',	'HSLLD', 'Rollins', 'Bloom70', 'Haggerty', 'Sachs',
-#             'Bloom73', 'Hall', 'Sawyer', 'Bohannon', 'Higginson', 'Snow',
-#             'Braunwald', 'Howe', 'Soderstrom', 'Brent', 	'Korman', 'Sprott',
-#             'Brown',	'Kuczaj', 'Suppes', 'Clark', 'Lara', 'Tardif', 
-#             'Cornell', 'MPI-EVA-Manchester', 'Thomas', 
-#             'Cruttenden', 'MacWhinney', 'Tommerdahl',
-#             'Davis',	'Manchester',	'Valian', 'Demetras1',	 'McMillan',		
-#             'VanHouten' 'ErvinTripp', 'Morisset', 'VanKleeck',
-#             'Fletcher', 'NH', 'Warren', 'Forrester', 'Nelson'	, 'Weist',
-#             'Garvey', 'NewEngland', 'Wells', 'Gathburn', 'Normal']
-
-#corp_list = ['Bloom70', 'Brown', 'Bates', 'Snow']
 
 import os
+import glob
+import re
+import pandas as pd
 import nltk
-from childes import CHILDESCorpusReader
-from unicode_csv import *
+from nltk.corpus.reader import CHILDESCorpusReader
 
-def get_corpus_reader(language):
-    return CHILDESCorpusReader(corpus_root, r'%s.*/.*\.xml' % language[:3].title())
+os.chdir('/Users/roseschneider/Documents/Projects/zero')
 
-# Takes a fileid, gets counts of all the words for that file, writes a csv
-def get_file_counts(corpus_reader, corpus_file, meta_writer, language):
-    base_directory = os.path.dirname(corpus_file)
-    directory = os.path.join('data', base_directory)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    base_file = os.path.join(base_directory, os.path.basename(corpus_file).split('.xml')[0])
-    filename = os.path.join('data', base_file + '.csv')
-    if os.path.isfile(filename):
-        print "Count file for %s already exists, skipping" % corpus_file
-    else:
-        print "Getting counts for %s" % corpus_file
-        sex = corpus_reader.sex(corpus_file)[0]
-        age = corpus_reader.age(corpus_file, month=True)[0]
-        meta_writer.writerow([language, base_file, str(sex), str(age)])
-        corpus_participants = corpus_reader.participants(corpus_file)[0]
-        not_child = [value['id'] for key, value in corpus_participants.iteritems() if key != 'CHI']
-        corpus_words = corpus_reader.words(corpus_file, speaker=not_child, replace=True, stem=False)
-        freqs = nltk.FreqDist(corpus_words)
-        writer = UnicodeWriter(open(filename, 'w'))
-        writer.writerow(["word", "count"])
-        for word, count in freqs.iteritems():
-            try:
-                writer.writerow([word, str(count)])
-            except:
-                print "couldn't write word %s with count %d" % (word, count)
+import textSearch
+import textStats
 
-languages = ["English"]
-corpus_root = nltk.data.find('corpora/childes/data-xml')
-meta_writer = UnicodeWriter(open('data/metadata.csv', 'a'))
-meta_writer.writerow(["language", "filename", "sex", "age"])
-for language in languages:
-    corpus_reader = get_corpus_reader(language)
-    for f in corpus_reader.fileids():
-        get_file_counts(corpus_reader, f, meta_writer, language)
+numbers = '\\bzero\\b|\\bone\\b|\\btwo\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b\\beleven\\b|\\btwelve\\b|\\bthirteen\\b|\\bfourteen\\b|\\bfifteen\\b|\\bsixteen\\b|\\bseventeen\\b|\\beighteen\\b|\\bnineteen\\b\\btwenty\\b|\\bthirty\\b|\\bforty\\b|\\bfifty\\b|\\bsixty\\b|\\bseventy\\b|\\beighty\\b|\\bninety\\b\\bhundred\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b'
+corpus = ['Bates' ,'Gathercole', 'Peters', 'Belfast',			
+             'Gillam',	 'Post', 'Bernstein',	'Gleason', 'Providence', 
+             'Bliss',	'HSLLD', 'Rollins', 'Bloom70', 'Haggerty', 'Sachs',
+             'Bloom73', 'Hall', 'Sawyer', 'Bohannon', 'Higginson', 'Snow',
+             'Braunwald', 'Howe', 'Soderstrom', 'Brent', 	'Korman', 'Sprott',
+             'Brown',	'Kuczaj', 'Suppes', 'Clark', 'Lara', 'Tardif', 
+             'Cornell', 'MPI-EVA-Manchester', 'Thomas', 
+             'Cruttenden', 'MacWhinney', 'Tommerdahl',
+             'Davis',	'Manchester',	'Valian', 'Demetras1',	 'McMillan',		
+             'VanHouten' 'ErvinTripp', 'Morisset', 'VanKleeck',
+             'Fletcher', 'NH', 'Warren', 'Forrester', 'Nelson'	, 'Weist',
+             'Garvey', 'NewEngland', 'Wells', 'Gathburn', 'Normal']
 
-
-
-
-
-
-
-
-
-
-
-def readCorpus(corp_list):
-    for i in corp_list:
-        corpus_dir = i + '/.*.xml'
-        corpus = CHILDESCorpusReader(corpus_root, corpus_dir)
-        #get production vs. reception
-        
-    return corpus
-        
-
-
-def createCorpus():
+def createCSV_numbers(corpora, numbers):
+    """This is a function that takes a list of corpora names (already defined),
+    and writes output to csv if utterance is in query list. 
+    Query list must be written in regex.
     
+    Make sure you have an empty csv ready before you run this, 
+    change the csv name if you need to."""
+  for c in corpora: #for each individual corpus
+      string = c + '/.*.xml'
+      subcorp = CHILDESCorpusReader(corpus_root, string)
+      tmp_sents = []
+      sents = []
+      age = []
+      mlu = []
+      fileid = []
+      for i in subcorp.fileids():
+          for j in subcorp.sents(fileids = i, speaker = 'ALL'):
+              tmp_utterance = str(j)
+              pattern = re.compile(numbers, re.IGNORECASE)
+              if pattern.search(tmp_utterance) !=None:
+                utterance = str(j)  
+                sents.append(textStats.corpusClean(utterance)) 
+                fileid.append(i)
+                age.append(str(subcorp.age(i)))
+                mlu.append(subcorp.MLU(i))
+                tmp_sents = []
+      corpus = zip(fileid, age, mlu, sents)
+      corpus = list(corpus)
+      #now we need to make that corpus a df
+      df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
+      #now write that sucker to csv)
+      with open('test.csv', 'a') as f:
+          df_corpus.to_csv(f, header=f)
+      #now clear memory to make sure python doesn't freak
+      string = ""
+      subcorp = ""
+      sents = []
+      age = []
+      mlu = []
+      fileid = []
+      
+def createCSV(corpora):
+    """This is the generic corpus writer. This will output every line of a corpus to 
+    a csv."""
+  for c in corpora: #for each individual corpus
+      string = c + '/.*.xml'
+      subcorp = CHILDESCorpusReader(corpus_root, string)
+      tmp_sents = []
+      sents = []
+      age = []
+      mlu = []
+      fileid = []
+      for i in subcorp.fileids():
+          for j in subcorp.sents(fileids = i, speaker = 'ALL'):
+            utterance = str(j)  
+            sents.append(textStats.corpusClean(utterance)) 
+            fileid.append(i)
+            age.append(str(subcorp.age(i)))
+            mlu.append(subcorp.MLU(i))
+            tmp_sents = []
+      corpus = zip(fileid, age, mlu, sents)
+      corpus = list(corpus)
+      #now we need to make that corpus a df
+      df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
+      #now write that sucker to csv)
+      with open('test.csv', 'a') as f:
+          df_corpus.to_csv(f, header=f)
+      #now clear memory to make sure python doesn't freak
+      string = ""
+      subcorp = ""
+      sents = []
+      age = []
+      mlu = []
+      fileid = []       
