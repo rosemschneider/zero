@@ -19,7 +19,12 @@ os.chdir('/Users/roseschneider/Documents/Projects/zero')
 import textSearch
 import textStats
 
-numbers = '\\bzero\\b|\\bone\\b|\\btwo\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b\\beleven\\b|\\btwelve\\b|\\bthirteen\\b|\\bfourteen\\b|\\bfifteen\\b|\\bsixteen\\b|\\bseventeen\\b|\\beighteen\\b|\\bnineteen\\b\\btwenty\\b|\\bthirty\\b|\\bforty\\b|\\bfifty\\b|\\bsixty\\b|\\bseventy\\b|\\beighty\\b|\\bninety\\b\\bhundred\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b'
+corpus_root = nltk.data.find('corpora/childes/data-xml/english')
+
+brown = CHILDESCorpusReader(corpus_root, 'Brown/.*.xml')
+sarah = [f for f in brown.fileids() if f[6:11] == 'Sarah']
+
+numbers = '\\bzero\\b'|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b\\beleven\\b|\\btwelve\\b|\\bthirteen\\b|\\bfourteen\\b|\\bfifteen\\b|\\bsixteen\\b|\\bseventeen\\b|\\beighteen\\b|\\bnineteen\\b\\btwenty\\b|\\bthirty\\b|\\bforty\\b|\\bfifty\\b|\\bsixty\\b|\\bseventy\\b|\\beighty\\b|\\bninety\\b\\bhundred\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b'
 corpus = ['Bates' ,'Gathercole', 'Peters', 'Belfast',			
              'Gillam',	 'Post', 'Bernstein',	'Gleason', 'Providence', 
              'Bliss',	'HSLLD', 'Rollins', 'Bloom70', 'Haggerty', 'Sachs',
@@ -33,6 +38,7 @@ corpus = ['Bates' ,'Gathercole', 'Peters', 'Belfast',
              'Fletcher', 'NH', 'Warren', 'Forrester', 'Nelson'	, 'Weist',
              'Garvey', 'NewEngland', 'Wells', 'Gathburn', 'Normal']
 
+
 def createCSV_numbers(corpora, numbers):
     """This is a function that takes a list of corpora names (already defined),
     and writes output to csv if utterance is in query list. 
@@ -40,31 +46,44 @@ def createCSV_numbers(corpora, numbers):
     
     Make sure you have an empty csv ready before you run this, 
     change the csv name if you need to."""
-  for c in corpora: #for each individual corpus
-      string = c + '/.*.xml'
+    for corp in corpora: #for each individual corpus
+      string = corp + '/.*.xml'
       subcorp = CHILDESCorpusReader(corpus_root, string)
-      tmp_sents = []
       sents = []
-      age = []
+      age_array = []
       mlu = []
       fileid = []
-      for i in subcorp.fileids():
-          for j in subcorp.sents(fileids = i, speaker = 'ALL'):
-              tmp_utterance = str(j)
-              pattern = re.compile(numbers, re.IGNORECASE)
+      for file in subcorp.fileids():
+          #this is getting the participants - currently only for input
+          #need to modify this to accept user input to designate production
+          participants = list(subcorp.participants(file))
+          participants = participants[0].keys()
+          participants = list(participants)
+          for person in participants:
+              if(person == 'CHI'): #only input, not output
+                  participants.remove(person)   
+          for words in subcorp.sents(fileids = file, speaker = participants):
+              tmp_utterance = str(words)
+              pattern = re.compile(numbers, re.IGNORECASE) #only pull out utterances with numbers
               if pattern.search(tmp_utterance) !=None:
-                utterance = str(j)  
+                utterance = str(words)  
                 sents.append(textStats.corpusClean(utterance)) 
-                fileid.append(i)
-                age.append(str(subcorp.age(i)))
+                fileid.append(file)
+                #convert the age
+                age_list = subcorp.age(file)
+                if(str(age_list) != '[None]'): #some of the ages not listed
+                    age = age_list[0]
+                    age = subcorp.convert_age(age)
+                else:
+                    age = subcorp.age(i)
+                age_array.append(age)
                 mlu.append(subcorp.MLU(i))
-                tmp_sents = []
-      corpus = zip(fileid, age, mlu, sents)
+      corpus = zip(fileid, age_array, mlu, sents)
       corpus = list(corpus)
       #now we need to make that corpus a df
-      df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
+      df_corpus = pd.DataFrame(corpus)
       #now write that sucker to csv)
-      with open('test.csv', 'a') as f:
+      with open('zero_search1.csv', 'a') as f:
           df_corpus.to_csv(f, header=f)
       #now clear memory to make sure python doesn't freak
       string = ""
