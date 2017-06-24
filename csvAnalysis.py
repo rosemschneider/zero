@@ -23,7 +23,23 @@ def readCSV(fname):
 df = readCSV('zero_search1.csv')
 
 #frequencies by age
-freqs_age = df[['age', 'utterance']].groupby('age').agg('count')
-freqs_age.add_suffix('_Count').reset_index()
+def freqsByAge(df):
+    """This is a function to return the number of utterances a given word 
+    by age."""
+    ##What I need to do:
+        #Count every instance of an utterance in a row
+        #Save that frequency info along with age ???
+        #save the world
+    empty_col = []   
+    for row in df['utterance']:
+        empty_col.append(textStats.getTypeFreq(row))
+    return empty_col    
+    
+    
+    
+    
+    freqs_age = df[['age', 'utterance']].groupby('age').agg('count')
+    freqs_age.add_suffix('_Count').reset_index()
+    return freqs_age
 
 #ngrams
