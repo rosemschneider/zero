@@ -193,7 +193,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
                         age = self.convert_age(age)
                     return age
             # some files don't have age data
-            except (TypeError, AttributeError), e:
+            except (TypeError, AttributeError) as e:
                 return None
 
     def sex(self, fileids=None, speaker='CHI'):
@@ -215,7 +215,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
                     sex = pat.get('sex')
                     return sex
             # some files don't have age data
-            except (TypeError, AttributeError), e:
+            except (TypeError, AttributeError) as e:
                 return None
 
     def convert_age(self, age_year):
@@ -226,7 +226,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
             if int(m.group(3)) > 15:
                 age_month += 1
         # some corpora don't have age information?
-        except ValueError, e:
+        except ValueError as e:
             pass
         return age_month
 
@@ -297,7 +297,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
                     infl = None ; suffixStem = None
 
                     # getting replaced words
-                    xstr = lambda s: "" if s is None else unicode(s)
+                    xstr = lambda s: "" if s is None else str(s)
                     if replace and xmlword.find('.//{%s}replacement' % (NS)):
                         continue
 
@@ -318,7 +318,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
                     if xmlword.text:
                         word = xmlword.text
                     else:
-                        print 'empty word in sentence %s' % sentID
+                        print('empty word in sentence %s' % sentID)
                         word = ''
 
                     # strip tailing space
@@ -330,7 +330,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
                         try:
                             xmlstem = xmlword.find('.//{%s}stem' % NS)
                             word = xmlstem.text
-                        except AttributeError, e:
+                        except AttributeError as e:
                             pass
                         # if there is an inflection
                         try:
@@ -353,7 +353,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
                             word = (word,xmlpos[0].text)
                             if len(xmlpos) != 1 and suffixStem:
                                 suffixStem = (suffixStem,xmlpos[1].text)
-                        except (AttributeError,IndexError), e:
+                        except (AttributeError,IndexError) as e:
                             word = (word,None)
                             if suffixStem:
                                 suffixStem = (suffixStem,None)
@@ -458,7 +458,7 @@ class CHILDESCorpusReader(XMLCorpusReader):
         url = self.childes_url_base + path
 
         webbrowser.open_new_tab(url)
-        print "Opening in browser:", url
+        print("Opening in browser:", url)
         # Pausing is a good idea, but it's up to the user...
         # raw_input("Hit Return to continue")
 
@@ -471,7 +471,7 @@ def demo(corpus_root=None):
     """
     if not corpus_root:
         from nltk.data import find
-        corpus_root = find('corpora/childes/data-xml/Eng-USA/')
+        corpus_root = find('corpora/childes/data-xml/english/')
 
     try:
         childes = CHILDESCorpusReader(corpus_root, u'.*.xml')
@@ -482,32 +482,32 @@ def demo(corpus_root=None):
             for (key,value) in childes.corpus(file)[0].items():
                 if key == "Corpus": corpus = value
                 if key == "Id": corpus_id = value
-            print 'Reading', corpus,corpus_id,' .....'
-            print "words:", childes.words(file)[:7],"..."
-            print "words with replaced words:", childes.words(file, replace=True)[:7]," ..."
-            print "words with pos tags:", childes.tagged_words(file)[:7]," ..."
-            print "words (only MOT):", childes.words(file, speaker='MOT')[:7], "..."
-            print "words (only CHI):", childes.words(file, speaker='CHI')[:7], "..."
-            print "stemmed words:", childes.words(file, stem=True)[:7]," ..."
-            print "words with relations and pos-tag:", childes.words(file, relation=True)[:5]," ..."
-            print "sentence:", childes.sents(file)[:2]," ..."
+            print('Reading', corpus,corpus_id,' .....')
+            print("words:", childes.words(file)[:7],"...")
+            print("words with replaced words:", childes.words(file, replace=True)[:7]," ...")
+            print("words with pos tags:", childes.tagged_words(file)[:7]," ...")
+            print("words (only MOT):", childes.words(file, speaker='MOT')[:7], "...")
+            print("words (only CHI):", childes.words(file, speaker='CHI')[:7], "...")
+            print("stemmed words:", childes.words(file, stem=True)[:7]," ...")
+            print("words with relations and pos-tag:", childes.words(file, relation=True)[:5]," ...")
+            print("sentence:", childes.sents(file)[:2]," ...")
             for (participant, values) in childes.participants(file)[0].items():
                     for (key, value) in values.items():
-                        print "\tparticipant", participant, key, ":", value
-            print "num of sent:", len(childes.sents(file))
-            print "num of morphemes:", len(childes.words(file, stem=True))
-            print "age:", childes.age(file)
-            print "age in month:", childes.age(file, month=True)
-            print "MLU:", childes.MLU(file)
+                        print("\tparticipant", participant, key, ":", value)
+            print("num of sent:", len(childes.sents(file)))
+            print("num of morphemes:", len(childes.words(file, stem=True)))
+            print("age:", childes.age(file))
+            print("age in month:", childes.age(file, month=True))
+            print("MLU:", childes.MLU(file))
             print
 
-    except LookupError, e:
-        print """The CHILDES corpus, or the parts you need, should be manually
+    except LookupError as e:
+        print("""The CHILDES corpus, or the parts you need, should be manually
         downloaded from http://childes.psy.cmu.edu/data-xml/ and saved at
         [NLTK_Data_Dir]/corpora/childes/
             Alternately, you can call the demo with the path to a portion of the CHILDES corpus, e.g.:
         demo('/path/to/childes/data-xml/Eng-USA/")
-        """
+        """)
         #corpus_root_http = urllib2.urlopen('http://childes.psy.cmu.edu/data-xml/Eng-USA/Bates.zip')
         #corpus_root_http_bates = zipfile.ZipFile(cStringIO.StringIO(corpus_root_http.read()))
         ##this fails

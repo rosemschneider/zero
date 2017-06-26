@@ -9,6 +9,7 @@ import os
 import pandas as pd
 import numpy
 import re
+import numpy as np
 
 os.chdir('Documents/Projects/zero')
 
@@ -26,14 +27,13 @@ df = readCSV('zero_search1.csv')
 def freqsByAge(df):
     """This is a function to return the number of utterances a given word 
     by age."""
-    ##What I need to do:
-        #Count every instance of an utterance in a row
-        #Save that frequency info along with age ???
-        #save the world
     empty_col = []   
     for row in df['utterance']:
         empty_col.append(textStats.getTypeFreq(row))
-    return empty_col    
+    freqs = pd.Series(empty_col)
+    #need to convert series to df to append
+    freqs = freqs.to_frame(name = 'typeFreqs')
+    return df
     
     
     

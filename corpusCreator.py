@@ -19,11 +19,18 @@ eng_na_corpus = CHILDESCorpusReader(corpus_root, '.*.xml')
 corpus_root = nltk.data.find('corpora/CHILDES/Eng-UK')
 eng_uk_corpus = CHILDESCorpusReader(corpus_root, '.*.xml')
 
-#create the merged english corpus
-merged_eng = eng_na_corpus.fileids() + eng_uk_corpus.fileids()
 
 #check to make sure all files actually came in
-assert len(x) > 0, 'No files here'
 
 
+#now I want to make a dataframe
+#what needs to be in the df: 
+    #sentences with the targeted words
+    #associated ages
+    #associated mlu
+    #associated corpus
+        #this needs to be done with a for loop
+#I want two sep. dfs - one for reception and one for production
+
+    
 

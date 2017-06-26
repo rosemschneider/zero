@@ -83,7 +83,7 @@ def createCSV_numbers(corpora, numbers):
       #now we need to make that corpus a df
       df_corpus = pd.DataFrame(corpus)
       #now write that sucker to csv)
-      with open('zero_search1.csv', 'a') as f:
+      with open('zero_search1.csv', 'a') as f: #to-do - allow user to specify filename
           df_corpus.to_csv(f, header=f)
       #now clear memory to make sure python doesn't freak
       string = ""
@@ -93,36 +93,37 @@ def createCSV_numbers(corpora, numbers):
       mlu = []
       fileid = []
       
-def createCSV(corpora):
-    """This is the generic corpus writer. This will output every line of a corpus to 
-    a csv."""
-  for c in corpora: #for each individual corpus
-      string = c + '/.*.xml'
-      subcorp = CHILDESCorpusReader(corpus_root, string)
-      tmp_sents = []
-      sents = []
-      age = []
-      mlu = []
-      fileid = []
-      for i in subcorp.fileids():
-          for j in subcorp.sents(fileids = i, speaker = 'ALL'):
-            utterance = str(j)  
-            sents.append(textStats.corpusClean(utterance)) 
-            fileid.append(i)
-            age.append(str(subcorp.age(i)))
-            mlu.append(subcorp.MLU(i))
-            tmp_sents = []
-      corpus = zip(fileid, age, mlu, sents)
-      corpus = list(corpus)
-      #now we need to make that corpus a df
-      df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
-      #now write that sucker to csv)
-      with open('test.csv', 'a') as f:
-          df_corpus.to_csv(f, header=f)
-      #now clear memory to make sure python doesn't freak
-      string = ""
-      subcorp = ""
-      sents = []
-      age = []
-      mlu = []
-      fileid = []       
+#NOTE: This general function is out of date - need to update to reflect the above      
+#def createCSV(corpora):
+#    """This is the generic corpus writer. This will output every line of a corpus to 
+#    a csv."""
+#  for c in corpora: #for each individual corpus
+#      string = c + '/.*.xml'
+#      subcorp = CHILDESCorpusReader(corpus_root, string)
+#      tmp_sents = []
+#      sents = []
+#      age = []
+#      mlu = []
+#      fileid = []
+#      for i in subcorp.fileids():
+#          for j in subcorp.sents(fileids = i, speaker = 'ALL'):
+#            utterance = str(j)  
+#            sents.append(textStats.corpusClean(utterance)) 
+#            fileid.append(i)
+#            age.append(str(subcorp.age(i)))
+#            mlu.append(subcorp.MLU(i))
+#            tmp_sents = []
+#      corpus = zip(fileid, age, mlu, sents)
+#      corpus = list(corpus)
+#      #now we need to make that corpus a df
+#      df_corpus = pd.DataFrame(corpus, columns = ['fileid', 'age', 'mlu', 'sentences'])
+#      #now write that sucker to csv)
+#      with open('test.csv', 'a') as f:
+#          df_corpus.to_csv(f, header=f)
+#      #now clear memory to make sure python doesn't freak
+#      string = ""
+#      subcorp = ""
+#      sents = []
+#      age = []
+#      mlu = []
+#      fileid = []       
