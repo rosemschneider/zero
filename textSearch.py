@@ -1,9 +1,12 @@
 ##script for pulling out text from yang clean corpus
 
 #read in the text file
+"""This is a support script with lots of beautiful functions for dealing
+with and searching through text input."""
 import re
-def find_sents(fname, substr):
 
+def find_sents(fname, substr):
+    """Function to find sentences that contain a single substring."""
     #pull out the lines corresponding to the word you're querying
     word_occur = []
     search = '\\b' + substr + '\\b'
@@ -15,10 +18,11 @@ def find_sents(fname, substr):
      
     #save it to text
     filename = ('parse_tag_out/' + substr + '_search.txt')
-    
     import numpy
     numpy.savetxt(filename, word_occur, fmt = '%s')
+  
     
+###The following functions are just riffs on the find_sents() function.
 def find_nums_to_ten(fname):
 #    import re
      nums_to_ten = '\\bzero\\b|\\bone\\b|\\btwo\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b'
@@ -86,6 +90,9 @@ def find_nums_large(fname):
      numpy.savetxt(filename, word_occur, fmt = '%s')      
 
 def parse_sents(fname, substr):
+    """This is a function for parsing a text file with the Stanford NLP parser. 
+    
+    Note that you might have to change the paths here. You can do that with os."""
 #    import re
     find_sents(fname, substr)
     
@@ -100,6 +107,9 @@ def parse_sents(fname, substr):
     os.system(cmd)
     
 def tag_sents(fname, outputName):
+    """This is a function for tagging a text file with Stanford NLP taggers. 
+    
+    Note that you might have to change the paths here. You can do that with os."""
 #    import re
 #    find_sents(fname, substr)
     
@@ -113,7 +123,6 @@ def tag_sents(fname, outputName):
     cmd = ('./stanford-postagger.sh models/english-left3words-distsim.tagger' +
            filename + ' > ' + tagname + ' 2>&1')
     
-    import os
     os.system(cmd)
  
     
