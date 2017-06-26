@@ -1,15 +1,11 @@
-
-
-#def corpusClean(txt):
-#    sym = "~!@#$%^&*()+=`{}[]|\\:;\"',./<>?"
-#    clean = txt.lower()
-#    for s in sym:
-#        clean = clean.replace(s, "" +s+"")
-#    clean = clean.split('\n')
-#    clean_str = str(clean)
-#    return clean_str
+###This is a script containing a lot of helpful functions for getting statistics
+###about a corpus.
 import re
 def corpusClean(txt):
+    """Function for removing special symbols from a corpus.
+    
+    Note that this removes 'x'. I need to fix this later, but right now
+    I'm manually fixing these in the actual csv."""
     clean = txt.lower()
     clean = re.sub(r".\\n", " ", clean)
     clean = re.sub(r'[^A-Za-z0-9]+', ' ', clean)
@@ -82,29 +78,6 @@ def getXFreqWords(freqdi, x):
             new.append(k)
     return new
 
-
-#def foxDemo():
-#    "A void function that demonstrates how the functions are used."
-#    foxtoks = getTokens(fox)      # Function-internal objects:
-#    foxtypes = getTypes(fox)      #   not accessible from IDLE shell!
-#    foxfreq = getTypeFreq(fox)    # You can however retrace the steps 
-#                                  #   to re-create these objects. 
-#    print('There are', len(foxtoks), 'word tokens in fox.')
-#    print('There are', len(foxtypes), 'unique word types in fox.')
-#    print('The word "freezy" occurs', foxfreq['freezy'], 'times.')
-#
-#    len6 = getXLengthWords(foxtypes, 6)
-#    freq3 = getXFreqWords(foxfreq, 3)
-#
-#    print('Words that are at least 6-characters long: ')
-#    for w in len6 :
-#        print(' ', "'"+w+"'", 'has', len(w), 'chars.')
-#
-#    print('Words with 3 or higher frequency: ')
-#    for w in freq3 :
-#        print(' ', "'"+w+"'", 'occurs', foxfreq[w], 'times.')
-
-
 def getWordnGrams(wds, n):
 #    import re
     """Takes txt as input, and generates list of tuples of ngrams."""
@@ -170,9 +143,6 @@ def makeBar(di):
     plt.bar(range(len(di)),di.values(), align = 'center')
     plt.xticks(range(len(di)), di.keys(), rotation = 'vertical')
     plt.show()
-    
- #to do
-    #make a word-classifier (numbers vs. other words)
     
 
     
