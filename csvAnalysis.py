@@ -97,16 +97,35 @@ def multFreqsByAge(df, tupes):
     ##filter down to only the words we care about
     filtered_comp = []
     for row in df['typeFreqs']:
+        new_dict = dict()
         filtered = []
         for key, value in row.items():
             for number in tupes:
                 if number == str(key):
-                    new_dict = dict()
-                    new_dict[key] = value
+                    new_dict[key] = value        
                     filtered.append(new_dict)    
                 else:
                     pass
-        filtered_comp.append(filtered)           
+        filtered_comp.append(filtered)
+    return filtered_comp   
+    
+    #now I need to get these values into the df:
+    #for every participant, I want to pull out counts for each word searched
+    
+    #make an empty df into which we can pump the values
+    cols = list(tupes)
+    index = list(range(0,len(large_input['fileid'])))
+    tmp_df = pd.DataFrame(index = index, columns = cols)
+    
+    #for every dict
+    for entry in filtered_comp:
+        for key, value in entry.items():
+            for num in tupes:
+                if num == str(key):
+                    df.loc[entry, str(num)] = value
+                else:
+                    df.loc[entry, str(num)] = 0
+    
     return filtered_comp                        
                 
         filtered_freqs = filterDF(df, 'typeFreqs', tupes)
@@ -173,13 +192,17 @@ for array in values:
         
 values_int = np.asarray(values_int)
     
-zero_input_freqs = freqsByAge(zero_input, 'zero')
 #Make a graph of the frequencies by age
 plt.bar(ages_int, values_int)
 plt.xlabel('Age (in months)', fontsize=12)
 plt.ylabel('Frequency in output', fontsize=12)
 plt.xticks(np.arange(min(ages_int), max(ages_int)+1, 10))
 plt.title('Zero frequency by age - output')
+
+
+
+
+
 
 #bigrams
 #get the utterances, and then convert to text
