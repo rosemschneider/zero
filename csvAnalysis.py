@@ -99,15 +99,19 @@ def multFreqsByAge(df, tupes):
     for row in df['typeFreqs']:
         new_dict = dict()
         filtered = []
-        for key, value in row.items():
-            for number in tupes:
+        for number in tupes:
+            for key, value in row.items():
                 if number == str(key):
                     new_dict[key] = value        
                     filtered.append(new_dict)    
                 else:
                     pass
         filtered_comp.append(filtered)
-    return filtered_comp   
+    
+    #this is so hacky, but I need to get rid of the double-printed dicts
+    new_filt = []
+    for dct in filtered_comp:
+        new_filt.append(dct[0])
     
     #now I need to get these values into the df:
     #for every participant, I want to pull out counts for each word searched
@@ -118,15 +122,16 @@ def multFreqsByAge(df, tupes):
     tmp_df = pd.DataFrame(index = index, columns = cols)
     
     #for every dict
-    for entry in filtered_comp:
+    index = 0
+    for entry in new_filt:
         for key, value in entry.items():
             for num in tupes:
                 if num == str(key):
-                    df.loc[entry, str(num)] = value
+                    tmp_df.loc[index, num] = value                
                 else:
-                    df.loc[entry, str(num)] = 0
-    
-    return filtered_comp                        
+                    tmp_df.loc[index, num] = 0 
+        index += 1                        
+    return tmp_df                        
                 
         filtered_freqs = filterDF(df, 'typeFreqs', tupes)
     
