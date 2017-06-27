@@ -117,6 +117,43 @@ plt.xlabel('Age (in months)', fontsize=12)
 plt.ylabel('Frequency in input', fontsize=12)
 plt.xticks(np.arange(min(ages_int), max(ages_int)+1, 10))
 plt.title('Zero frequency by age - input')
+
+#bigrams
+#get the utterances, and then convert to text
+#modify corpus clean
+utterances = []
+for sentence in zero_input['utterance']:
+    utterances.append(sentence)
+    
+def utteranceClean(txt):
+    """Function for removing special symbols from a corpus.
+    
+    Note that this removes 'x'. I need to fix this later, but right now
+    I'm manually fixing these in the actual csv."""
+    clean = txt.lower()
+    clean = re.sub(r".\\n", " ", clean)
+    clean = re.sub(r'[^A-Za-z0-9]+', ' ', clean)
+    clean = re.sub(r"\d*", "", clean)
+    clean = re.sub(r"\d*", "", clean)
+    return clean
+
+bigrams = []
+for sentence in utterances:
+    bigrams.append(textStats.getWordnGrams(sentence, 2))
+
+bigram_freqs = []
+for bigram in bigrams:
+    bigram_freqs.append(textStats)
+
+
+utterances = utteranceClean(str(utterances))
+
+#now grab the bigrams
+zero_bigrams = textStats.getWordnGrams(utterances, )
+
+#need to do some cleaning up - replace 'si ' with 'six', remove digits
+
+
  
     
 ##now I need to make a graph based on frequencies by age
