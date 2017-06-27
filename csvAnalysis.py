@@ -83,7 +83,7 @@ def freqsByAge(df, substr):
     return df
 
 #for multiple search terms
-def multFreqsByAge(df):
+def multFreqsByAge(df, tupes):
     """This is a function to return the number of utterances a given word 
     by age."""
     empty_col = []   
@@ -95,7 +95,28 @@ def multFreqsByAge(df):
     df['typeFreqs'] = freqs['typeFreqs']
     
     ##filter down to only the words we care about
-    filtered_freqs = filterDF(df, 'typeFreqs', ('million', 'zero'))
+    filtered_comp = []
+    for row in df['typeFreqs']:
+        filtered = []
+        for key, value in row.items():
+            for number in tupes:
+                if number == str(key):
+                    new_dict = dict()
+                    new_dict[key] = value
+                    filtered.append(new_dict)    
+                else:
+                    pass
+        filtered_comp.append(filtered)           
+    return filtered_comp                        
+                
+        filtered_freqs = filterDF(df, 'typeFreqs', tupes)
+    
+    ##some loop-de-looping here to go through every value
+    #do a little mini filter here
+     
+    
+    #The plan:
+        #from the substr, get search values
     return filtered_freqs
     
     #now get the actual values for only the substr you're interested in
