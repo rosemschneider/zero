@@ -83,9 +83,10 @@ def freqsByAge(df, substr):
     return df
 
 #for multiple search terms
-def multFreqsByAge(df, tupes):
+def multFreqsByAge(df1, tupes):
     """This is a function to return the number of utterances a given word 
     by age."""
+    df = df1
     empty_col = []   
     for row in df['utterance']:
         empty_col.append(textStats.getTypeFreq(row))   
@@ -130,39 +131,11 @@ def multFreqsByAge(df, tupes):
                     tmp_df.loc[index, num] = value                
                 else:
                     tmp_df.loc[index, num] = 0 
-        index += 1                        
-    return tmp_df                        
-                
-        filtered_freqs = filterDF(df, 'typeFreqs', tupes)
-    
-    ##some loop-de-looping here to go through every value
-    #do a little mini filter here
-     
-    
-    #The plan:
-        #from the substr, get search values
-    return filtered_freqs
-    
-    #now get the actual values for only the substr you're interested in
-    filtered_freqs = filterDF(df, 'typeFreqs', substr)
-    #get the get the values
-    vals = []
-    for entry in filtered_freqs:
-        for value in entry.items():
-            vals.append(value[1])
-    #now that we have the values, append them to the df
-    num = pd.Series(vals)
-    num = num.to_frame(name = 'searchVals')
-    #add to the actual df
-    df['searchVals'] = num['searchVals']
-    
-    #finally, convert the age to numbers, drop the none
-    tmp_df = df
-    tmp_df = tmp_df[(tmp_df['age'] != '[None]')]
-    df = tmp_df
-    for age in df['age']:
-        age = int(age)
-    return df
+        index += 1                         
+
+    #now I need to join this tmp df to my main one
+    df_new = pd.concat([df, tmp_df], axis = 1)
+    return df_new                       
 
 
 ##Framework for generating graphs
