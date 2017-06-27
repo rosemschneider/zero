@@ -10,6 +10,7 @@ import pandas as pd
 import numpy
 import re
 import numpy as np
+import matplotlib.pyplot as plt
 
 os.chdir('/Users/rschneid/Documents/Projects/zero')
 
@@ -21,8 +22,6 @@ import analysis
 def readCSV(fname):
     df = pd.DataFrame.from_csv(fname)
     return df
-
-df_1 = readCSV('zero_search1.csv')
 
 def filterDF(df, column, substr):
     filtered = []
@@ -80,19 +79,46 @@ def freqsByAge(df, substr):
     df = tmp_df
     for age in df['age']:
         age = int(age)
-    return df    
+    return df
+
+##Framework for generating graphs
+#With zero input as example
+zero_input = readCSV('data/zero_input.csv')
+
+##For individual number words
+#First, get the freqs by age
+#group by age and aggregate by count
+grouped = zero_input_freqs[['age', 'searchVals']].groupby('age').agg('count')
+
+#I need to learn more about pandas, but this is my clunky way of getting
+#values out of the grouped df
+
+#ages need to be converted from strings to ints
+age_int = []
+ages = list(grouped.index)
+for num in ages:
+    num = int(num)
+    age_int.append(num)
+
+ages_int = np.asarray(age_int)    
+
+values = grouped.values
+values_int = []
+for array in values:
+    for number in array:
+        values_int.append(number)
+        
+values_int = np.asarray(values_int)
     
-
-##now I need to make a graph based on frequencies by age
-
-
+zero_input_freqs = freqsByAge(zero_input, 'zero')
+#Make a graph of the frequencies by age
+plt.bar(ages_int, values_int)
+plt.xlabel('Age (in months)', fontsize=12)
+plt.ylabel('Frequency in input', fontsize=12)
+plt.xticks(np.arange(min(ages_int), max(ages_int)+1, 10))
+plt.title('Zero frequency by age - input')
  
     
-    
-    
-    
-    freqs_age = df[['age', 'utterance']].groupby('age').agg('count')
-    freqs_age.add_suffix('_Count').reset_index()
-    return freqs_age
+##now I need to make a graph based on frequencies by age
 
 #ngrams
