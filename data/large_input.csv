@@ -1,0 +1,375 @@
+,fileid,age,mlu,utterance
+0,Bloom70/Peter/01.xml,21,[2.03698224852071], when we count up your words today we re gonna have about four thousand seesaws and very little else seesaw seesaw 
+1,Braunwald/1-06-16b.xml,19,[1.5483870967741935], that pool alone cost twenty four million dollars 
+2,Braunwald/4-03-07.xml,51,[4.6722689075630255], seven years and zero days 
+3,Brent/i1/i1-0930.xml,10,[0], okay it s going to zero 
+4,Brent/i1/i1-1207.xml,12,[1.0], here s zero 
+5,Brent/i1/i1-1207.xml,12,[1.0], put zero in his spot 
+6,Brent/i1/i1-1207.xml,12,[1.0], at two six zero one whitney avenue 
+7,Brent/v2/v2-1000.xml,10,[1.0], ol million dollar smile 
+8,Brent/w1/w1-0913.xml,9,[7.0], when jesus fed five thousand men and all the women and children he first had them sit down in groups on the green grass 
+9,Brent/w1/w1-1005.xml,[None],[0], when jesus fed five thousand men and all the women and children he first had them sit down in groups on the green grass 
+10,Brent/w1/w1-1011.xml,10,[4.5], when jesus fed five thousand men and all the women and children 
+11,Brent/w1/w1-1206.xml,[None],[0], three zero nine     
+12,Brent/w3/w3-1122.xml,12,[1.0], a million dollars 
+13,Brent/w3/w3-1316.xml,14,[1.2105263157894737], zero 
+14,Brown/Adam/adam17.xml,35,[3.941265060240964], zero 
+15,Brown/Adam/adam19.xml,36,[4.303398058252427], five four three two one zero blast 
+16,Brown/Adam/adam19.xml,36,[4.303398058252427], that s five four three two one zero 
+17,Brown/Adam/adam47.xml,52,[5.945668135095448], it says six five four two zero seven 
+18,Brown/Adam/adam47.xml,52,[5.945668135095448], seven five four two zero seven 
+19,Brown/Eve/eve15.xml,25,[4.913127413127413], the zero 
+20,Brown/Sarah/sarah029.xml,33,[2.234042553191489], got a million books 
+21,Brown/Sarah/sarah035.xml,35,[2.615], zero o 
+22,Brown/Sarah/sarah040.xml,37,[3.6580882352941178], you got nine thousand why worry about one 
+23,Brown/Sarah/sarah055.xml,40,[3.294478527607362], um looks like an zero to me 
+24,Brown/Sarah/sarah055.xml,40,[3.294478527607362], oh you give me the zero now 
+25,Brown/Sarah/sarah063.xml,42,[4.041666666666667], probably goin in town spent a couple of thousand dollars this year     
+26,Brown/Sarah/sarah087.xml,48,[3.8847926267281108], you have a million of them uh 
+27,Brown/Sarah/sarah092.xml,50,[4.448484848484848], and i ve got about a thousand errands to do before i can 
+28,Brown/Sarah/sarah103.xml,52,[5.2875], it s got the guarantee on it for another ten thousand miles 
+29,Brown/Sarah/sarah104.xml,52,[4.288135593220339], is it an zero 
+30,Brown/Sarah/sarah111.xml,54,[5.4600760456273765], a thousand days 
+31,Brown/Sarah/sarah114.xml,55,[4.4124293785310735], i guess that is zero 
+32,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well now you have to go make a zero 
+33,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well no you have to go make a zero 
+34,Brown/Sarah/sarah115.xml,55,[4.569377990430622], what do you want   or zero 
+35,Brown/Sarah/sarah115.xml,55,[4.569377990430622], oh you re zero huh 
+36,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re a zero 
+37,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re supposed to put the zero here so you can win 
+38,Brown/Sarah/sarah115.xml,55,[4.569377990430622], there see if you put the zero there you would win 
+39,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re gonna put it in there the zero 
+40,Brown/Sarah/sarah115.xml,55,[4.569377990430622], see you should o put that zero down there so i couldn t win 
+41,Brown/Sarah/sarah129.xml,59,[5.938271604938271], a million year 
+42,Brown/Sarah/sarah133.xml,60,[4.488721804511278], he had about a thousand weeks 
+43,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or an o 
+44,Brown/Sarah/sarah136.xml,61,[5.21505376344086], no zero or an   
+45,Brown/Sarah/sarah136.xml,61,[5.21505376344086], oh okay i ll take zero 
+46,Brown/Sarah/sarah136.xml,61,[5.21505376344086], oh about three thousand more 
+47,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], you ll have a zero 
+48,Clark/shem10.xml,29,[4.9109947643979055], there it goes to zero 
+49,Clark/shem11.xml,29,[6.4068627450980395], yeah this stopped all the little numbers stopped at zero 
+50,Clark/shem14.xml,30,[6.509025270758123], yeah it goes back to zero 
+51,Clark/shem14.xml,30,[6.509025270758123], oh there it goes it going on to zero now see 
+52,Clark/shem16.xml,31,[6.876923076923077], you re turning it to zero 
+53,Clark/shem19.xml,32,[8.252225519287833], zero zero zero zero zero zero zero 
+54,Clark/shem22a.xml,33,[6.372727272727273], is that like thousand year old eggs 
+55,Clark/shem38.xml,37,[8.495145631067961], now we re gonna do a c for cindy and z for zero 
+56,Cornell/lsno11.xml,60,[6.190184049079755],     million dollars 
+57,Cornell/lsno121.xml,60,[5.175438596491228], jessica is zero 
+58,Cornell/lsno121.xml,60,[5.175438596491228], a thousand 
+59,Cornell/mom03.xml,[None],[0], i want you to have a thousand dollars 
+60,Cornell/mom0502.xml,[None],[0], no five and a dot then you put a zero 
+61,Cornell/mom0502.xml,[None],[0], why does it say one two zero zero 
+62,Cornell/mom07.xml,[None],[0], eight thousand dollars 
+63,Cornell/mom07.xml,[None],[0], eight thousand dollars is right 
+64,Cornell/mom07.xml,[None],[0], our car would be ten thousand dollars would you say 
+65,Cornell/mom07.xml,[None],[0], this past year it was costing a little over eight thousand dollars for that ford fairmont 
+66,Cornell/mom07.xml,[None],[0], well their boat was ten thousand dollars and 
+67,Cornell/mom07.xml,[None],[0], it s almost below zero 
+68,Cornell/mom07.xml,[None],[0], where s your zero 
+69,Cornell/mom07.xml,[None],[0], why d you put a zero may i ask 
+70,Cornell/mom07.xml,[None],[0], oh he s a free agent so he if he goes on the market somebody like the white so  who have a short left field fence will pay him a million dollars even 
+71,Cornell/mom07.xml,[None],[0], one thousand 
+72,Cornell/mom10.xml,[None],[0], a hundred thousand dollars a year 
+73,Cornell/mom10.xml,[None],[0], thirty to forty five thousand dollars average salary     
+74,Garvey/arigay.xml,[None],[0], okay i brought a thousand dollars home 
+75,Garvey/kengay.xml,[None],[0], pretend i said he s a thousand years old you said 
+76,Garvey/kengay.xml,[None],[0], he s a thousand years old 
+77,Gathercole/04.xml,[None],[0], i believe twelve million 
+78,Gathercole/07.xml,[None],[0], i know what a thousand times a thousand is 
+79,Gathercole/07.xml,[None],[0], you wanna know a thousand times a thousand 
+80,Gathercole/07.xml,[None],[0], a million 
+81,Gathercole/07.xml,[None],[0], a million right 
+82,Gathercole/07.xml,[None],[0], a million times a million is 
+83,Gathercole/07.xml,[None],[0], a trillion 
+84,Gathercole/07.xml,[None],[0], a trillion 
+85,Gathercole/07.xml,[None],[0], zero 
+86,Gathercole/07.xml,[None],[0], zero 
+87,Gathercole/08.xml,[None],[0], no you re you re zero 
+88,Gathercole/08.xml,[None],[0], you re zero 
+89,Gathercole/08.xml,[None],[0], how come you re zero 
+90,Gathercole/13.xml,[None],[0], you million dollar man 
+91,Gathercole/13.xml,[None],[0], i m the million dollar man 
+92,Gleason/Dinner/charlie.xml,36,[4.5394736842105265], i think there s some supposed to be what twice as many people in the by the year two thousand or something like that 
+93,Gleason/Dinner/david.xml,50,[5.208791208791209], i guess she had about two thousand 
+94,Gleason/Dinner/david.xml,50,[5.208791208791209], she she put about three thousand dollars into this um quilting business and she hasn t made any money on it 
+95,Gleason/Dinner/isadora.xml,43,[4.969387755102041], it had thirty thousand pounds of turkeys 
+96,Gleason/Dinner/john.xml,51,[5.785714285714286], a thousand times no 
+97,Gleason/Dinner/katie.xml,39,[4.124183006535947], but we have to go to the store today for two thousand things so 
+98,Gleason/Dinner/laurel.xml,37,[4.763513513513513], my father never in a million years would let you use it on the dining room table 
+99,Gleason/Dinner/patricia.xml,30,[3.435374149659864], the insurance now costs me one hundred sixteen dollars a year for a hundred thousand dollar home like 
+100,Gleason/Dinner/susan.xml,44,[7.193396226415095], one thousand dollars if we do the work three thousand 
+101,Gleason/Dinner/susan.xml,44,[7.193396226415095], one thousand instead of three hundred 
+102,Gleason/Dinner/susan.xml,44,[7.193396226415095], well i mean if sherman comes up with a two thousand for him to do all the work i think bob higgens is gonna get the job yeah 
+103,Gleason/Dinner/susan.xml,44,[7.193396226415095], i mean that s one thousand five hundred dollars difference 
+104,Gleason/Dinner/theresa.xml,51,[7.203125], three million whales died 
+105,Gleason/Father/charlie.xml,36,[4.266666666666667], zero if it s a number right 
+106,Gleason/Father/charlie.xml,36,[4.266666666666667], oh that s a zero 
+107,Gleason/Father/charlie.xml,36,[4.266666666666667], five and zero 
+108,Gleason/Father/charlie.xml,36,[4.266666666666667], when you see five and zero together it s a fifty 
+109,Gleason/Father/charlie.xml,36,[4.266666666666667], zero 
+110,Gleason/Father/eddie.xml,[None],[3.986899563318777], okay hit that zero 
+111,Gleason/Father/guy.xml,37,[3.1677018633540373], zero 
+112,Gleason/Father/guy.xml,37,[3.1677018633540373], zero 
+113,Gleason/Father/guy.xml,37,[3.1677018633540373], zero means that we would get it for nothing 
+114,Gleason/Father/guy.xml,37,[3.1677018633540373], do you know what five zero says 
+115,Gleason/Father/guy.xml,37,[3.1677018633540373], and what s five zero 
+116,Gleason/Father/helen.xml,59,[5.256756756756757], zero 
+117,Gleason/Mother/helen.xml,59,[4.792642140468227], no that s zero 
+118,Gleason/Mother/isadora.xml,42,[4.064655172413793], that s a zero 
+119,Gleason/Mother/martin.xml,30,[2.930817610062893], that s number one zero 
+120,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s a zero 
+121,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s zero 
+122,Gleason/Mother/theresa.xml,48,[5.557620817843866], for zero i ll take it 
+123,HSLLD/HV1/BR/conbr1.xml,51,[2.3703703703703702], oh a thousand tweets 
+124,HSLLD/HV1/BR/jeabr1.xml,49,[6.909090909090909], he was seventy feet long and weighed more than sixty thousand pounds 
+125,HSLLD/HV1/BR/nicbr1.xml,45,[2.765957446808511], there there are a million different places in this store where maria can could be thought ernie 
+126,HSLLD/HV1/MT/ethmt1.xml,45,[6.283422459893048], and me ico has the lowest suicide rate at one point six per thousand and hungary has the highest at twenty nine point six per one hundred thousand 
+127,HSLLD/HV1/MT/jesmt1.xml,43,[5.338028169014085], and zero was standing at zero feet     
+128,HSLLD/HV1/MT/jesmt1.xml,43,[5.338028169014085], but the other one has a thousand drops of water twenty drops of water four hundred drops of water 
+129,HSLLD/HV1/MT/kevmt1.xml,46,[3.978723404255319], was that the kid gets off mom wants the the zero and the the thing goes like that 
+130,HSLLD/HV1/MT/rosmt1.xml,48,[5.782608695652174], the state gives money to the cities and towns     by two hundred and ten billion dollars 
+131,HSLLD/HV1/MT/rosmt1.xml,48,[5.782608695652174], and worcester s share of that is about eleven million dollars 
+132,HSLLD/HV1/MT/rosmt1.xml,48,[5.782608695652174],     hundred thousand dollars a year 
+133,HSLLD/HV1/MT/rosmt1.xml,48,[5.782608695652174], i haven t seen arsenio in like a million years so i want to see it 
+134,HSLLD/HV1/MT/termt1.xml,51,[4.234782608695652], so if if we buy the house we we buy it for ninety thousand 
+135,HSLLD/HV1/TP/nedtp1.xml,59,[3.1666666666666665], four two seven one o zero one no four two seven two one seven five 
+136,HSLLD/HV1/TP/shotp1.xml,43,[3.4953271028037385], zero 
+137,HSLLD/HV2/BR/brnbr2.xml,59,[3.2941176470588234], she has read it a thousand times 
+138,HSLLD/HV2/BR/chabr2.xml,57,[5.448979591836735], they have a million feet 
+139,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], the mammal we call horse today goes back in time a long long way fifty million years in fact in the early horse s case we can be e act 
+140,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], eohippus     fifty million years ago erohippus 
+141,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], it s fifty million years ago 
+142,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], and this forty million years ago is the orohippus that looked like that 
+143,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], thirty million years ago 
+144,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], the mesohippus was ten million years ago 
+145,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], that s today and that s ten million years ago 
+146,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], fifty million years ago 
+147,HSLLD/HV2/BR/geobr2.xml,56,[3.0526315789473686], but the world was changing and it wasn t very long just twenty million years prehistoric mammals grew quite big and strong 
+148,HSLLD/HV2/BR/jusbr2.xml,61,[5.323943661971831], on and on they flew and up above the clouds past million of stars 
+149,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor 
+150,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor 
+151,HSLLD/HV2/MT/catmt2.xml,61,[4.189473684210526], one one thousand two one thousand three one thousand four one thousand five one thousand six one thousand 
+152,HSLLD/HV2/MT/conmt2.xml,49,[4.1454545454545455], thousand island 
+153,HSLLD/HV2/MT/conmt2.xml,49,[4.1454545454545455], thousand island 
+154,HSLLD/HV2/MT/joemt2.xml,49,[5.0], thousand island 
+155,HSLLD/HV2/MT/rosmt2.xml,57,[5.1976744186046515], maybe she s a three with a zero after the three 
+156,HSLLD/HV2/TP/geotp2.xml,56,[4.590909090909091], one thousand ears 
+157,HSLLD/HV2/TP/jeatp2.xml,61,[5.957446808510638], oh my god it s a million mouths chi 
+158,HSLLD/HV2/TP/nictp2.xml,53,[3.3838862559241707], that s a one and a zero 
+159,HSLLD/HV2/TP/pautp2.xml,55,[5.2], oh neat i see a million chis 
+160,HSLLD/HV2/TP/sustp2.xml,57,[3.9615384615384617], look over at her     a thousand of them 
+161,HSLLD/HV3/BR/geobr3.xml,64,[3.2142857142857144], we ll read ten thousand books 
+162,HSLLD/HV3/MT/anamt3.xml,70,[5.03125], eight eight nine one one zero zero three 
+163,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], add a zero 
+164,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], put a zero ne t to fourteen chi 
+165,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], just add a zero 
+166,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know he does the concept of adding the zero um to 
+167,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know but then i said put the zero after the four 
+168,HSLLD/HV3/MT/joymt3.xml,68,[7.036036036036036], once i mean a thousand times rebecca she she she means to www e cuse me 
+169,HSLLD/HV3/MT/paumt3.xml,65,[7.493150684931507], you ve seen it a thousand times 
+170,HSLLD/HV3/MT/sarmt3.xml,65,[5.025477707006369], thousand island 
+171,HSLLD/HV3/MT/sarmt3.xml,65,[5.025477707006369], thousand islands 
+172,HSLLD/HV3/MT/sarmt3.xml,65,[5.025477707006369], she likes a thousand island now huh 
+173,HSLLD/HV5/BR/bobbr5.xml,89,[4.241379310344827], a million times yeah 
+174,HSLLD/HV5/BR/marbr5.xml,92,[13.761904761904763], seen it a million times 
+175,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456],     a thousand dollars for six months s time is not all that great 
+176,HSLLD/HV5/MT/ethmt5.xml,92,[4.23404255319149], vaguely speaking it s a large quantity of anything specifically speaking it s two thousand pounds 
+177,HSLLD/HV5/MT/ethmt5.xml,92,[4.23404255319149], one cubic mile of sea water contains nearly six million tons of this metal symbol mg 
+178,HSLLD/HV5/MT/ethmt5.xml,92,[4.23404255319149], eighteen thousand dollars he has between yesterday and today 
+179,HSLLD/HV5/MT/jammt5.xml,89,[6.416666666666667], that s because i read it to him about a million times 
+180,HSLLD/HV5/MT/jammt5.xml,89,[6.416666666666667], well five thousand of them die every day 
+181,HSLLD/HV5/MT/mrkmt5.xml,89,[6.634146341463414], they pay three thousand dollars a year for their food in the high school 
+182,HSLLD/HV5/MT/trimt5.xml,89,[8.511111111111111], less than zero 
+183,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], www they take about size zero and a half 
+184,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], i mean below zero and a half 
+185,HSLLD/HV7/LW/analw7.xml,92,[4.4], over six million copies of his um beloved book have been sold since then 
+186,HSLLD/HV7/LW/davlw7.xml,110,[7.222222222222222], uh got a million pencils 
+187,HSLLD/HV7/LW/joelw7.xml,117,[5.65], like what you said you ve read a million times 
+188,HSLLD/HV7/MD/anamd7.xml,[None],[0], i ll be a zero www 
+189,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], it doesn t start at zero 
+190,HSLLD/HV7/MT/brnmt7.xml,118,[6.25], he asked about a thousand times 
+191,HSLLD/HV7/MT/davmt7.xml,113,[6.122222222222222], well if we had a few thousand dollars we could buy like an electronic one 
+192,HSLLD/HV7/MT/jebmt7.xml,109,[9.483333333333333], i m not getting you the five thousand presents i usually get you for christmas okay 
+193,HSLLD/HV7/MT/kevmt7.xml,132,[4.147058823529412], a thousand is wrong 
+194,HSLLD/HV7/MT/rosmt7.xml,117,[5.615384615384615], zero or marco or what 
+195,Hall/BlackPro/anc.xml,57,[5.887884267631103], it makes it that much even sweeter sixseeing as to she got zero this year nothing at all 
+196,Hall/BlackPro/anc.xml,57,[5.887884267631103], no ei well all she did then was get a two thousand dollar loan this year 
+197,Hall/BlackPro/bom.xml,57,[5.361251725724804], thank you six million dollar man 
+198,Hall/BlackPro/bom.xml,57,[5.361251725724804], these are the bones of a three million year old woman 
+199,Hall/BlackPro/ded.xml,57,[6.821268990169794], do you watch the six million dollar man all the time 
+200,Hall/BlackPro/jaf.xml,57,[4.363957597173145], the plane arrives at four zero one 
+201,Hall/BlackPro/jaf.xml,57,[4.363957597173145], i guess he wanted a thousand dollars or something 
+202,Hall/BlackPro/mim.xml,57,[6.424004825090471], that they re making now renovated i mean er uh with new additions an things so that it s selling for seventy thousand dollars 
+203,Hall/BlackPro/mim.xml,57,[6.424004825090471], i don t know why somebody who cleared over a million dollars last year lives on our block 
+204,Hall/BlackPro/mim.xml,57,[6.424004825090471], da but you would think somebody who cleared over a million dollars you don t jus find people all over the world living around where we do do who cleared over a million dollars las year doing the electrical work in the twin towers 
+205,Hall/BlackPro/mim.xml,57,[6.424004825090471], now i don t think that if you cleared over a million dollars you would live on that block 
+206,Hall/BlackPro/mim.xml,57,[6.424004825090471], over a million dollars should live in the appropriate neighborhood an everything 
+207,Hall/BlackPro/mim.xml,57,[6.424004825090471], uh i d i wouldn t if i had made over a million dollars i wouldn t uh um i d go by you know whatever my life style was for the most part you know 
+208,Hall/BlackPro/mim.xml,57,[6.424004825090471], for the sake of having a million dollars jus go off an live with a whole bunch of other people who made who consistently make a million dollars if if if it may in fact turn out that 
+209,Hall/BlackPro/trh.xml,57,[7.090737240075614], ten nine seven six five four three two one zero blas off 
+210,Hall/BlackPro/trh.xml,57,[7.090737240075614],     hundred thousand thousand thousand sixty six 
+211,Hall/BlackPro/trh.xml,57,[7.090737240075614], six thousand sixty six 
+212,Hall/BlackPro/trh.xml,57,[7.090737240075614], thousand 
+213,Hall/BlackPro/trh.xml,57,[7.090737240075614], six thousand 
+214,Hall/BlackPro/trh.xml,57,[7.090737240075614], six thousand sixty six 
+215,Hall/BlackPro/trh.xml,57,[7.090737240075614], seventy thousand 
+216,Hall/BlackPro/trh.xml,57,[7.090737240075614], six thousand 
+217,Hall/BlackPro/trh.xml,57,[7.090737240075614], nine thousand nine hundred 
+218,Hall/BlackPro/trh.xml,57,[7.090737240075614], thousand 
+219,Hall/BlackPro/trh.xml,57,[7.090737240075614], nine thousand 
+220,Hall/BlackPro/trh.xml,57,[7.090737240075614], zero sisters 
+221,Hall/BlackWork/anl.xml,57,[6.41660597232338], ten thousand 
+222,Hall/BlackWork/deg.xml,57,[4.6949891067538125], i lef a raffle book at the nursery duh the girl told me i ain t never seen a raffle for three thousand dollars 
+223,Hall/BlackWork/deg.xml,57,[4.6949891067538125],     fourteen thousand dollars 
+224,Hall/BlackWork/kig.xml,57,[5.67168458781362], i don t like the six million dollar man 
+225,Hall/BlackWork/kig.xml,57,[5.67168458781362], say like a hundred and seventy thousand 
+226,Hall/BlackWork/lef.xml,57,[5.9056327724945135], i i make it a point not to watch the six million dollar man 
+227,Hall/BlackWork/roj.xml,57,[6.632876712328767], nineteen thousand 
+228,Hall/BlackWork/roj.xml,57,[6.632876712328767], i work in um terms and records and i was i looked at i looked through files fifty thousand times and my boss put her hand on it 
+229,Hall/BlackWork/trc.xml,57,[5.373134328358209], for twenty five thousand dollars     
+230,Hall/BlackWork/trc.xml,57,[5.373134328358209], the twenty five thousand puramid pyramid 
+231,Hall/BlackWork/trc.xml,57,[5.373134328358209], twenty five thousand 
+232,Hall/BlackWork/trc.xml,57,[5.373134328358209], mmpf twenty five thousand dollars 
+233,Hall/BlackWork/trc.xml,57,[5.373134328358209], twenty five thousand 
+234,Hall/BlackWork/trc.xml,57,[5.373134328358209], dat that man won twenty five thousand dollars 
+235,Hall/BlackWork/trc.xml,57,[5.373134328358209], twenty five thousand dollars 
+236,Hall/WhitePro/job.xml,57,[7.728278041074249], so we re batting zero on that eh 
+237,Hall/WhitePro/jub.xml,57,[7.3000723065798985], you have a hundred thousand yuck up     
+238,Hall/WhitePro/rob.xml,57,[6.909367088607595], seven seas ah thousand island not the onion one robbie 
+239,Hall/WhitePro/toh.xml,57,[5.2798861480075905], twenty when s twenty ss make up here twenty thousand dollars 
+240,Hall/WhitePro/toh.xml,57,[5.2798861480075905], he s making me ten thousand and he s gonna give you one     
+241,Hall/WhitePro/toh.xml,57,[5.2798861480075905], one thousand 
+242,Hall/WhitePro/tos.xml,57,[6.313997477931904], i said ten thou thousand 
+243,Hall/WhitePro/zoe.xml,57,[6.3809897879025925], two thousand six e you think you oughta write it down 
+244,Hall/WhitePro/zoe.xml,57,[6.3809897879025925], no two thousand six 
+245,Hall/WhitePro/zoe.xml,57,[6.3809897879025925], two thousand six and it s in the e building four hundred fifteen 
+246,Hall/WhiteWork/mig.xml,57,[5.823569482288828], put the nine and then the zero 
+247,Hall/WhiteWork/mig.xml,57,[5.823569482288828], no no the zero goes after 
+248,Hall/WhiteWork/mig.xml,57,[5.823569482288828], is one more than zero 
+249,Hall/WhiteWork/mig.xml,57,[5.823569482288828], okay one is more than zero so it means what 
+250,Hall/WhiteWork/stl.xml,57,[7.02322738386308], there s a million meters around there 
+251,Hall/WhiteWork/sut.xml,57,[6.240773286467487], i am getting angry with th the thousand of things     longer life 
+252,Kuczaj/abe134.xml,45,[7.202127659574468], i ll never eat a thousand hamburgers 
+253,Kuczaj/abe155.xml,49,[8.63716814159292], he went a thousand miles 
+254,MacWhinney/46b2.xml,48,[6.748387096774193], thousand fiery pieces 
+255,MacWhinney/54b2.xml,56,[9.882978723404255], never in a million years 
+256,MacWhinney/62a1.xml,67,[6.702970297029703], no a thousand 
+257,MacWhinney/62a1.xml,67,[6.702970297029703], do you think you can count to a thousand 
+258,MacWhinney/65a1.xml,69,[6.735632183908046], two zero two zero 
+259,MacWhinney/65a1.xml,69,[6.735632183908046], zero 
+260,MacWhinney/65a1.xml,69,[6.735632183908046], two zero five one 
+261,MacWhinney/76a1.xml,78,[7.2105263157894735], just press one button and it does all those numbers that you punch you know eight zero zero five six three two nine four eight 
+262,MacWhinney/76a2.xml,78,[5.3768115942028984], when he gets stinged he won t want to go in there for a thousand years 
+263,MacWhinney/76b1.xml,78,[8.909090909090908], zero 
+264,MacWhinney/76b1.xml,78,[8.909090909090908], zero 
+265,MacWhinney/81b1.xml,82,[6.037974683544304], oh the ghost of fifty th you mean the funk of fifty thousand years 
+266,MacWhinney/81b1.xml,82,[6.037974683544304], forty thousand 
+267,MacWhinney/84a1.xml,85,[5.96], a thousand you know and some but the jackets were fairly cheap 
+268,MacWhinney/90b1.xml,90,[7.036842105263158], to him it s a thousand miles 
+269,MacWhinney/90b1.xml,90,[7.036842105263158], a thousand miles for a little turtle 
+270,NH/nh54m-irving.xml,54,[6.890510948905109], a billion hundred 
+271,NH/nh54m-irving.xml,54,[6.890510948905109], well where did you get a billion hundred dollars to buy a b m w 
+272,NH/nh54m-irving.xml,54,[6.890510948905109], you better get a job that pays a lot of money if you re gonna pay a billion hundred dollars for a car 
+273,Post/Lew/lew02.xml,24,[1.6917808219178083], three five zero 
+274,Post/Lew/lew02.xml,24,[1.6917808219178083], mash the five now the zero 
+275,Post/Lew/lew02.xml,24,[1.6917808219178083], you can mash all at once three five zero 
+276,Post/Lew/lew05.xml,27,[1.457516339869281], there s a million things in that one basket i just want to warn you 
+277,Post/Tow/tow01.xml,19,[1.871212121212121], zero 
+278,Providence/Alex/ale09.xml,21,[1.6873239436619718], zero 
+279,Providence/Alex/ale10.xml,21,[1.9292035398230087], what s zero 
+280,Providence/Alex/ale14.xml,23,[1.4817518248175183], thaza that is a zero 
+281,Providence/Alex/ale14.xml,23,[1.4817518248175183], o oh zero 
+282,Providence/Alex/ale14.xml,23,[1.4817518248175183], where s your zero 
+283,Providence/Alex/ale14.xml,23,[1.4817518248175183], zero 
+284,Providence/Alex/ale19.xml,26,[1.7857142857142858], zero 
+285,Providence/Alex/ale32.xml,32,[4.0726744186046515], i can t look it s shattered in a million pieces 
+286,Providence/Alex/ale35.xml,33,[2.6504065040650406],     three thousand dollars     
+287,Providence/Alex/ale35.xml,33,[2.6504065040650406], zero nine zero seven 
+288,Providence/Alex/ale37.xml,34,[2.669826224328594], what s that supposed to be oh a zero 
+289,Providence/Alex/ale37.xml,34,[2.669826224328594], zero 
+290,Providence/Alex/ale43.xml,37,[3.0544554455445545], and a million million million million million bumps 
+291,Providence/Alex/ale49.xml,40,[3.1227436823104693], two zero zero three 
+292,Providence/Ethan/eth20.xml,20,[2.836244541484716], the show is at two o clock and it s twelve oh zero nine 
+293,Providence/Ethan/eth25.xml,22,[3.8], and sleep in zero gravity when you re in a space ship you float in the air 
+294,Providence/Ethan/eth44.xml,32,[3.0706401766004414], there s the number eight there s the number two number two again there s a zero and there s the three 
+295,Providence/Ethan/eth47.xml,34,[3.943469785575049], so he is floating up woo this is fun zero gravity is fun     
+296,Providence/Ethan/eth47.xml,34,[3.943469785575049], the spaceship could float away too i guess in zero gravity 
+297,Providence/Lily/lil11.xml,18,[1.6411290322580645], is it going in a thousand pieces 
+298,Providence/Lily/lil26.xml,24,[2.7415506958250497], zero very good honey 
+299,Providence/Lily/lil34.xml,26,[3.831908831908832], rhode island enacted this new thing that takes affect in two thousand four where 
+300,Providence/Lily/lil36.xml,27,[4.625], okay it s two zero two 
+301,Providence/Lily/lil37.xml,28,[5.458471760797342], zero 
+302,Providence/Lily/lil49b.xml,31,[5.682568807339449], it s zero 
+303,Providence/Lily/lil50.xml,31,[4.717391304347826], up out of the jungle up into the sky up over the mountains ten thousand feet 
+304,Providence/Lily/lil52.xml,32,[3.06553911205074], up out of the jungle up into the sky up over the mountains ten thousand feet high 
+305,Providence/Lily/lil57.xml,33,[3.7886904761904763], the solar system was once a cloud of dust and gas that stretched for more than a trillion miles 
+306,Providence/Lily/lil57.xml,33,[3.7886904761904763], about five billion years ago a nearby star e ploded sending shockwaves through the cloud 
+307,Providence/Lily/lil57.xml,33,[3.7886904761904763], wow the sun is more than a million times larger than the earth 
+308,Providence/Lily/lil57.xml,33,[3.7886904761904763], but it can be hundreds of degrees below zero during the long nights 
+309,Providence/Lily/lil60.xml,34,[4.382352941176471], the sun is more than a million times larger than earth 
+310,Providence/Lily/lil66.xml,36,[4.015105740181269], and appeared about two million years ago during the ice age of the pleistocene epoch 
+311,Providence/Lily/lil66.xml,36,[4.015105740181269], the saber tigers first appeared sometime between twenty six and thirty six million years ago 
+312,Providence/Lily/lil66.xml,36,[4.015105740181269], the giant sloth probably only became e tinct about eleven million years ago 
+313,Providence/Lily/lil74.xml,42,[4.022443890274314], djou do you remember which dinosaur had the two thousand teeth which dinosaur had all those teeth 
+314,Providence/Lily/lil78a.xml,46,[4.434250764525994], oh you ve you ve forgotten it even though we ve sung it two hundred fifty thousand times in the past     
+315,Providence/Naima/nai12.xml,16,[2.5553319919517103], two thousand and two 
+316,Providence/Naima/nai21.xml,19,[3.4027777777777777], october fourteenth two thousand and two 
+317,Providence/Naima/nai26.xml,20,[3.3815028901734103], where is the zero is the zero lost 
+318,Providence/Naima/nai26.xml,20,[3.3815028901734103], oh you have it in yer your hand a red zero 
+319,Providence/Naima/nai35.xml,23,[5.367088607594937], today is february third two thousand and three naima is sick and is the late afternoon not ideal taping conditions 
+320,Providence/Naima/nai39.xml,24,[4.101045296167247], you don t really have to borrow that i think that s a zero in front of mommy 
+321,Providence/Naima/nai54.xml,28,[5.2373887240356085], of july two thousand and three 
+322,Providence/Naima/nai57.xml,29,[5.782747603833866], twelfth today is august twelfth two thousand and three 
+323,Providence/Naima/nai58.xml,29,[5.369942196531792], it s august twenty first two thousand and three 
+324,Providence/Naima/nai59b.xml,29,[5.514657980456026], it is the morning of august twenty ninth two thousand and three 
+325,Providence/Naima/nai69.xml,21,[4.7351190476190474], it says diwali two thousand and three on it 
+326,Providence/Naima/nai74.xml,35,[7.131004366812227], two thousand and seven 
+327,Providence/Naima/nai74.xml,35,[7.131004366812227], two thousand and seven 
+328,Providence/Naima/nai77.xml,36,[6.898591549295775], today is march eighth two thousand four 
+329,Providence/Naima/nai77.xml,36,[6.898591549295775], well not zero nursing but you didn t wake up to nurse until four thirty 
+330,Providence/Naima/nai79.xml,37,[4.844444444444444], zero     on the cape 
+331,Providence/Naima/nai80.xml,39,[6.935393258426966], today is friday june fourth two thousand four 
+332,Providence/Naima/nai82.xml,43,[8.567901234567902], about fifty million gallons of crude oil weighed it down 
+333,Providence/Naima/nai82.xml,43,[8.567901234567902], the e  on valdez spilled out out eleven million gallons of oil 
+334,Providence/Naima/nai82.xml,43,[8.567901234567902], that much oil could fill over a thousand big swimming pools 
+335,Providence/Naima/nai82.xml,43,[8.567901234567902], the sticky oil soon covered eleven thousand square miles of ocean water 
+336,Providence/Naima/nai83.xml,46,[7.1306042884990255], two thousand five 
+337,Providence/Violet/vio26.xml,27,[2.986062717770035], i had a million toys but i was bored 
+338,Providence/Violet/vio26.xml,27,[2.986062717770035], you ve got a million toys 
+339,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine 
+340,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine 
+341,Providence/Violet/vio31.xml,29,[3.8229665071770333], why do you need me to hold you on the potty you re silly you ve gone on the potty a million times 
+342,Providence/Violet/vio36.xml,31,[4.374647887323944], and sleep in zero gravity 
+343,Providence/Violet/vio43.xml,35,[4.235772357723577], see a one and a zero makes ten 
+344,Providence/Violet/vio43.xml,35,[4.235772357723577], it s good to take an hour or two off after a hundred million years said the dinosaur 
+345,Providence/Violet/vio43.xml,35,[4.235772357723577], no said the dinosaur i ve had a good time the best i ve had in a hundred million years 
+346,Providence/Violet/vio48.xml,41,[4.073260073260073], did you know that the moon is two hundred twenty five thousand miles from earth 
+347,Providence/William/wil13.xml,23,[1.8797814207650274], you probably washed a million times at school didn t you 
+348,Providence/William/wil26.xml,30,[2.639784946236559], ten is a one and a zero 
+349,Providence/William/wil43.xml,40,[4.321212121212121], it s june first two thousand four and we re taping william     
+350,Sawyer/2-06-92.xml,[None],[0], ten million hundred pepperoni pizzas 
+351,Sawyer/2-07-92.xml,[None],[0], five four three two one zero blastoff 
+352,Sawyer/3-10-92.xml,[None],[0], i asked for purple thousand times and 
+353,Snow/800518.xml,45,[3.634831460674157], zero 
+354,Valian/05a.xml,26,[2.4956521739130433], crayons that aren t all busted up into a thousand pieces 
+355,Valian/18a.xml,29,[4.727748691099476], yeah it goes one to ten and no zero to nine zero to nine 
+356,VanKleeck/amy2.xml,45,[5.355769230769231], you re making a million bubbles 
+357,VanKleeck/amy2.xml,45,[5.355769230769231], oh amy makes a million bubbles 
+358,VanKleeck/susan2.xml,43,[5.246666666666667], i can make a million green peas 
+359,VanKleeck/susan2.xml,43,[5.246666666666667], a million and billion 
+360,Warren/john.xml,69,[8.4921875], that would be a million times a thousand 
+361,Warren/john.xml,69,[8.4921875], is that a billion 
+362,Warren/john.xml,69,[8.4921875], i think it s a million 
+363,Weist/Ben/ben10.xml,39,[6.598930481283422], this is the first tape we re making of benjamin burton on what s today august twenty fifth two thousand and two 
+364,Weist/Matt/mat23.xml,40,[3.938775510204082], five cents five o zero 
+365,Weist/Matt/mat23.xml,40,[3.938775510204082], five o zero nine 
+366,Weist/Matt/mat32.xml,45,[6.859060402684563], doesn t she have like a thousand babies or something 
+367,Weist/Matt/mat32.xml,45,[6.859060402684563], more than seven a thousand 
+368,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars 
+369,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars each ringing them up 
+370,Weist/Matt/mat46.xml,53,[5.946666666666666], but each one only costs like zero cents right 
+371,Weist/Matt/mat56.xml,60,[7.684210526315789], you may have one two or zero and i don t want to hear about any more it s starting to make me feel like you re not doing a good job 
+372,Weist/Roman/rom39.xml,53,[5.925925925925926], fifty thousand dollars 
+373,Weist/Roman/rom42.xml,56,[5.9245283018867925], zero zero six 
