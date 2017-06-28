@@ -22,7 +22,7 @@ import textStats
 corpus_root = nltk.data.find('corpora/childes/data-xml/english')
 
 #Exact matches for numbers - zero is included in each grouping for ease of comparison
-numbers_to_ten = '\\bzero\\b|\\bone\\b|\\btwo\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b'
+numbers_to_ten = '\\bzero\\b|\\bthree\\b|\\bfour\\b|\\bfive\\b|\\bsix\\b|\\bseven\\b|\\beight\\b|\\bnine\\b|\\bten\\b'
 
 numbers_teens = '\\bzero\\b|\\beleven\\b|\\btwelve\\b|\\bthirteen\\b|\\bfourteen\\b|\\bfifteen\\b|\\bsixteen\\b|\\bseventeen\\b|\\beighteen\\b|\\bnineteen\\b'
 
@@ -33,13 +33,22 @@ numbers_large = '\\bzero\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrilli
 zero = '\\bzero\\b'
 
 #list of corpora over which to iterate
-corpus = ['Bates,' 'Bernstein', 'Bliss', 'Bloom70', 'Bloom73',
-          'Bohannon', 'Braunwald', 'Brent', 'Brown', 'Carterette', 
+corpus = ['Bates', 'Bernstein', 'Bliss', 'Bloom70', 'Bloom73',
+          'Bohannon', 'Braunwald', 'Brent', 'Brown', 
           'Clark', 'Cornell', 'Cruttenden', 'Davis', 'Demetras1', 
           'Fletcher', 'Forrester', 'Garvey', 'Gathburn', 'Gathercole', 
           'Gleason', 'HSLLD', 'Haggerty', 'Hall', 'Higginson', 'Howe',
           'Korman', 'Kuczaj', 'Lara', 'MacWhinney', 'Manchester', 'McMillan', 
-          'Morisset', 'NH','Nelson', 'NewEngland','Normal', 'Post','Providence',
+          'Morisset', 'MPI-EVA-Manchester', 'NH', 'Nelson', 'NewEngland','Normal', 'Post','Providence',
+          'Rollins', 'Sachs', 'Sawyer', 'Snow','Soderstrom', 'Sprott',
+          'Suppes', 'Tardif', 'Thomas', 'Tommerdahl', 'Valian', 'VanHouten',
+          'VanKleeck', 'Warren', 'Weist', 'Wells']
+
+corpus = ['Clark', 'Cornell', 'Cruttenden', 'Davis', 'Demetras1', 
+          'Fletcher', 'Forrester', 'Garvey', 'Gathburn', 'Gathercole', 
+          'Gleason', 'HSLLD', 'Haggerty', 'Hall', 'Higginson', 'Howe',
+          'Korman', 'Kuczaj', 'Lara', 'MacWhinney', 'Manchester', 'McMillan', 
+          'Morisset', 'MPI-EVA-Manchester', 'NH', 'Nelson', 'NewEngland','Normal', 'Post','Providence',
           'Rollins', 'Sachs', 'Sawyer', 'Snow','Soderstrom', 'Sprott',
           'Suppes', 'Tardif', 'Thomas', 'Tommerdahl', 'Valian', 'VanHouten',
           'VanKleeck', 'Warren', 'Weist', 'Wells']
