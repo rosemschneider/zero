@@ -107,7 +107,7 @@ def multFreqsByAge(df1, tupes):
                     filtered.append(new_dict)    
                 else:
                     pass
-        filtered_comp.append(filtered)
+        filtered_comp.append(filtered)   
     
     #this is so hacky, but I need to get rid of the double-printed dicts
     new_filt = []
@@ -124,17 +124,18 @@ def multFreqsByAge(df1, tupes):
     
     #for every dict
     index = 0
-    for entry in new_filt:
-        for key, value in entry.items():
-            for num in tupes:
+    for entry in new_filt: #for every entry in dict
+        for key, value in entry.items(): #for every key, value pair
+            for num in tupes: #for every number I care about
                 if num == str(key):
-                    tmp_df.loc[index, num] = value                
+                    tmp_df.loc[index, num] = value #assign to relevant location                
                 else:
-                    tmp_df.loc[index, num] = 0 
+                    tmp_df.loc[index, num] = 0 #still add a zero 
         index += 1                         
 
     #now I need to join this tmp df to my main one
     df_new = pd.concat([df, tmp_df], axis = 1)
+#    df_new = df_new[(df_new['age'] != '[None]')]
     return df_new                       
 
 
@@ -148,7 +149,7 @@ freqsByAge(zero_output, 'zero')
 ##For individual number words
 #First, get the freqs by age
 #group by age and aggregate by count
-grouped = zero_output[['age', 'searchVals']].groupby('age').agg('count')
+grouped = zero_input_freqs.groupby('age')['searchVals'].sum() 
 
 #I need to learn more about pandas, but this is my clunky way of getting
 #values out of the grouped df
@@ -178,9 +179,57 @@ plt.xticks(np.arange(min(ages_int), max(ages_int)+1, 10))
 plt.title('Zero frequency by age - output')
 
 
+####THIS IS FOR MULTIPLE FREQS##########
+##this is for making graphs with multiple numbers
+teens_output = readCSV('data/teens_output.csv')
+numbers = ('nineteen', 'eighteen', 'seventeen', 'sixteen', 'fifteen', 'fourteen', 
+           'thirteen', 'twelve', 'eleven', 'zero')
+teens_output_freqs = multFreqsByAge(teens_output, numbers)
+grouped = teens_output_freqs.groupby('age')[['nineteen', 'eighteen', 'seventeen', 'sixteen', 'fifteen', 'fourteen', 
+           'thirteen', 'twelve', 'eleven', 'zero']].sum()
+
+#now get out the actual values
+grouped = grouped.reset_index()
+
+#ages_int = []
+#for age in grouped['age']:
+#    num = int(age)
+#    ages_int.append(num)
+#ages_int = np.asarray(age_int)   
+
+#convert age to integer
+grouped['age'] = grouped['age'].astype('int')
+
+#now sort the df
+grouped = grouped.sort(columns = 'age')
+
+#scatterplot
+fig = plt.figure(figsize = (8,6))
+plt.scatter(grouped['age'], grouped['fifteen'], label = 'fifteen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['sixteen'], label = 'sixteen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['seventeen'], label = 'seventeen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['eighteen'], label = 'eighteen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['nineteen'], label = 'nineteen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['zero'], label = 'zero', marker = 'o', color = 'purple')
+plt.grid()
+plt.legend(loc='upper right')
+plt.ylabel('Frequency')
+plt.xlabel('Age (months)')
+plt.title('Teen frequency - output')
+
+plt.scatter(grouped['age'], grouped['fifteen'], label = 'fifteen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['sixteen'], label = 'sixteen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['seventeen'], label = 'seventeen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['eighteen'], label = 'eighteen', marker = 'o', alpha = .4)
+plt.scatter(grouped['age'], grouped['nineteen'], label = 'nineteen', marker = 'o', alpha = .4)
 
 
 
+for y_ax in yaxs:
+    plot = grouped.plot(kind = 'scatter', x = 'age', y = tmp, title = y_ax + ' frequency - output')
+    plot.set_xlabel('Age (in months)')
+    plot.set_ylabel('Frequency in output')
+    
 
 #bigrams
 #get the utterances, and then convert to text
@@ -211,6 +260,14 @@ for bigram in bigrams:
 
 
 utterances = utteranceClean(str(utterances))
+
+##Individual corpora
+##Do children with parents who say zero say it more frequently? And earlier?
+sarah_input = readCSV('data/zero_input.csv')
+sarah_input = sarah_input['fileid']
+
+
+
 
 #now grab the bigrams
 zero_bigrams = textStats.getWordnGrams(utterances, )
