@@ -1,210 +1,227 @@
-"","fileid","age","utterance"
-"1","Braunwald/4-03-07.xml","51"," seven years and zero days "
-"2","Brent/i1/i1-0930.xml","10"," okay it s going to zero "
-"3","Brent/i1/i1-1207.xml","12"," here s zero "
-"4","Brent/i1/i1-1207.xml","12"," put zero in his spot "
-"5","Brent/i1/i1-1207.xml","12"," at two six zero one whitney avenue "
-"6","Brent/w1/w1-1206.xml","[None]"," three zero nine     "
-"7","Brent/w3/w3-1316.xml","14"," zero "
-"8","Brown/Adam/adam17.xml","35"," zero "
-"9","Brown/Adam/adam19.xml","36"," five four three two one zero blast "
-"10","Brown/Adam/adam19.xml","36"," that s five four three two one zero "
-"11","Brown/Adam/adam47.xml","52"," it says six five four two zero seven "
-"12","Brown/Adam/adam47.xml","52"," seven five four two zero seven "
-"13","Brown/Eve/eve15.xml","25"," the zero "
-"14","Brown/Sarah/sarah035.xml","35"," zero o "
-"15","Brown/Sarah/sarah055.xml","40"," um looks like an zero to me "
-"16","Brown/Sarah/sarah055.xml","40"," oh you give me the zero now "
-"17","Brown/Sarah/sarah104.xml","52"," is it an zero "
-"18","Brown/Sarah/sarah114.xml","55"," i guess that is zero "
-"19","Brown/Sarah/sarah115.xml","55"," well now you have to go make a zero "
-"20","Brown/Sarah/sarah115.xml","55"," well no you have to go make a zero "
-"21","Brown/Sarah/sarah115.xml","55"," what do you want   or zero "
-"22","Brown/Sarah/sarah115.xml","55"," oh you re zero huh "
-"23","Brown/Sarah/sarah115.xml","55"," you re a zero "
-"24","Brown/Sarah/sarah115.xml","55"," you re supposed to put the zero here so you can win "
-"25","Brown/Sarah/sarah115.xml","55"," there see if you put the zero there you would win "
-"26","Brown/Sarah/sarah115.xml","55"," you re gonna put it in there the zero "
-"27","Brown/Sarah/sarah115.xml","55"," see you should o put that zero down there so i couldn t win "
-"28","Brown/Sarah/sarah136.xml","61"," zero or an o "
-"29","Brown/Sarah/sarah136.xml","61"," no zero or an   "
-"30","Brown/Sarah/sarah136.xml","61"," oh okay i ll take zero "
-"31","Brown/Sarah/sarah137.xml","61"," you ll have a zero "
-"32","Clark/shem10.xml","29"," there it goes to zero "
-"33","Clark/shem11.xml","29"," yeah this stopped all the little numbers stopped at zero "
-"34","Clark/shem14.xml","30"," yeah it goes back to zero "
-"35","Clark/shem14.xml","30"," oh there it goes it going on to zero now see "
-"36","Clark/shem16.xml","31"," you re turning it to zero "
-"37","Clark/shem19.xml","32"," zero zero zero zero zero zero zero "
-"38","Clark/shem38.xml","37"," now we re gonna do a c for cindy and z for zero "
-"39","Cornell/lsno121.xml","60"," jessica is zero "
-"40","Cornell/mom0502.xml","[None]"," no five and a dot then you put a zero "
-"41","Cornell/mom0502.xml","[None]"," why does it say one two zero zero "
-"42","Cornell/mom07.xml","[None]"," it s almost below zero "
-"43","Cornell/mom07.xml","[None]"," where s your zero "
-"44","Cornell/mom07.xml","[None]"," why d you put a zero may i ask "
-"45","Gathercole/07.xml","[None]"," zero "
-"46","Gathercole/08.xml","[None]"," no you re you re zero "
-"47","Gathercole/08.xml","[None]"," you re zero "
-"48","Gathercole/08.xml","[None]"," how come you re zero "
-"49","Gleason/Father/charlie.xml","36"," zero if it s a number right "
-"50","Gleason/Father/charlie.xml","36"," oh that s a zero "
-"51","Gleason/Father/charlie.xml","36"," five and zero "
-"52","Gleason/Father/charlie.xml","36"," when you see five and zero together it s a fifty "
-"53","Gleason/Father/charlie.xml","36"," zero "
-"54","Gleason/Father/eddie.xml","[None]"," okay hit that zero "
-"55","Gleason/Father/guy.xml","37"," zero "
-"56","Gleason/Father/guy.xml","37"," zero means that we would get it for nothing "
-"57","Gleason/Father/guy.xml","37"," do you know what five zero says "
-"58","Gleason/Father/guy.xml","37"," and what s five zero "
-"59","Gleason/Father/helen.xml","59"," zero "
-"60","Gleason/Mother/helen.xml","59"," no that s zero "
-"61","Gleason/Mother/isadora.xml","42"," that s a zero "
-"62","Gleason/Mother/martin.xml","30"," that s number one zero "
-"63","Gleason/Mother/theresa.xml","48"," that s a zero "
-"64","Gleason/Mother/theresa.xml","48"," that s zero "
-"65","Gleason/Mother/theresa.xml","48"," for zero i ll take it "
-"66","HSLLD/HV1/MT/jesmt1.xml","43"," and zero was standing at zero feet     "
-"67","HSLLD/HV1/MT/kevmt1.xml","46"," was that the kid gets off mom wants the the zero and the the thing goes like that "
-"68","HSLLD/HV1/TP/nedtp1.xml","59"," four two seven one o zero one no four two seven two one seven five "
-"69","HSLLD/HV1/TP/shotp1.xml","43"," zero "
-"70","HSLLD/HV2/MT/brnmt2.xml","59"," zero on the floor "
-"71","HSLLD/HV2/MT/rosmt2.xml","57"," maybe she s a three with a zero after the three "
-"72","HSLLD/HV2/TP/nictp2.xml","53"," that s a one and a zero "
-"73","HSLLD/HV3/MT/anamt3.xml","70"," eight eight nine one one zero zero three "
-"74","HSLLD/HV3/MT/ethmt3.xml","67"," add a zero "
-"75","HSLLD/HV3/MT/ethmt3.xml","67"," put a zero ne t to fourteen chi "
-"76","HSLLD/HV3/MT/ethmt3.xml","67"," just add a zero "
-"77","HSLLD/HV3/MT/ethmt3.xml","67"," i know he does the concept of adding the zero um to "
-"78","HSLLD/HV3/MT/ethmt3.xml","67"," i know but then i said put the zero after the four "
-"79","HSLLD/HV5/MT/trimt5.xml","89"," less than zero "
-"80","HSLLD/HV5/MT/vicmt5.xml","90"," www they take about size zero and a half "
-"81","HSLLD/HV5/MT/vicmt5.xml","90"," i mean below zero and a half "
-"82","HSLLD/HV7/MD/anamd7.xml","[None]"," i ll be a zero www "
-"83","HSLLD/HV7/MD/jammt7.xml","124"," it doesn t start at zero "
-"84","HSLLD/HV7/MT/rosmt7.xml","117"," zero or marco or what "
-"85","Hall/BlackPro/anc.xml","57"," it makes it that much even sweeter sixseeing as to she got zero this year nothing at all "
-"86","Hall/BlackPro/jaf.xml","57"," the plane arrives at four zero one "
-"87","Hall/BlackPro/trh.xml","57"," ten nine seven six five four three two one zero blas off "
-"88","Hall/BlackPro/trh.xml","57"," zero sisters "
-"89","Hall/WhitePro/job.xml","57"," so we re batting zero on that eh "
-"90","Hall/WhiteWork/mig.xml","57"," put the nine and then the zero "
-"91","Hall/WhiteWork/mig.xml","57"," no no the zero goes after "
-"92","Hall/WhiteWork/mig.xml","57"," is one more than zero "
-"93","Hall/WhiteWork/mig.xml","57"," okay one is more than zero so it means what "
-"94","MacWhinney/65a1.xml","69"," two zero two zero "
-"95","MacWhinney/65a1.xml","69"," zero "
-"96","MacWhinney/65a1.xml","69"," two zero five one "
-"97","MacWhinney/76a1.xml","78"," just press one button and it does all those numbers that you punch you know eight zero zero five six three two nine four eight "
-"98","MacWhinney/76b1.xml","78"," zero "
-"99","Post/Lew/lew02.xml","24"," three five zero "
-"100","Post/Lew/lew02.xml","24"," mash the five now the zero "
-"101","Post/Lew/lew02.xml","24"," you can mash all at once three five zero "
-"102","Post/Tow/tow01.xml","19"," zero "
-"103","Providence/Alex/ale09.xml","21"," zero "
-"104","Providence/Alex/ale10.xml","21"," what s zero "
-"105","Providence/Alex/ale14.xml","23"," thaza that is a zero "
-"106","Providence/Alex/ale14.xml","23"," o oh zero "
-"107","Providence/Alex/ale14.xml","23"," where s your zero "
-"108","Providence/Alex/ale14.xml","23"," zero "
-"109","Providence/Alex/ale19.xml","26"," zero "
-"110","Providence/Alex/ale35.xml","33"," zero nine zero seven "
-"111","Providence/Alex/ale37.xml","34"," what s that supposed to be oh a zero "
-"112","Providence/Alex/ale37.xml","34"," zero "
-"113","Providence/Alex/ale49.xml","40"," two zero zero three "
-"114","Providence/Ethan/eth20.xml","20"," the show is at two o clock and it s twelve oh zero nine "
-"115","Providence/Ethan/eth25.xml","22"," and sleep in zero gravity when you re in a space ship you float in the air "
-"116","Providence/Ethan/eth44.xml","32"," there s the number eight there s the number two number two again there s a zero and there s the three "
-"117","Providence/Ethan/eth47.xml","34"," so he is floating up woo this is fun zero gravity is fun     "
-"118","Providence/Ethan/eth47.xml","34"," the spaceship could float away too i guess in zero gravity "
-"119","Providence/Lily/lil26.xml","24"," zero very good honey "
-"120","Providence/Lily/lil36.xml","27"," okay it s two zero two "
-"121","Providence/Lily/lil37.xml","28"," zero "
-"122","Providence/Lily/lil49b.xml","31"," it s zero "
-"123","Providence/Lily/lil57.xml","33"," but it can be hundreds of degrees below zero during the long nights "
-"124","Providence/Naima/nai26.xml","20"," where is the zero is the zero lost "
-"125","Providence/Naima/nai26.xml","20"," oh you have it in yer your hand a red zero "
-"126","Providence/Naima/nai39.xml","24"," you don t really have to borrow that i think that s a zero in front of mommy "
-"127","Providence/Naima/nai77.xml","36"," well not zero nursing but you didn t wake up to nurse until four thirty "
-"128","Providence/Naima/nai79.xml","37"," zero     on the cape "
-"129","Providence/Violet/vio26.xml","27"," ten o zero nine "
-"130","Providence/Violet/vio36.xml","31"," and sleep in zero gravity "
-"131","Providence/Violet/vio43.xml","35"," see a one and a zero makes ten "
-"132","Providence/William/wil26.xml","30"," ten is a one and a zero "
-"133","Sawyer/2-07-92.xml","[None]"," five four three two one zero blastoff "
-"134","Snow/800518.xml","45"," zero "
-"135","Valian/18a.xml","29"," yeah it goes one to ten and no zero to nine zero to nine "
-"136","Weist/Matt/mat23.xml","40"," five cents five o zero "
-"137","Weist/Matt/mat23.xml","40"," five o zero nine "
-"138","Weist/Matt/mat46.xml","53"," zero dollars "
-"139","Weist/Matt/mat46.xml","53"," zero dollars each ringing them up "
-"140","Weist/Matt/mat46.xml","53"," but each one only costs like zero cents right "
-"141","Weist/Matt/mat56.xml","60"," you may have one two or zero and i don t want to hear about any more it s starting to make me feel like you re not doing a good job "
-"142","Weist/Roman/rom42.xml","56"," zero zero six "
-"143","Bliss/nortrevo.xml","51"," eight seven nine seven six five zero "
-"144","Braunwald/0diary/020109.xml","25"," six six one zero six "
-"145","Brown/Adam/adam17.xml","35"," dat that zero beat you "
-"146","Brown/Adam/adam17.xml","35"," dat that zero "
-"147","Brown/Adam/adam17.xml","35"," dat that no zero dat that blue "
-"148","Brown/Adam/adam19.xml","36"," zero "
-"149","Brown/Adam/adam19.xml","36"," one two three zero "
-"150","Brown/Adam/adam44.xml","51"," zero "
-"151","Brown/Adam/adam44.xml","51"," zero two "
-"152","Brown/Adam/adam47.xml","52"," six zero five a b "
-"153","Brown/Adam/adam52.xml","57"," one seven zero "
-"154","Brown/Sarah/sarah115.xml","55"," a zero "
-"155","Brown/Sarah/sarah115.xml","55"," zero "
-"156","Brown/Sarah/sarah115.xml","55"," um zero "
-"157","Brown/Sarah/sarah115.xml","55"," how d you know i wanted a zero "
-"158","Brown/Sarah/sarah136.xml","61"," you want zero or um "
-"159","Brown/Sarah/sarah136.xml","61"," zero or a o "
-"160","Brown/Sarah/sarah136.xml","61"," zero or a   "
-"161","Brown/Sarah/sarah136.xml","61"," y want zero or a   "
-"162","Brown/Sarah/sarah136.xml","61"," that means you have to you want a zero "
-"163","Brown/Sarah/sarah136.xml","61"," i i want zero "
-"164","Brown/Sarah/sarah136.xml","61"," i want zero i said "
-"165","Brown/Sarah/sarah136.xml","61"," you re zero "
-"166","Brown/Sarah/sarah137.xml","61"," a zero "
-"167","Brown/Sarah/sarah137.xml","61"," i ll have a zero okay "
-"168","Clark/shem16.xml","31"," i turn it to zero "
-"169","Clark/shem16.xml","31"," turn it to zero wha dis this "
-"170","Cornell/lsno121.xml","60"," six and zero "
-"171","Gleason/Dinner/frank.xml","62"," three three three seven nine eight zero "
-"172","Gleason/Father/guy.xml","37"," zero zero zero "
-"173","Gleason/Father/guy.xml","37"," five zero "
-"174","Gleason/Father/helen.xml","59"," i got zero "
-"175","Gleason/Mother/eddie.xml","51"," um one and zero "
-"176","Gleason/Mother/eddie.xml","51"," a zero "
-"177","Gleason/Mother/guy.xml","37"," zero "
-"178","Gleason/Mother/helen.xml","59"," it s five and zero "
-"179","Gleason/Mother/theresa.xml","48"," zero "
-"180","HSLLD/HV2/MT/brnmt2.xml","59"," a zero "
-"181","HSLLD/HV2/MT/petmt2.xml","55"," i did seven zero six six five two one nine "
-"182","HSLLD/HV2/TP/emitp2.xml","51"," zero two five six six two one "
-"183","HSLLD/HV3/ET/teret3.xml","67"," zero "
-"184","HSLLD/HV3/ET/treet3.xml","67"," zero "
-"185","HSLLD/HV3/MT/kurmt3.xml","67"," at six zero "
-"186","HSLLD/HV5/MT/davmt5.xml","88"," baseball     one zero zero one zero zero zero "
-"187","HSLLD/HV5/MT/davmt5.xml","88"," one point zero zero zero because it s a     when you pitch it um     "
-"188","HSLLD/HV7/MD/jammt7.xml","124"," well see on the tv it says two three o zero zero "
-"189","Hall/WhiteWork/mig.xml","57"," um zero "
-"190","Hall/WhiteWork/sut.xml","57"," so beach bab i beach bab i zero "
-"191","Kuczaj/abe101.xml","41"," zero "
-"192","Kuczaj/abe121.xml","44"," no if you grate it up i will two zero "
-"193","Kuczaj/abe121.xml","44"," is that two zero "
-"194","Kuczaj/abe121.xml","44"," i think it s two zero "
-"195","Kuczaj/abe121.xml","44"," it is two zero "
-"196","Kuczaj/abe201.xml","58"," mom everytime i laugh zero cough "
-"197","MacWhinney/61b1.xml","66"," zero "
-"198","MacWhinney/65a1.xml","69"," i can t get zero "
-"199","MacWhinney/65a1.xml","69"," eight two three two zero five one "
-"200","MacWhinney/89b2.xml","89"," fifteen take away zero is fifteen "
-"201","Providence/Lily/lil26.xml","24"," zero "
-"202","Providence/Lily/lil49b.xml","31"," zero "
-"203","Providence/Naima/nai26.xml","20"," where did the zero go "
-"204","Providence/Naima/nai77.xml","36"," zero nursing "
-"205","VanKleeck/rachel1.xml","44"," four five zero nine eight "
-"206","Weist/Matt/mat46.xml","53"," yup zero dollars "
-"207","Weist/Roman/rom25.xml","43"," five o zero five     years "
-"208","Weist/Roman/rom42.xml","56"," no but where is zero "
-"209","Weist/Roman/rom42.xml","56"," zero zero "
+,fileid,age,mlu,utterance,participants,child_sex,context,zero_reference,zero_type,input_output,used_correctly
+0,Bliss/nortrevo.xml,51,[5.837037037037037], eight seven nine seven six five zero ,"CHI, HEI (Heidi child), TRA (Tracy child), JAC",male,children are talking about a telephone,CHI recites phone number,symbolic,output,yes
+0,Braunwald/0diary/020109.xml,25,[4.5], six six one zero six ,"CHI, MOT",female,"unclear - CHI talking to self, possibly pretending to use a phone","CHI says ""my number"" and then recites phrase",symbolic,output,yes
+0,Braunwald/4-03-07.xml,51,[4.6722689075630255], seven years and zero days ,"CHI, FAT, MOT, SIS",female,dinnertime with family,"MOT talking to SIS about age; SIS says tomorrow she will be 6 years, 365 days; Mother corrects her, and says that she will be 7 years and 0 days",,input,yes
+0,Brent/i1/i1-0930.xml,10,[0], okay it s going to zero ,"CHI, MOT, OTH",male,using a recorder of some kind,"MOT trying to figure out how to use a recorder, and display goes down to 0",symbolic,input,yes
+1,Brent/i1/i1-1207.xml,12,[1.0], here s zero ,"CHI, MOT, OTH",male,playing with a toy that has letter and number symbols,"MOT is talking to CHI, helping him put letters and numbers back in their spots on the toy",symbolic,input,yes
+2,Brent/i1/i1-1207.xml,12,[1.0], put zero in his spot ,"CHI, MOT, OTH",male,playing with a toy that has letter and number symbols,"MOT is talking to CHI, helping him put letters and numbers back in their spots on the toy",symbolic,input,yes
+3,Brent/i1/i1-1207.xml,12,[1.0], at two six zero one whitney avenue ,"CHI, MOT, OTH",male,saying an address,MOT tells CHI that he is the best baby at their address,symbolic,input,yes
+4,Brent/w1/w1-1206.xml,[None],[0], three zero nine     ,MOT,female,MOT is talking to preverbal infant,MOT starts saying random numbers,symbolic,input,yes
+5,Brent/w3/w3-1316.xml,14,[1.2105263157894737], zero ,"MOT, CHI",male,MOT and CHI reading a book with letters and numbers,MOT most likely referring to 'zero' in book,symbolic,input,yes
+0,Brown/Adam/adam17.xml,35,[3.941265060240964], zero ,"CHI, MOT, URS, RIC",male,MOT asks if CHI's pencils have numbers,CHI says there is a zero on pencil,symbolic,output,yes
+0,Brown/Adam/adam17.xml,35,[3.941265060240964], zero ,"CHI, MOT, URS, RIC",male,MOT asks if CHI's pencils have numbers,CHI says there is a zero on pencil,symbolic,output,yes
+1,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that zero beat you ,"CHI, MOT, URS, RIC",male,CHI free-associating,Unclear - free-association,noun,output,no
+2,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that zero ,"CHI, MOT, URS, RIC",male,"CHI asked ""what is this?"" but referent unclear",Possibly the pencil,,output,no
+3,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that no zero dat that blue ,"CHI, MOT, URS, RIC",male,"CHI asked ""what is this?"" but referent unclear",Possibly the pencil,,output,no
+1,Brown/Adam/adam19.xml,36,[4.303398058252427], five four three two one zero blast ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,MOT counts down blastoff,count_number,input,yes
+2,Brown/Adam/adam19.xml,36,[4.303398058252427], that s five four three two one zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,MOT counts down blastoff,count_number,input,yes
+4,Brown/Adam/adam19.xml,36,[4.303398058252427], zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,CHI repeats 'zero' in countdown,,output,
+5,Brown/Adam/adam19.xml,36,[4.303398058252427], one two three zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with toy dolls,Unclear - possibly CHI is counting the dolls,count_number,output,no
+6,Brown/Adam/adam44.xml,51,[5.919860627177701], zero ,"CHI, MOT, URS, FAT, PAU, RIC",male,CHI is looking at pictures with MOT and investigator,"CHI might be identifying numbers in the picture - he says ""number two"" and ""number three"" and ""number eight"" prior to saying ""zero"" - interesting that he doesn't say ""number zero"" if that's indeed what he's doing",symbolic,output,
+7,Brown/Adam/adam44.xml,51,[5.919860627177701], zero two ,"CHI, MOT, URS, FAT, PAU, RIC",male,CHI is looking at pictures with MOT and investigator,"CHI might be identifying numbers in the picture - he says ""number two"" and ""number three"" and ""number eight"" prior to saying ""zero"" - interesting that he doesn't say ""number zero"" if that's indeed what he's doing",symbolic,output,
+3,Brown/Adam/adam47.xml,52,[5.945668135095448], it says six five four two zero seven ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers on a stamp say, investigator answers",symbolic,input,yes
+4,Brown/Adam/adam47.xml,52,[5.945668135095448], seven five four two zero seven ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers on a stamp say, investigator answers",symbolic,input,yes
+8,Brown/Adam/adam47.xml,52,[5.945668135095448], six zero five a b ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers a stamp say, and answers his own question",symbolic,output,yes
+9,Brown/Adam/adam52.xml,57,[5.92991452991453], one seven zero ,"CHI, MOT, URS, DIA, ROB, PAU",male,CHI is playing with toy adding machine,CHI likely hitting numbers on toy,symbolic,output,yes
+5,Brown/Eve/eve15.xml,25,[4.913127413127413], the zero ,"CHI, MOT, FAT, COL, RIC",female,CHI and MOT are looking at a footage meter,"CHI asks what a number is on the meter, mother answers",symbolic,input,yes
+6,Brown/Sarah/sarah035.xml,35,[2.615], zero o ,"CHI, MOT, FAT, GLO",female,"CHI is on MOT's lap, pretending to swim","Unclear - mother possibly indicating that child has no more ""swimming kicks"" left",,input,
+7,Brown/Sarah/sarah055.xml,40,[3.294478527607362], um looks like an zero to me ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,"CHI asks what a number is, investigator responds that it looks like a 0",symbolic,input,yes
+8,Brown/Sarah/sarah055.xml,40,[3.294478527607362], oh you give me the zero now ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,Grandmother asks the child for the plastic zero,symbolic,input,yes
+9,Brown/Sarah/sarah104.xml,52,[4.288135593220339], is it an zero ,,,,,,,
+10,Brown/Sarah/sarah114.xml,55,[4.4124293785310735], i guess that is zero ,,,,,,,
+11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well now you have to go make a zero ,,,,,,,
+12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well no you have to go make a zero ,,,,,,,
+13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], what do you want   or zero ,,,,,,,
+14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], oh you re zero huh ,,,,,,,
+15,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re a zero ,,,,,,,
+16,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re supposed to put the zero here so you can win ,,,,,,,
+17,Brown/Sarah/sarah115.xml,55,[4.569377990430622], there see if you put the zero there you would win ,,,,,,,
+18,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re gonna put it in there the zero ,,,,,,,
+19,Brown/Sarah/sarah115.xml,55,[4.569377990430622], see you should o put that zero down there so i couldn t win ,,,,,,,
+10,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,,,,,,,
+11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], zero ,,,,,,,
+12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,,,,,,,
+13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], um zero ,,,,,,,
+14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], how d you know i wanted a zero ,,,,,,,
+20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or an o ,,,,,,,
+21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], no zero or an   ,,,,,,,
+22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], oh okay i ll take zero ,,,,,,,
+15,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you want zero or um ,,,,,,,
+16,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a o ,,,,,,,
+17,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a   ,,,,,,,
+18,Brown/Sarah/sarah136.xml,61,[5.21505376344086], y want zero or a   ,,,,,,,
+19,Brown/Sarah/sarah136.xml,61,[5.21505376344086], that means you have to you want a zero ,,,,,,,
+20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i i want zero ,,,,,,,
+21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i want zero i said ,,,,,,,
+22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you re zero ,,,,,,,
+23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], you ll have a zero ,,,,,,,
+23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,,,,,,,
+24,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,,,,,,,
+25,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], i ll have a zero okay ,,,,,,,
+0,Clark/shem10.xml,29,[4.9109947643979055], there it goes to zero ,,,,,,,
+1,Clark/shem11.xml,29,[6.4068627450980395], yeah this stopped all the little numbers stopped at zero ,,,,,,,
+2,Clark/shem14.xml,30,[6.509025270758123], yeah it goes back to zero ,,,,,,,
+3,Clark/shem14.xml,30,[6.509025270758123], oh there it goes it going on to zero now see ,,,,,,,
+4,Clark/shem16.xml,31,[6.876923076923077], you re turning it to zero ,,,,,,,
+0,Clark/shem16.xml,31,[6.876923076923077], i turn it to zero ,,,,,,,
+1,Clark/shem16.xml,31,[6.876923076923077], turn it to zero wha dis this ,,,,,,,
+5,Clark/shem19.xml,32,[8.252225519287833], zero zero zero zero zero zero zero ,,,,,,,
+6,Clark/shem38.xml,37,[8.495145631067961], now we re gonna do a c for cindy and z for zero ,,,,,,,
+0,Cornell/lsno121.xml,60,[5.175438596491228], jessica is zero ,,,,,,,
+0,Cornell/lsno121.xml,60,[5.175438596491228], six and zero ,,,,,,,
+1,Cornell/mom0502.xml,[None],[0], no five and a dot then you put a zero ,,,,,,,
+2,Cornell/mom0502.xml,[None],[0], why does it say one two zero zero ,,,,,,,
+3,Cornell/mom07.xml,[None],[0], it s almost below zero ,,,,,,,
+4,Cornell/mom07.xml,[None],[0], where s your zero ,,,,,,,
+5,Cornell/mom07.xml,[None],[0], why d you put a zero may i ask ,,,,,,,
+0,Gathercole/07.xml,[None],[0], zero ,,,,,,,
+1,Gathercole/07.xml,[None],[0], zero ,,,,,,,
+2,Gathercole/08.xml,[None],[0], no you re you re zero ,,,,,,,
+3,Gathercole/08.xml,[None],[0], you re zero ,,,,,,,
+4,Gathercole/08.xml,[None],[0], how come you re zero ,,,,,,,
+0,Gleason/Dinner/frank.xml,62,[4.34], three three three seven nine eight zero ,,,,,,,
+0,Gleason/Father/charlie.xml,36,[4.266666666666667], zero if it s a number right ,,,,,,,
+1,Gleason/Father/charlie.xml,36,[4.266666666666667], oh that s a zero ,,,,,,,
+2,Gleason/Father/charlie.xml,36,[4.266666666666667], five and zero ,,,,,,,
+3,Gleason/Father/charlie.xml,36,[4.266666666666667], when you see five and zero together it s a fifty ,,,,,,,
+4,Gleason/Father/charlie.xml,36,[4.266666666666667], zero ,,,,,,,
+1,Gleason/Father/charlie.xml,36,[4.266666666666667], zero ,,,,,,,
+5,Gleason/Father/eddie.xml,[None],[3.986899563318777], okay hit that zero ,,,,,,,
+6,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,,,,,,,
+7,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,,,,,,,
+8,Gleason/Father/guy.xml,37,[3.1677018633540373], zero means that we would get it for nothing ,,,,,,,
+9,Gleason/Father/guy.xml,37,[3.1677018633540373], do you know what five zero says ,,,,,,,
+10,Gleason/Father/guy.xml,37,[3.1677018633540373], and what s five zero ,,,,,,,
+2,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,,,,,,,
+3,Gleason/Father/guy.xml,37,[3.1677018633540373], zero zero zero ,,,,,,,
+4,Gleason/Father/guy.xml,37,[3.1677018633540373], five zero ,,,,,,,
+5,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,,,,,,,
+11,Gleason/Father/helen.xml,59,[5.256756756756757], zero ,,,,,,,
+6,Gleason/Father/helen.xml,59,[5.256756756756757], i got zero ,,,,,,,
+7,Gleason/Mother/eddie.xml,51,[4.32], um one and zero ,,,,,,,
+8,Gleason/Mother/eddie.xml,51,[4.32], a zero ,,,,,,,
+9,Gleason/Mother/guy.xml,37,[3.751152073732719], zero ,,,,,,,
+12,Gleason/Mother/helen.xml,59,[4.792642140468227], no that s zero ,,,,,,,
+10,Gleason/Mother/helen.xml,59,[4.792642140468227], it s five and zero ,,,,,,,
+13,Gleason/Mother/isadora.xml,42,[4.064655172413793], that s a zero ,,,,,,,
+14,Gleason/Mother/martin.xml,30,[2.930817610062893], that s number one zero ,,,,,,,
+15,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s a zero ,,,,,,,
+16,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s zero ,,,,,,,
+17,Gleason/Mother/theresa.xml,48,[5.557620817843866], for zero i ll take it ,,,,,,,
+11,Gleason/Mother/theresa.xml,48,[5.557620817843866], zero ,,,,,,,
+0,Hall/BlackPro/anc.xml,57,[5.887884267631103], it makes it that much even sweeter sixseeing as to she got zero this year nothing at all ,,,,,,,
+1,Hall/BlackPro/jaf.xml,57,[4.363957597173145], the plane arrives at four zero one ,,,,,,,
+2,Hall/BlackPro/trh.xml,57,[7.090737240075614], ten nine seven six five four three two one zero blas off ,,,,,,,
+3,Hall/BlackPro/trh.xml,57,[7.090737240075614], zero sisters ,,,,,,,
+4,Hall/WhitePro/job.xml,57,[7.728278041074249], so we re batting zero on that eh ,,,,,,,
+5,Hall/WhiteWork/mig.xml,57,[5.823569482288828], put the nine and then the zero ,,,,,,,
+6,Hall/WhiteWork/mig.xml,57,[5.823569482288828], no no the zero goes after ,,,,,,,
+7,Hall/WhiteWork/mig.xml,57,[5.823569482288828], is one more than zero ,,,,,,,
+8,Hall/WhiteWork/mig.xml,57,[5.823569482288828], okay one is more than zero so it means what ,,,,,,,
+0,Hall/WhiteWork/mig.xml,57,[5.823569482288828], um zero ,,,,,,,
+1,Hall/WhiteWork/sut.xml,57,[6.240773286467487], so beach bab i beach bab i zero ,,,,,,,
+0,HSLLD/HV1/MT/jesmt1.xml,43,[5.338028169014085], and zero was standing at zero feet     ,,,,,,,
+1,HSLLD/HV1/MT/kevmt1.xml,46,[3.978723404255319], was that the kid gets off mom wants the the zero and the the thing goes like that ,,,,,,,
+2,HSLLD/HV1/TP/nedtp1.xml,59,[3.1666666666666665], four two seven one o zero one no four two seven two one seven five ,,,,,,,
+3,HSLLD/HV1/TP/shotp1.xml,43,[3.4953271028037385], zero ,,,,,,,
+4,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
+5,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
+0,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], a zero ,,,,,,,
+1,HSLLD/HV2/MT/petmt2.xml,55,[5.282828282828283], i did seven zero six six five two one nine ,,,,,,,
+6,HSLLD/HV2/MT/rosmt2.xml,57,[5.1976744186046515], maybe she s a three with a zero after the three ,,,,,,,
+2,HSLLD/HV2/TP/emitp2.xml,51,[4.804878048780488], zero two five six six two one ,,,,,,,
+7,HSLLD/HV2/TP/nictp2.xml,53,[3.3838862559241707], that s a one and a zero ,,,,,,,
+3,HSLLD/HV3/ET/teret3.xml,67,[4.617283950617284], zero ,,,,,,,
+4,HSLLD/HV3/ET/treet3.xml,67,[4.617283950617284], zero ,,,,,,,
+8,HSLLD/HV3/MT/anamt3.xml,70,[5.03125], eight eight nine one one zero zero three ,,,,,,,
+9,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], add a zero ,,,,,,,
+10,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], put a zero ne t to fourteen chi ,,,,,,,
+11,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], just add a zero ,,,,,,,
+12,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know he does the concept of adding the zero um to ,,,,,,,
+13,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know but then i said put the zero after the four ,,,,,,,
+5,HSLLD/HV3/MT/kurmt3.xml,67,[4.425531914893617], at six zero ,,,,,,,
+6,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], baseball     one zero zero one zero zero zero ,,,,,,,
+7,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], one point zero zero zero because it s a     when you pitch it um     ,,,,,,,
+14,HSLLD/HV5/MT/trimt5.xml,89,[8.511111111111111], less than zero ,,,,,,,
+15,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], www they take about size zero and a half ,,,,,,,
+16,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], i mean below zero and a half ,,,,,,,
+17,HSLLD/HV7/MD/anamd7.xml,[None],[0], i ll be a zero www ,,,,,,,
+18,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], it doesn t start at zero ,,,,,,,
+8,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], well see on the tv it says two three o zero zero ,,,,,,,
+19,HSLLD/HV7/MT/rosmt7.xml,117,[5.615384615384615], zero or marco or what ,,,,,,,
+0,Kuczaj/abe101.xml,41,[7.850467289719626], zero ,,,,,,,
+1,Kuczaj/abe121.xml,44,[7.992424242424242], no if you grate it up i will two zero ,,,,,,,
+2,Kuczaj/abe121.xml,44,[7.992424242424242], is that two zero ,,,,,,,
+3,Kuczaj/abe121.xml,44,[7.992424242424242], i think it s two zero ,,,,,,,
+4,Kuczaj/abe121.xml,44,[7.992424242424242], it is two zero ,,,,,,,
+5,Kuczaj/abe201.xml,58,[7.829268292682927], mom everytime i laugh zero cough ,,,,,,,
+0,MacWhinney/61b1.xml,66,[11.893333333333333], zero ,,,,,,,
+0,MacWhinney/65a1.xml,69,[6.735632183908046], two zero two zero ,,,,,,,
+1,MacWhinney/65a1.xml,69,[6.735632183908046], zero ,,,,,,,
+2,MacWhinney/65a1.xml,69,[6.735632183908046], two zero five one ,,,,,,,
+1,MacWhinney/65a1.xml,69,[6.735632183908046], i can t get zero ,,,,,,,
+2,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+3,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+4,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+5,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+3,MacWhinney/76a1.xml,78,[7.2105263157894735], just press one button and it does all those numbers that you punch you know eight zero zero five six three two nine four eight ,,,,,,,
+4,MacWhinney/76b1.xml,78,[8.909090909090908], zero ,,,,,,,
+5,MacWhinney/76b1.xml,78,[8.909090909090908], zero ,,,,,,,
+6,MacWhinney/89b2.xml,89,[4.057142857142857], fifteen take away zero is fifteen ,,,,,,,
+0,Post/Lew/lew02.xml,24,[1.6917808219178083], three five zero ,,,,,,,
+1,Post/Lew/lew02.xml,24,[1.6917808219178083], mash the five now the zero ,,,,,,,
+2,Post/Lew/lew02.xml,24,[1.6917808219178083], you can mash all at once three five zero ,,,,,,,
+3,Post/Tow/tow01.xml,19,[1.871212121212121], zero ,,,,,,,
+0,Providence/Alex/ale09.xml,21,[1.6873239436619718], zero ,,,,,,,
+1,Providence/Alex/ale10.xml,21,[1.9292035398230087], what s zero ,,,,,,,
+2,Providence/Alex/ale14.xml,23,[1.4817518248175183], thaza that is a zero ,,,,,,,
+3,Providence/Alex/ale14.xml,23,[1.4817518248175183], o oh zero ,,,,,,,
+4,Providence/Alex/ale14.xml,23,[1.4817518248175183], where s your zero ,,,,,,,
+5,Providence/Alex/ale14.xml,23,[1.4817518248175183], zero ,,,,,,,
+6,Providence/Alex/ale19.xml,26,[1.7857142857142858], zero ,,,,,,,
+7,Providence/Alex/ale35.xml,33,[2.6504065040650406], zero nine zero seven ,,,,,,,
+8,Providence/Alex/ale37.xml,34,[2.669826224328594], what s that supposed to be oh a zero ,,,,,,,
+9,Providence/Alex/ale37.xml,34,[2.669826224328594], zero ,,,,,,,
+0,Providence/Alex/ale37.xml,34,[2.669826224328594], zero ,,,,,,,
+10,Providence/Alex/ale49.xml,40,[3.1227436823104693], two zero zero three ,,,,,,,
+11,Providence/Ethan/eth20.xml,20,[2.836244541484716], the show is at two o clock and it s twelve oh zero nine ,,,,,,,
+12,Providence/Ethan/eth25.xml,22,[3.8], and sleep in zero gravity when you re in a space ship you float in the air ,,,,,,,
+13,Providence/Ethan/eth44.xml,32,[3.0706401766004414], there s the number eight there s the number two number two again there s a zero and there s the three ,,,,,,,
+14,Providence/Ethan/eth47.xml,34,[3.943469785575049], so he is floating up woo this is fun zero gravity is fun     ,,,,,,,
+15,Providence/Ethan/eth47.xml,34,[3.943469785575049], the spaceship could float away too i guess in zero gravity ,,,,,,,
+16,Providence/Lily/lil26.xml,24,[2.7415506958250497], zero very good honey ,,,,,,,
+1,Providence/Lily/lil26.xml,24,[2.7415506958250497], zero ,,,,,,,
+17,Providence/Lily/lil36.xml,27,[4.625], okay it s two zero two ,,,,,,,
+18,Providence/Lily/lil37.xml,28,[5.458471760797342], zero ,,,,,,,
+2,Providence/Lily/lil37.xml,28,[5.458471760797342], zero ,,,,,,,
+19,Providence/Lily/lil49b.xml,31,[5.682568807339449], it s zero ,,,,,,,
+3,Providence/Lily/lil49b.xml,31,[5.682568807339449], zero ,,,,,,,
+20,Providence/Lily/lil57.xml,33,[3.7886904761904763], but it can be hundreds of degrees below zero during the long nights ,,,,,,,
+21,Providence/Naima/nai26.xml,20,[3.3815028901734103], where is the zero is the zero lost ,,,,,,,
+22,Providence/Naima/nai26.xml,20,[3.3815028901734103], oh you have it in yer your hand a red zero ,,,,,,,
+4,Providence/Naima/nai26.xml,20,[3.3815028901734103], where did the zero go ,,,,,,,
+23,Providence/Naima/nai39.xml,24,[4.101045296167247], you don t really have to borrow that i think that s a zero in front of mommy ,,,,,,,
+24,Providence/Naima/nai77.xml,36,[6.898591549295775], well not zero nursing but you didn t wake up to nurse until four thirty ,,,,,,,
+5,Providence/Naima/nai77.xml,36,[6.898591549295775], zero nursing ,,,,,,,
+25,Providence/Naima/nai79.xml,37,[4.844444444444444], zero     on the cape ,,,,,,,
+26,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine ,,,,,,,
+27,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine ,,,,,,,
+28,Providence/Violet/vio36.xml,31,[4.374647887323944], and sleep in zero gravity ,,,,,,,
+29,Providence/Violet/vio43.xml,35,[4.235772357723577], see a one and a zero makes ten ,,,,,,,
+30,Providence/William/wil26.xml,30,[2.639784946236559], ten is a one and a zero ,,,,,,,
+0,Sawyer/2-07-92.xml,[None],[0], five four three two one zero blastoff ,,,,,,,
+0,Snow/800518.xml,45,[3.634831460674157], zero ,,,,,,,
+0,Valian/18a.xml,29,[4.727748691099476], yeah it goes one to ten and no zero to nine zero to nine ,,,,,,,
+0,VanKleeck/rachel1.xml,44,[5.661764705882353], four five zero nine eight ,,,,,,,
+0,Weist/Matt/mat23.xml,40,[3.938775510204082], five cents five o zero ,,,,,,,
+1,Weist/Matt/mat23.xml,40,[3.938775510204082], five o zero nine ,,,,,,,
+2,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars ,,,,,,,
+3,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars each ringing them up ,,,,,,,
+4,Weist/Matt/mat46.xml,53,[5.946666666666666], but each one only costs like zero cents right ,,,,,,,
+0,Weist/Matt/mat46.xml,53,[5.946666666666666], yup zero dollars ,,,,,,,
+1,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars ,,,,,,,
+5,Weist/Matt/mat56.xml,60,[7.684210526315789], you may have one two or zero and i don t want to hear about any more it s starting to make me feel like you re not doing a good job ,,,,,,,
+2,Weist/Roman/rom25.xml,43,[12.074324324324325], five o zero five     years ,,,,,,,
+6,Weist/Roman/rom42.xml,56,[5.9245283018867925], zero zero six ,,,,,,,
+3,Weist/Roman/rom42.xml,56,[5.9245283018867925], no but where is zero ,,,,,,,
+4,Weist/Roman/rom42.xml,56,[5.9245283018867925], zero zero ,,,,,,,
