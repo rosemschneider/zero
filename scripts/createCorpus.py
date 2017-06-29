@@ -30,7 +30,7 @@ numbers_decades = '\\bzero\\b|\\btwenty\\b|\\bthirty\\b|\\bforty\\b|\\bfifty\\b|
 
 numbers_large = '\\bzero\\b|\\bthousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b'
 
-zero = '\\bzero\\b'
+zero_none = '\\bzero\\b|\\bnone\\b'
 
 #list of corpora over which to iterate
 corpus = ['Bates', 'Bernstein', 'Bliss', 'Bloom70', 'Bloom73',
@@ -43,6 +43,8 @@ corpus = ['Bates', 'Bernstein', 'Bliss', 'Bloom70', 'Bloom73',
           'Rollins', 'Sachs', 'Sawyer', 'Snow','Soderstrom', 'Sprott',
           'Suppes', 'Tardif', 'Thomas', 'Tommerdahl', 'Valian', 'VanHouten',
           'VanKleeck', 'Warren', 'Weist', 'Wells']
+
+corpus_reversed = corpus[::-1]
 
 corpus = ['Clark', 'Cornell', 'Cruttenden', 'Davis', 'Demetras1', 
           'Fletcher', 'Forrester', 'Garvey', 'Gathburn', 'Gathercole', 
