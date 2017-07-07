@@ -57,16 +57,16 @@
 23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], you ll have a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,GAI asks CHI if she's O in tic-tac-toe,symbolic,input,yes
 23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
 24,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
-25,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], i ll have a zero okay ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
-0,Clark/shem10.xml,29,[4.9109947643979055], there it goes to zero ,,,,,,,
-1,Clark/shem11.xml,29,[6.4068627450980395], yeah this stopped all the little numbers stopped at zero ,,,,,,,
-2,Clark/shem14.xml,30,[6.509025270758123], yeah it goes back to zero ,,,,,,,
-3,Clark/shem14.xml,30,[6.509025270758123], oh there it goes it going on to zero now see ,,,,,,,
-4,Clark/shem16.xml,31,[6.876923076923077], you re turning it to zero ,,,,,,,
-0,Clark/shem16.xml,31,[6.876923076923077], i turn it to zero ,,,,,,,
-1,Clark/shem16.xml,31,[6.876923076923077], turn it to zero wha dis this ,,,,,,,
-5,Clark/shem19.xml,32,[8.252225519287833], zero zero zero zero zero zero zero ,,,,,,,
-6,Clark/shem38.xml,37,[8.495145631067961], now we re gonna do a c for cindy and z for zero ,,,,,,,
+25,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], i ll have a zero okay ,"CHI, MOT, GAI",male,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
+0,Clark/shem10.xml,29,[4.9109947643979055], there it goes to zero ,"CHI, MOT, INV",male,CHI and investigator are playing with a tape recorder,Investigator points out that the numbers on the recorder go to zero,symbolic,input,yes
+1,Clark/shem11.xml,29,[6.4068627450980395], yeah this stopped all the little numbers stopped at zero ,"CHI, MOT, INV",male,CHI and investigator are playing with the UV meter,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
+2,Clark/shem14.xml,30,[6.509025270758123], yeah it goes back to zero ,"CHI, MOT, INV, FAT",male,CHI and investigator are playing with tape recorder,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
+3,Clark/shem14.xml,30,[6.509025270758123], oh there it goes it going on to zero now see ,"CHI, MOT, INV, FAT",male,CHI and investigator are playing with tape recorder,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
+4,Clark/shem16.xml,31,[6.876923076923077], you re turning it to zero ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,Adult (MRX) asks if the child is turning the counter to zero,symbolic,input,yes
+0,Clark/shem16.xml,31,[6.876923076923077], i turn it to zero ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,CHI states that he is going to turn the counter to zero,symbolic,output,yes
+1,Clark/shem16.xml,31,[6.876923076923077], turn it to zero wha dis this ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,CHI states that he is going to turn the counter to zero,symbolic,output,yes
+5,Clark/shem19.xml,32,[8.252225519287833], zero zero zero zero zero zero zero ,"CHI, INV",male,CHI is playing with a phone,"INV asks child what the phone number is, and child answers",symbolic,output,yes
+6,Clark/shem38.xml,37,[8.495145631067961], now we re gonna do a c for cindy and z for zero ,"CHI, FAT, INV",male,CHI and INV seem to be playing with a toy that has letters,INV says that the child needs to press 'z' for 'zero',,input,yes
 0,Cornell/lsno121.xml,60,[5.175438596491228], jessica is zero ,,,,,,,
 0,Cornell/lsno121.xml,60,[5.175438596491228], six and zero ,,,,,,,
 1,Cornell/mom0502.xml,[None],[0], no five and a dot then you put a zero ,,,,,,,
