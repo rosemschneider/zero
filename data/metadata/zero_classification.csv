@@ -67,13 +67,13 @@
 1,Clark/shem16.xml,31,[6.876923076923077], turn it to zero wha dis this ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,CHI states that he is going to turn the counter to zero,symbolic,output,yes
 5,Clark/shem19.xml,32,[8.252225519287833], zero zero zero zero zero zero zero ,"CHI, INV",male,CHI is playing with a phone,"INV asks child what the phone number is, and child answers",symbolic,output,yes
 6,Clark/shem38.xml,37,[8.495145631067961], now we re gonna do a c for cindy and z for zero ,"CHI, FAT, INV",male,CHI and INV seem to be playing with a toy that has letters,INV says that the child needs to press 'z' for 'zero',,input,yes
-0,Cornell/lsno121.xml,60,[5.175438596491228], jessica is zero ,,,,,,,
-0,Cornell/lsno121.xml,60,[5.175438596491228], six and zero ,,,,,,,
-1,Cornell/mom0502.xml,[None],[0], no five and a dot then you put a zero ,,,,,,,
-2,Cornell/mom0502.xml,[None],[0], why does it say one two zero zero ,,,,,,,
-3,Cornell/mom07.xml,[None],[0], it s almost below zero ,,,,,,,
-4,Cornell/mom07.xml,[None],[0], where s your zero ,,,,,,,
-5,Cornell/mom07.xml,[None],[0], why d you put a zero may i ask ,,,,,,,
+0,Cornell/lsno121.xml,60,[5.175438596491228], jessica is zero ,"CHI, MOT, NUR",male,CHI and MOT are talking about ages,MOT says that a baby sister is 'zero',,input,yes
+0,Cornell/lsno121.xml,60,[5.175438596491228], six and zero ,"CHI, MOT, NUR",male,NUR asks CHI how old siblings are,CHI responds siblings are six and zero,,output,yes
+1,Cornell/mom0502.xml,[None],[0], no five and a dot then you put a zero ,"WEN (child), MOT, NIC (child), ALT (child), ERL (child), FAT, GRA",,MOT asks ERL how he would write the time on a clock,MOT asks ERL how he would write the time on a clock,,output,yes
+2,Cornell/mom0502.xml,[None],[0], why does it say one two zero zero ,"WEN (child), MOT, NIC (child), ALT (child), ERL (child), FAT, GRA",,ALT asks why something (lightbulb?) says 1200,ALT asks why something (lightbulb?) says 1200,symbolic,output,yes
+3,Cornell/mom07.xml,[None],[0], it s almost below zero ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,Family is talking about Halloween costumes,DAN (child) says that the temperature is almost below zero,,output,yes
+4,Cornell/mom07.xml,[None],[0], where s your zero ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,DAN (child) and MOT are helping JEN with her homework,DAN (child) asks JEN why she put a zero in the answer for her homework,symbolic,output,yes
+5,Cornell/mom07.xml,[None],[0], why d you put a zero may i ask ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,DAN (child) and MOT are helping JEN with her homework,DAN (child) asks JEN why she put a zero in the answer for her homework,symbolic,output,yes
 0,Gathercole/07.xml,[None],[0], zero ,,,,,,,
 1,Gathercole/07.xml,[None],[0], zero ,,,,,,,
 2,Gathercole/08.xml,[None],[0], no you re you re zero ,,,,,,,
