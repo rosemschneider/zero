@@ -27,37 +27,37 @@
 6,Brown/Sarah/sarah035.xml,35,[2.615], zero o ,"CHI, MOT, FAT, GLO",female,"CHI is on MOT's lap, pretending to swim","Unclear - mother possibly indicating that child has no more ""swimming kicks"" left",,input,
 7,Brown/Sarah/sarah055.xml,40,[3.294478527607362], um looks like an zero to me ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,"CHI asks what a number is, investigator responds that it looks like a 0",symbolic,input,yes
 8,Brown/Sarah/sarah055.xml,40,[3.294478527607362], oh you give me the zero now ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,Grandmother asks the child for the plastic zero,symbolic,input,yes
-9,Brown/Sarah/sarah104.xml,52,[4.288135593220339], is it an zero ,,,,,,,
-10,Brown/Sarah/sarah114.xml,55,[4.4124293785310735], i guess that is zero ,,,,,,,
-11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well now you have to go make a zero ,,,,,,,
-12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well no you have to go make a zero ,,,,,,,
-13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], what do you want   or zero ,,,,,,,
-14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], oh you re zero huh ,,,,,,,
-15,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re a zero ,,,,,,,
-16,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re supposed to put the zero here so you can win ,,,,,,,
-17,Brown/Sarah/sarah115.xml,55,[4.569377990430622], there see if you put the zero there you would win ,,,,,,,
-18,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re gonna put it in there the zero ,,,,,,,
-19,Brown/Sarah/sarah115.xml,55,[4.569377990430622], see you should o put that zero down there so i couldn t win ,,,,,,,
-10,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,,,,,,,
-11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], zero ,,,,,,,
-12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,,,,,,,
-13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], um zero ,,,,,,,
-14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], how d you know i wanted a zero ,,,,,,,
-20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or an o ,,,,,,,
-21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], no zero or an   ,,,,,,,
-22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], oh okay i ll take zero ,,,,,,,
-15,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you want zero or um ,,,,,,,
-16,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a o ,,,,,,,
-17,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a   ,,,,,,,
-18,Brown/Sarah/sarah136.xml,61,[5.21505376344086], y want zero or a   ,,,,,,,
-19,Brown/Sarah/sarah136.xml,61,[5.21505376344086], that means you have to you want a zero ,,,,,,,
-20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i i want zero ,,,,,,,
-21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i want zero i said ,,,,,,,
-22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you re zero ,,,,,,,
-23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], you ll have a zero ,,,,,,,
-23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,,,,,,,
-24,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,,,,,,,
-25,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], i ll have a zero okay ,,,,,,,
+9,Brown/Sarah/sarah104.xml,52,[4.288135593220339], is it an zero ,"CHI, MOT, FAT, GAI, MEL, ",female,CHI is drawing and talking with investigator (MEL),"CHI is writing letters and numbers, and the investigator asks CHI whether a letter/number is a zero. CHI answers in the affirmative. ",symbolic,input,yes
+10,Brown/Sarah/sarah114.xml,55,[4.4124293785310735], i guess that is zero ,"CHI, MOT, MEL, GAI",female,CHI is writing and drawing with investigator (MEL),"CHI is copying what the investigator wrote earlier - the investigator might have asked a clarifying question earlier about what character the child was writing, and then agrees that the child did write a a zero",symbolic,input,yes
+11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well now you have to go make a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT tells CHI she needs to make a zero as her move in the game,symbolic,input,yes
+12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well no you have to go make a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT tells CHI she needs to make a zero as her move in the game,symbolic,input,yes
+13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], what do you want   or zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT asks CHI whether she wants to be X or O,symbolic,input,yes
+14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], oh you re zero huh ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+15,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+16,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re supposed to put the zero here so you can win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+17,Brown/Sarah/sarah115.xml,55,[4.569377990430622], there see if you put the zero there you would win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+18,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re gonna put it in there the zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+19,Brown/Sarah/sarah115.xml,55,[4.569377990430622], see you should o put that zero down there so i couldn t win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+10,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], um zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], how d you know i wanted a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or an o ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - MOT is helping with explanation,symbolic,input,yes
+21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], no zero or an   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - MOT is helping with explanation,symbolic,input,yes
+22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], oh okay i ll take zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - GAI says that she'll be the zero,symbolic,input,yes
+15,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you want zero or um ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+16,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a o ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,"CHI is explaining to GAI how to play tic-tac-toe, CHI asks GAI whether she wants to be 'zero' or an o - doesn't seem to have perfectly mapped zero to symbolic form",symbolic,output,no
+17,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,"CHI is explaining to GAI how to play tic-tac-toe, CHI asks GAI whether she wants to be 'zero' or an x after being corrected by MOT",symbolic,output,yes
+18,Brown/Sarah/sarah136.xml,61,[5.21505376344086], y want zero or a   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+19,Brown/Sarah/sarah136.xml,61,[5.21505376344086], that means you have to you want a zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i i want zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i want zero i said ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you re zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], you ll have a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,GAI asks CHI if she's O in tic-tac-toe,symbolic,input,yes
+23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
+24,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
+25,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], i ll have a zero okay ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
 0,Clark/shem10.xml,29,[4.9109947643979055], there it goes to zero ,,,,,,,
 1,Clark/shem11.xml,29,[6.4068627450980395], yeah this stopped all the little numbers stopped at zero ,,,,,,,
 2,Clark/shem14.xml,30,[6.509025270758123], yeah it goes back to zero ,,,,,,,
