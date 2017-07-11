@@ -1,227 +1,227 @@
 ,fileid,age,mlu,utterance,participants,child_sex,context,zero_reference,zero_type,input_output,used_correctly
 0,Bliss/nortrevo.xml,51,[5.837037037037037], eight seven nine seven six five zero ,"CHI, HEI (Heidi child), TRA (Tracy child), JAC",male,children are talking about a telephone,CHI recites phone number,symbolic,output,yes
-0,Braunwald/0diary/020109.xml,25,[4.5], six six one zero six ,"CHI, MOT",female,"unclear - CHI talking to self, possibly pretending to use a phone","CHI says ""my number"" and then recites phrase",symbolic,output,yes
-0,Braunwald/4-03-07.xml,51,[4.6722689075630255], seven years and zero days ,"CHI, FAT, MOT, SIS",female,dinnertime with family,"MOT talking to SIS about age; SIS says tomorrow she will be 6 years, 365 days; Mother corrects her, and says that she will be 7 years and 0 days",,input,yes
-0,Brent/i1/i1-0930.xml,10,[0], okay it s going to zero ,"CHI, MOT, OTH",male,using a recorder of some kind,"MOT trying to figure out how to use a recorder, and display goes down to 0",symbolic,input,yes
-1,Brent/i1/i1-1207.xml,12,[1.0], here s zero ,"CHI, MOT, OTH",male,playing with a toy that has letter and number symbols,"MOT is talking to CHI, helping him put letters and numbers back in their spots on the toy",symbolic,input,yes
-2,Brent/i1/i1-1207.xml,12,[1.0], put zero in his spot ,"CHI, MOT, OTH",male,playing with a toy that has letter and number symbols,"MOT is talking to CHI, helping him put letters and numbers back in their spots on the toy",symbolic,input,yes
-3,Brent/i1/i1-1207.xml,12,[1.0], at two six zero one whitney avenue ,"CHI, MOT, OTH",male,saying an address,MOT tells CHI that he is the best baby at their address,symbolic,input,yes
-4,Brent/w1/w1-1206.xml,[None],[0], three zero nine     ,MOT,female,MOT is talking to preverbal infant,MOT starts saying random numbers,symbolic,input,yes
-5,Brent/w3/w3-1316.xml,14,[1.2105263157894737], zero ,"MOT, CHI",male,MOT and CHI reading a book with letters and numbers,MOT most likely referring to 'zero' in book,symbolic,input,yes
-0,Brown/Adam/adam17.xml,35,[3.941265060240964], zero ,"CHI, MOT, URS, RIC",male,MOT asks if CHI's pencils have numbers,CHI says there is a zero on pencil,symbolic,output,yes
-0,Brown/Adam/adam17.xml,35,[3.941265060240964], zero ,"CHI, MOT, URS, RIC",male,MOT asks if CHI's pencils have numbers,CHI says there is a zero on pencil,symbolic,output,yes
-1,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that zero beat you ,"CHI, MOT, URS, RIC",male,CHI free-associating,Unclear - free-association,noun,output,no
-2,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that zero ,"CHI, MOT, URS, RIC",male,"CHI asked ""what is this?"" but referent unclear",Possibly the pencil,,output,no
-3,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that no zero dat that blue ,"CHI, MOT, URS, RIC",male,"CHI asked ""what is this?"" but referent unclear",Possibly the pencil,,output,no
-1,Brown/Adam/adam19.xml,36,[4.303398058252427], five four three two one zero blast ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,MOT counts down blastoff,count_number,input,yes
-2,Brown/Adam/adam19.xml,36,[4.303398058252427], that s five four three two one zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,MOT counts down blastoff,count_number,input,yes
-4,Brown/Adam/adam19.xml,36,[4.303398058252427], zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,CHI repeats 'zero' in countdown,,output,
-5,Brown/Adam/adam19.xml,36,[4.303398058252427], one two three zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with toy dolls,Unclear - possibly CHI is counting the dolls,count_number,output,no
-6,Brown/Adam/adam44.xml,51,[5.919860627177701], zero ,"CHI, MOT, URS, FAT, PAU, RIC",male,CHI is looking at pictures with MOT and investigator,"CHI might be identifying numbers in the picture - he says ""number two"" and ""number three"" and ""number eight"" prior to saying ""zero"" - interesting that he doesn't say ""number zero"" if that's indeed what he's doing",symbolic,output,
-7,Brown/Adam/adam44.xml,51,[5.919860627177701], zero two ,"CHI, MOT, URS, FAT, PAU, RIC",male,CHI is looking at pictures with MOT and investigator,"CHI might be identifying numbers in the picture - he says ""number two"" and ""number three"" and ""number eight"" prior to saying ""zero"" - interesting that he doesn't say ""number zero"" if that's indeed what he's doing",symbolic,output,
-3,Brown/Adam/adam47.xml,52,[5.945668135095448], it says six five four two zero seven ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers on a stamp say, investigator answers",symbolic,input,yes
-4,Brown/Adam/adam47.xml,52,[5.945668135095448], seven five four two zero seven ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers on a stamp say, investigator answers",symbolic,input,yes
-8,Brown/Adam/adam47.xml,52,[5.945668135095448], six zero five a b ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers a stamp say, and answers his own question",symbolic,output,yes
-9,Brown/Adam/adam52.xml,57,[5.92991452991453], one seven zero ,"CHI, MOT, URS, DIA, ROB, PAU",male,CHI is playing with toy adding machine,CHI likely hitting numbers on toy,symbolic,output,yes
-5,Brown/Eve/eve15.xml,25,[4.913127413127413], the zero ,"CHI, MOT, FAT, COL, RIC",female,CHI and MOT are looking at a footage meter,"CHI asks what a number is on the meter, mother answers",symbolic,input,yes
-6,Brown/Sarah/sarah035.xml,35,[2.615], zero o ,"CHI, MOT, FAT, GLO",female,"CHI is on MOT's lap, pretending to swim","Unclear - mother possibly indicating that child has no more ""swimming kicks"" left",,input,
-7,Brown/Sarah/sarah055.xml,40,[3.294478527607362], um looks like an zero to me ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,"CHI asks what a number is, investigator responds that it looks like a 0",symbolic,input,yes
-8,Brown/Sarah/sarah055.xml,40,[3.294478527607362], oh you give me the zero now ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,Grandmother asks the child for the plastic zero,symbolic,input,yes
-9,Brown/Sarah/sarah104.xml,52,[4.288135593220339], is it an zero ,"CHI, MOT, FAT, GAI, MEL, ",female,CHI is drawing and talking with investigator (MEL),"CHI is writing letters and numbers, and the investigator asks CHI whether a letter/number is a zero. CHI answers in the affirmative. ",symbolic,input,yes
-10,Brown/Sarah/sarah114.xml,55,[4.4124293785310735], i guess that is zero ,"CHI, MOT, MEL, GAI",female,CHI is writing and drawing with investigator (MEL),"CHI is copying what the investigator wrote earlier - the investigator might have asked a clarifying question earlier about what character the child was writing, and then agrees that the child did write a a zero",symbolic,input,yes
-11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well now you have to go make a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT tells CHI she needs to make a zero as her move in the game,symbolic,input,yes
-12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well no you have to go make a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT tells CHI she needs to make a zero as her move in the game,symbolic,input,yes
-13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], what do you want   or zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT asks CHI whether she wants to be X or O,symbolic,input,yes
-14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], oh you re zero huh ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
-15,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
-16,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re supposed to put the zero here so you can win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
-17,Brown/Sarah/sarah115.xml,55,[4.569377990430622], there see if you put the zero there you would win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
-18,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re gonna put it in there the zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
-19,Brown/Sarah/sarah115.xml,55,[4.569377990430622], see you should o put that zero down there so i couldn t win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
-10,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
-11,Brown/Sarah/sarah115.xml,55,[4.569377990430622], zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
-12,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
-13,Brown/Sarah/sarah115.xml,55,[4.569377990430622], um zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
-14,Brown/Sarah/sarah115.xml,55,[4.569377990430622], how d you know i wanted a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
-20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or an o ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - MOT is helping with explanation,symbolic,input,yes
-21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], no zero or an   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - MOT is helping with explanation,symbolic,input,yes
-22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], oh okay i ll take zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - GAI says that she'll be the zero,symbolic,input,yes
-15,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you want zero or um ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
-16,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a o ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,"CHI is explaining to GAI how to play tic-tac-toe, CHI asks GAI whether she wants to be 'zero' or an o - doesn't seem to have perfectly mapped zero to symbolic form",symbolic,output,no
-17,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,"CHI is explaining to GAI how to play tic-tac-toe, CHI asks GAI whether she wants to be 'zero' or an x after being corrected by MOT",symbolic,output,yes
-18,Brown/Sarah/sarah136.xml,61,[5.21505376344086], y want zero or a   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
-19,Brown/Sarah/sarah136.xml,61,[5.21505376344086], that means you have to you want a zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
-20,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i i want zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
-21,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i want zero i said ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
-22,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you re zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
-23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], you ll have a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,GAI asks CHI if she's O in tic-tac-toe,symbolic,input,yes
-23,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
-24,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
-25,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], i ll have a zero okay ,"CHI, MOT, GAI",male,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
-0,Clark/shem10.xml,29,[4.9109947643979055], there it goes to zero ,"CHI, MOT, INV",male,CHI and investigator are playing with a tape recorder,Investigator points out that the numbers on the recorder go to zero,symbolic,input,yes
-1,Clark/shem11.xml,29,[6.4068627450980395], yeah this stopped all the little numbers stopped at zero ,"CHI, MOT, INV",male,CHI and investigator are playing with the UV meter,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
-2,Clark/shem14.xml,30,[6.509025270758123], yeah it goes back to zero ,"CHI, MOT, INV, FAT",male,CHI and investigator are playing with tape recorder,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
-3,Clark/shem14.xml,30,[6.509025270758123], oh there it goes it going on to zero now see ,"CHI, MOT, INV, FAT",male,CHI and investigator are playing with tape recorder,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
-4,Clark/shem16.xml,31,[6.876923076923077], you re turning it to zero ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,Adult (MRX) asks if the child is turning the counter to zero,symbolic,input,yes
-0,Clark/shem16.xml,31,[6.876923076923077], i turn it to zero ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,CHI states that he is going to turn the counter to zero,symbolic,output,yes
-1,Clark/shem16.xml,31,[6.876923076923077], turn it to zero wha dis this ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,CHI states that he is going to turn the counter to zero,symbolic,output,yes
-5,Clark/shem19.xml,32,[8.252225519287833], zero zero zero zero zero zero zero ,"CHI, INV",male,CHI is playing with a phone,"INV asks child what the phone number is, and child answers",symbolic,output,yes
-6,Clark/shem38.xml,37,[8.495145631067961], now we re gonna do a c for cindy and z for zero ,"CHI, FAT, INV",male,CHI and INV seem to be playing with a toy that has letters,INV says that the child needs to press 'z' for 'zero',,input,yes
-0,Cornell/lsno121.xml,60,[5.175438596491228], jessica is zero ,"CHI, MOT, NUR",male,CHI and MOT are talking about ages,MOT says that a baby sister is 'zero',,input,yes
-0,Cornell/lsno121.xml,60,[5.175438596491228], six and zero ,"CHI, MOT, NUR",male,NUR asks CHI how old siblings are,CHI responds siblings are six and zero,,output,yes
-1,Cornell/mom0502.xml,[None],[0], no five and a dot then you put a zero ,"WEN (child), MOT, NIC (child), ALT (child), ERL (child), FAT, GRA",,MOT asks ERL how he would write the time on a clock,MOT asks ERL how he would write the time on a clock,,output,yes
-2,Cornell/mom0502.xml,[None],[0], why does it say one two zero zero ,"WEN (child), MOT, NIC (child), ALT (child), ERL (child), FAT, GRA",,ALT asks why something (lightbulb?) says 1200,ALT asks why something (lightbulb?) says 1200,symbolic,output,yes
-3,Cornell/mom07.xml,[None],[0], it s almost below zero ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,Family is talking about Halloween costumes,DAN (child) says that the temperature is almost below zero,,output,yes
-4,Cornell/mom07.xml,[None],[0], where s your zero ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,DAN (child) and MOT are helping JEN with her homework,DAN (child) asks JEN why she put a zero in the answer for her homework,symbolic,output,yes
-5,Cornell/mom07.xml,[None],[0], why d you put a zero may i ask ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,DAN (child) and MOT are helping JEN with her homework,DAN (child) asks JEN why she put a zero in the answer for her homework,symbolic,output,yes
-0,Gathercole/07.xml,[None],[0], zero ,"SAA (Sasha target child), NIC (Nicole target child), BRI (Brian target child), RAC (Rachel child), NAT (Nathan child), BRY (Bryan child), ALI (Ali child), MAT (Matthew child), UNK (anonymous child), BOB (Bobbi adult), VIR (investigator), GIL (unidentified)",,Children are talking about numbers and mathematics,"BRI says he knows that one minus one is two, but VIR corrects him and says that it is zero",symbolic,input,yes
-1,Gathercole/07.xml,[None],[0], zero ,"SAA (Sasha target child), NIC (Nicole target child), BRI (Brian target child), RAC (Rachel child), NAT (Nathan child), BRY (Bryan child), ALI (Ali child), MAT (Matthew child), UNK (anonymous child), BOB (Bobbi adult), VIR (investigator), GIL (unidentified)",,VIR is instructing BRI about zero,"VIR is teaching BRI with pencils that if he has one and takes it away, then he has zero pencils - she says later 'you have none, right?'",symbolic,input,yes
-2,Gathercole/08.xml,[None],[0], no you re you re zero ,"MEG (Megan target child), SAR (Sarah target child), LIL (Lily target child), RAC (Rachel target child), GAY (Gay adult), MIC (Michael child), KEN (Kenny child), CON (Connie child), BOB (Bobbi adult), TEA (teacher), VIR (Virginia investigator), UNK (Unidentified)",,VIR is talking about not having any lunch with SAR,"SAR says ""no you're a zero"", but unclear if she's referring to not having any lunch or to something else",,output,
-3,Gathercole/08.xml,[None],[0], you re zero ,"MEG (Megan target child), SAR (Sarah target child), LIL (Lily target child), RAC (Rachel target child), GAY (Gay adult), MIC (Michael child), KEN (Kenny child), CON (Connie child), BOB (Bobbi adult), TEA (teacher), VIR (Virginia investigator), UNK (Unidentified)",,Children are talking about lunch,LIL repeats what SAR says,,output,
-4,Gathercole/08.xml,[None],[0], how come you re zero ,"MEG (Megan target child), SAR (Sarah target child), LIL (Lily target child), RAC (Rachel target child), GAY (Gay adult), MIC (Michael child), KEN (Kenny child), CON (Connie child), BOB (Bobbi adult), TEA (teacher), VIR (Virginia investigator), UNK (Unidentified)",,Children are talking about lunch,VIR asks LIL why she's a zero - LIL responds that it's because she already ate her lunch,,input,
-0,Gleason/Dinner/frank.xml,62,[4.34], three three three seven nine eight zero ,"CHI, MOT, FAT",male,Home dinner conversation,"MOT asks CHI what his phone number is, child answers",symbolic,output,yes
-0,Gleason/Father/charlie.xml,36,[4.266666666666667], zero if it s a number right ,"CHI, FAT, INV",male,Lab visit with FAT,"Counting quarters - FAT asks CHI how many quarters there are, and CHI at first says 'o', and FAT says 'zero, exactly, if that's a number.'",nonexistence,input,yes
-1,Gleason/Father/charlie.xml,36,[4.266666666666667], oh that s a zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy, talking about taking turns; unclear what the father is referencing here",,input,
-2,Gleason/Father/charlie.xml,36,[4.266666666666667], five and zero ,"CHI, FAT, INV",male,Lab visit with FAT,FAT and CHI are playing with a toy which seems to have numbers. FAT points out a 'hard number' (50) is five and zero. This comes after the child identifies the numbers independently as 'five' and 'o' (which child seems to use for 'zero'),symbolic,input,yes
-3,Gleason/Father/charlie.xml,36,[4.266666666666667], when you see five and zero together it s a fifty ,"CHI, FAT, INV",male,Lab visit with FAT,FAT and CHI are playing with a toy which seems to have numbers. FAT points out a 'hard number' (50) is five and zero. This comes after the child identifies the numbers independently as 'five' and 'o' (which child seems to use for 'zero'),symbolic,input,yes
-4,Gleason/Father/charlie.xml,36,[4.266666666666667], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"FAT asks CHI what a number is, child responds",symbolic,output,yes
-1,Gleason/Father/charlie.xml,36,[4.266666666666667], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"FAT asks CHI what a number is, child responds, FAT repeats response",symbolic,input,yes
-5,Gleason/Father/eddie.xml,[None],[3.986899563318777], okay hit that zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, FAT tells CHI to hit a 'zero' button",symbolic,input,yes
-6,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with cash register, FAT asks CHI what a button does, CHI responds 'zero'",,output,
-7,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with cash register, FAT asks CHI what a button does, CHI responds 'zero', FAT repeats response",,input,yes
-8,Gleason/Father/guy.xml,37,[3.1677018633540373], zero means that we would get it for nothing ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT playing with cash register, FAT tells CHI that 'zero' means there wouldn't be any charge",nonexistence,input,yes
-9,Gleason/Father/guy.xml,37,[3.1677018633540373], do you know what five zero says ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV asks child what the 50 button says",symbolic,input,yes
-10,Gleason/Father/guy.xml,37,[3.1677018633540373], and what s five zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV asks child what the 50 button says",,input,yes
-2,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, FAT asks child what a button does, child responds 'zero'",,output,
-3,Gleason/Father/guy.xml,37,[3.1677018633540373], zero zero zero ,"CHI, FAT, INV",male,Lab visit with FAT,CHI and FAT are playing with a toy cash register unclear what child is referring to here,,output,
-4,Gleason/Father/guy.xml,37,[3.1677018633540373], five zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV asks child what the 50 button says, child responds",symbolic,output,yes
-5,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV points to 50 and asks what number s/he said it was, child responds 'five' and then later 'zero'",symbolic,output,yes
-11,Gleason/Father/helen.xml,59,[5.256756756756757], zero ,"CHI, FAT, INV",female,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, FAT asks child to find a nine, child finds a 'zero', FAT asks for clarification",symbolic,input,yes
-6,Gleason/Father/helen.xml,59,[5.256756756756757], i got zero ,"CHI, FAT, INV",female,Lab visit with FAT,"CHI and FAT playing with cash register, FAT asks CHI to find a 'nine', CHI says she has a 'zero'",,,
-7,Gleason/Mother/eddie.xml,51,[4.32], um one and zero ,"CHI, MOT, INV",male,Lab visit with MOT,"CHI and MOT playing with cash register, MOT asks CHI how much a coffee is, CHI responds",symbolic,output,yes
-8,Gleason/Mother/eddie.xml,51,[4.32], a zero ,"CHI, MOT, INV",male,Lab visit with MOT,"CHI and MOT playing with cash register, MOT asks CHI what amount a button is, prompts child by saying there's a 1 with a 0 behind it",symbolic,input,yes
-9,Gleason/Mother/guy.xml,37,[3.751152073732719], zero ,"CHI, MOT, INV",male,Lab visit with MOT,"Seems like CHI and MOT are playing with the cash register, but unclear",,output,
-12,Gleason/Mother/helen.xml,59,[4.792642140468227], no that s zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with cash register toy, MOT corrects child - seems like child mistook 'zero' button for 1 dollar",,input,
-10,Gleason/Mother/helen.xml,59,[4.792642140468227], it s five and zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with toy cash register, MOT asks what the 50 button is, child answers",symbolic,output,yes
-13,Gleason/Mother/isadora.xml,42,[4.064655172413793], that s a zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with toy cash register, MOT asks what a button is",symbolic,input,yes
-14,Gleason/Mother/martin.xml,30,[2.930817610062893], that s number one zero ,"CHI, MOT, INV",male,Lab visit with MOT,"CHI and MOT playing with toy cash register, MOT points out what a number is",symbolic,input,yes
-15,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s a zero ,"CHI, MOT, Inv",female,Lab visit with MOT,"CHI and MOT playing with a toy cash register, child asks MOT what a number is, MOT responds",symbolic,input,yes
-16,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s zero ,"CHI, MOT, Inv",female,Lab visit with MOT,CHI and MOT playing with a toy cash register - this is possibly referencing the price of an item,,input,yes
-17,Gleason/Mother/theresa.xml,48,[5.557620817843866], for zero i ll take it ,"CHI, MOT, Inv",female,Lab visit with MOT,CHI and MOT playing with a toy cash register - this is possibly referencing the price of an item,,input,yes
-11,Gleason/Mother/theresa.xml,48,[5.557620817843866], zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with a toy cash register, child asks MOT what a number is, MOT responds, CHI repeats answer",symbolic,output,yes
-0,Hall/BlackPro/anc.xml,57,[5.887884267631103], it makes it that much even sweeter sixseeing as to she got zero this year nothing at all ,,,,,,,
-1,Hall/BlackPro/jaf.xml,57,[4.363957597173145], the plane arrives at four zero one ,,,,,,,
-2,Hall/BlackPro/trh.xml,57,[7.090737240075614], ten nine seven six five four three two one zero blas off ,,,,,,,
-3,Hall/BlackPro/trh.xml,57,[7.090737240075614], zero sisters ,,,,,,,
-4,Hall/WhitePro/job.xml,57,[7.728278041074249], so we re batting zero on that eh ,,,,,,,
-5,Hall/WhiteWork/mig.xml,57,[5.823569482288828], put the nine and then the zero ,,,,,,,
-6,Hall/WhiteWork/mig.xml,57,[5.823569482288828], no no the zero goes after ,,,,,,,
-7,Hall/WhiteWork/mig.xml,57,[5.823569482288828], is one more than zero ,,,,,,,
-8,Hall/WhiteWork/mig.xml,57,[5.823569482288828], okay one is more than zero so it means what ,,,,,,,
-0,Hall/WhiteWork/mig.xml,57,[5.823569482288828], um zero ,,,,,,,
-1,Hall/WhiteWork/sut.xml,57,[6.240773286467487], so beach bab i beach bab i zero ,,,,,,,
-0,HSLLD/HV1/MT/jesmt1.xml,43,[5.338028169014085], and zero was standing at zero feet     ,,,,,,,
-1,HSLLD/HV1/MT/kevmt1.xml,46,[3.978723404255319], was that the kid gets off mom wants the the zero and the the thing goes like that ,,,,,,,
-2,HSLLD/HV1/TP/nedtp1.xml,59,[3.1666666666666665], four two seven one o zero one no four two seven two one seven five ,,,,,,,
-3,HSLLD/HV1/TP/shotp1.xml,43,[3.4953271028037385], zero ,,,,,,,
-4,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
-5,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
-0,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], a zero ,,,,,,,
-1,HSLLD/HV2/MT/petmt2.xml,55,[5.282828282828283], i did seven zero six six five two one nine ,,,,,,,
-6,HSLLD/HV2/MT/rosmt2.xml,57,[5.1976744186046515], maybe she s a three with a zero after the three ,,,,,,,
-2,HSLLD/HV2/TP/emitp2.xml,51,[4.804878048780488], zero two five six six two one ,,,,,,,
-7,HSLLD/HV2/TP/nictp2.xml,53,[3.3838862559241707], that s a one and a zero ,,,,,,,
-3,HSLLD/HV3/ET/teret3.xml,67,[4.617283950617284], zero ,,,,,,,
-4,HSLLD/HV3/ET/treet3.xml,67,[4.617283950617284], zero ,,,,,,,
-8,HSLLD/HV3/MT/anamt3.xml,70,[5.03125], eight eight nine one one zero zero three ,,,,,,,
-9,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], add a zero ,,,,,,,
-10,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], put a zero ne t to fourteen chi ,,,,,,,
-11,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], just add a zero ,,,,,,,
-12,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know he does the concept of adding the zero um to ,,,,,,,
-13,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know but then i said put the zero after the four ,,,,,,,
-5,HSLLD/HV3/MT/kurmt3.xml,67,[4.425531914893617], at six zero ,,,,,,,
-6,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], baseball     one zero zero one zero zero zero ,,,,,,,
-7,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], one point zero zero zero because it s a     when you pitch it um     ,,,,,,,
-14,HSLLD/HV5/MT/trimt5.xml,89,[8.511111111111111], less than zero ,,,,,,,
-15,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], www they take about size zero and a half ,,,,,,,
-16,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], i mean below zero and a half ,,,,,,,
-17,HSLLD/HV7/MD/anamd7.xml,[None],[0], i ll be a zero www ,,,,,,,
-18,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], it doesn t start at zero ,,,,,,,
-8,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], well see on the tv it says two three o zero zero ,,,,,,,
-19,HSLLD/HV7/MT/rosmt7.xml,117,[5.615384615384615], zero or marco or what ,,,,,,,
-0,Kuczaj/abe101.xml,41,[7.850467289719626], zero ,,,,,,,
-1,Kuczaj/abe121.xml,44,[7.992424242424242], no if you grate it up i will two zero ,,,,,,,
-2,Kuczaj/abe121.xml,44,[7.992424242424242], is that two zero ,,,,,,,
-3,Kuczaj/abe121.xml,44,[7.992424242424242], i think it s two zero ,,,,,,,
-4,Kuczaj/abe121.xml,44,[7.992424242424242], it is two zero ,,,,,,,
-5,Kuczaj/abe201.xml,58,[7.829268292682927], mom everytime i laugh zero cough ,,,,,,,
-0,MacWhinney/61b1.xml,66,[11.893333333333333], zero ,,,,,,,
-0,MacWhinney/65a1.xml,69,[6.735632183908046], two zero two zero ,,,,,,,
-1,MacWhinney/65a1.xml,69,[6.735632183908046], zero ,,,,,,,
-2,MacWhinney/65a1.xml,69,[6.735632183908046], two zero five one ,,,,,,,
-1,MacWhinney/65a1.xml,69,[6.735632183908046], i can t get zero ,,,,,,,
-2,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
-3,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
-4,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
-5,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
-3,MacWhinney/76a1.xml,78,[7.2105263157894735], just press one button and it does all those numbers that you punch you know eight zero zero five six three two nine four eight ,,,,,,,
-4,MacWhinney/76b1.xml,78,[8.909090909090908], zero ,,,,,,,
-5,MacWhinney/76b1.xml,78,[8.909090909090908], zero ,,,,,,,
-6,MacWhinney/89b2.xml,89,[4.057142857142857], fifteen take away zero is fifteen ,,,,,,,
-0,Post/Lew/lew02.xml,24,[1.6917808219178083], three five zero ,,,,,,,
-1,Post/Lew/lew02.xml,24,[1.6917808219178083], mash the five now the zero ,,,,,,,
-2,Post/Lew/lew02.xml,24,[1.6917808219178083], you can mash all at once three five zero ,,,,,,,
-3,Post/Tow/tow01.xml,19,[1.871212121212121], zero ,,,,,,,
-0,Providence/Alex/ale09.xml,21,[1.6873239436619718], zero ,,,,,,,
-1,Providence/Alex/ale10.xml,21,[1.9292035398230087], what s zero ,,,,,,,
-2,Providence/Alex/ale14.xml,23,[1.4817518248175183], thaza that is a zero ,,,,,,,
-3,Providence/Alex/ale14.xml,23,[1.4817518248175183], o oh zero ,,,,,,,
-4,Providence/Alex/ale14.xml,23,[1.4817518248175183], where s your zero ,,,,,,,
-5,Providence/Alex/ale14.xml,23,[1.4817518248175183], zero ,,,,,,,
-6,Providence/Alex/ale19.xml,26,[1.7857142857142858], zero ,,,,,,,
-7,Providence/Alex/ale35.xml,33,[2.6504065040650406], zero nine zero seven ,,,,,,,
-8,Providence/Alex/ale37.xml,34,[2.669826224328594], what s that supposed to be oh a zero ,,,,,,,
-9,Providence/Alex/ale37.xml,34,[2.669826224328594], zero ,,,,,,,
-0,Providence/Alex/ale37.xml,34,[2.669826224328594], zero ,,,,,,,
-10,Providence/Alex/ale49.xml,40,[3.1227436823104693], two zero zero three ,,,,,,,
-11,Providence/Ethan/eth20.xml,20,[2.836244541484716], the show is at two o clock and it s twelve oh zero nine ,,,,,,,
-12,Providence/Ethan/eth25.xml,22,[3.8], and sleep in zero gravity when you re in a space ship you float in the air ,,,,,,,
-13,Providence/Ethan/eth44.xml,32,[3.0706401766004414], there s the number eight there s the number two number two again there s a zero and there s the three ,,,,,,,
-14,Providence/Ethan/eth47.xml,34,[3.943469785575049], so he is floating up woo this is fun zero gravity is fun     ,,,,,,,
-15,Providence/Ethan/eth47.xml,34,[3.943469785575049], the spaceship could float away too i guess in zero gravity ,,,,,,,
-16,Providence/Lily/lil26.xml,24,[2.7415506958250497], zero very good honey ,,,,,,,
-1,Providence/Lily/lil26.xml,24,[2.7415506958250497], zero ,,,,,,,
-17,Providence/Lily/lil36.xml,27,[4.625], okay it s two zero two ,,,,,,,
-18,Providence/Lily/lil37.xml,28,[5.458471760797342], zero ,,,,,,,
-2,Providence/Lily/lil37.xml,28,[5.458471760797342], zero ,,,,,,,
-19,Providence/Lily/lil49b.xml,31,[5.682568807339449], it s zero ,,,,,,,
-3,Providence/Lily/lil49b.xml,31,[5.682568807339449], zero ,,,,,,,
-20,Providence/Lily/lil57.xml,33,[3.7886904761904763], but it can be hundreds of degrees below zero during the long nights ,,,,,,,
-21,Providence/Naima/nai26.xml,20,[3.3815028901734103], where is the zero is the zero lost ,,,,,,,
-22,Providence/Naima/nai26.xml,20,[3.3815028901734103], oh you have it in yer your hand a red zero ,,,,,,,
-4,Providence/Naima/nai26.xml,20,[3.3815028901734103], where did the zero go ,,,,,,,
-23,Providence/Naima/nai39.xml,24,[4.101045296167247], you don t really have to borrow that i think that s a zero in front of mommy ,,,,,,,
-24,Providence/Naima/nai77.xml,36,[6.898591549295775], well not zero nursing but you didn t wake up to nurse until four thirty ,,,,,,,
-5,Providence/Naima/nai77.xml,36,[6.898591549295775], zero nursing ,,,,,,,
-25,Providence/Naima/nai79.xml,37,[4.844444444444444], zero     on the cape ,,,,,,,
-26,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine ,,,,,,,
-27,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine ,,,,,,,
-28,Providence/Violet/vio36.xml,31,[4.374647887323944], and sleep in zero gravity ,,,,,,,
-29,Providence/Violet/vio43.xml,35,[4.235772357723577], see a one and a zero makes ten ,,,,,,,
-30,Providence/William/wil26.xml,30,[2.639784946236559], ten is a one and a zero ,,,,,,,
-0,Sawyer/2-07-92.xml,[None],[0], five four three two one zero blastoff ,,,,,,,
-0,Snow/800518.xml,45,[3.634831460674157], zero ,,,,,,,
-0,Valian/18a.xml,29,[4.727748691099476], yeah it goes one to ten and no zero to nine zero to nine ,,,,,,,
-0,VanKleeck/rachel1.xml,44,[5.661764705882353], four five zero nine eight ,,,,,,,
-0,Weist/Matt/mat23.xml,40,[3.938775510204082], five cents five o zero ,,,,,,,
-1,Weist/Matt/mat23.xml,40,[3.938775510204082], five o zero nine ,,,,,,,
-2,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars ,,,,,,,
-3,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars each ringing them up ,,,,,,,
-4,Weist/Matt/mat46.xml,53,[5.946666666666666], but each one only costs like zero cents right ,,,,,,,
-0,Weist/Matt/mat46.xml,53,[5.946666666666666], yup zero dollars ,,,,,,,
-1,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars ,,,,,,,
-5,Weist/Matt/mat56.xml,60,[7.684210526315789], you may have one two or zero and i don t want to hear about any more it s starting to make me feel like you re not doing a good job ,,,,,,,
-2,Weist/Roman/rom25.xml,43,[12.074324324324325], five o zero five     years ,,,,,,,
-6,Weist/Roman/rom42.xml,56,[5.9245283018867925], zero zero six ,,,,,,,
-3,Weist/Roman/rom42.xml,56,[5.9245283018867925], no but where is zero ,,,,,,,
-4,Weist/Roman/rom42.xml,56,[5.9245283018867925], zero zero ,,,,,,,
+1,Braunwald/0diary/020109.xml,25,[4.5], six six one zero six ,"CHI, MOT",female,"unclear - CHI talking to self, possibly pretending to use a phone","CHI says ""my number"" and then recites phrase",symbolic,output,yes
+2,Braunwald/4-03-07.xml,51,[4.6722689075630255], seven years and zero days ,"CHI, FAT, MOT, SIS",female,dinnertime with family,"MOT talking to SIS about age; SIS says tomorrow she will be 6 years, 365 days; Mother corrects her, and says that she will be 7 years and 0 days",,input,yes
+3,Brent/i1/i1-0930.xml,10,[0], okay it s going to zero ,"CHI, MOT, OTH",male,using a recorder of some kind,"MOT trying to figure out how to use a recorder, and display goes down to 0",symbolic,input,yes
+4,Brent/i1/i1-1207.xml,12,[1.0], here s zero ,"CHI, MOT, OTH",male,playing with a toy that has letter and number symbols,"MOT is talking to CHI, helping him put letters and numbers back in their spots on the toy",symbolic,input,yes
+5,Brent/i1/i1-1207.xml,12,[1.0], put zero in his spot ,"CHI, MOT, OTH",male,playing with a toy that has letter and number symbols,"MOT is talking to CHI, helping him put letters and numbers back in their spots on the toy",symbolic,input,yes
+6,Brent/i1/i1-1207.xml,12,[1.0], at two six zero one whitney avenue ,"CHI, MOT, OTH",male,saying an address,MOT tells CHI that he is the best baby at their address,symbolic,input,yes
+7,Brent/w1/w1-1206.xml,[None],[0], three zero nine     ,MOT,female,MOT is talking to preverbal infant,MOT starts saying random numbers,symbolic,input,yes
+8,Brent/w3/w3-1316.xml,14,[1.2105263157894737], zero ,"MOT, CHI",male,MOT and CHI reading a book with letters and numbers,MOT most likely referring to 'zero' in book,symbolic,input,yes
+9,Brown/Adam/adam17.xml,35,[3.941265060240964], zero ,"CHI, MOT, URS, RIC",male,MOT asks if CHI's pencils have numbers,CHI says there is a zero on pencil,symbolic,output,yes
+10,Brown/Adam/adam17.xml,35,[3.941265060240964], zero ,"CHI, MOT, URS, RIC",male,MOT asks if CHI's pencils have numbers,CHI says there is a zero on pencil,symbolic,output,yes
+11,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that zero beat you ,"CHI, MOT, URS, RIC",male,CHI free-associating,Unclear - free-association,noun,output,no
+12,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that zero ,"CHI, MOT, URS, RIC",male,"CHI asked ""what is this?"" but referent unclear",Possibly the pencil,,output,no
+13,Brown/Adam/adam17.xml,35,[3.941265060240964], dat that no zero dat that blue ,"CHI, MOT, URS, RIC",male,"CHI asked ""what is this?"" but referent unclear",Possibly the pencil,,output,no
+14,Brown/Adam/adam19.xml,36,[4.303398058252427], five four three two one zero blast ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,MOT counts down blastoff,count_number,input,yes
+15,Brown/Adam/adam19.xml,36,[4.303398058252427], that s five four three two one zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,MOT counts down blastoff,count_number,input,yes
+16,Brown/Adam/adam19.xml,36,[4.303398058252427], zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with space shuttle toy,CHI repeats 'zero' in countdown,,output,
+17,Brown/Adam/adam19.xml,36,[4.303398058252427], one two three zero ,"CHI, MOT, CEC, URS, DIA",male,CHI playing with toy dolls,Unclear - possibly CHI is counting the dolls,count_number,output,no
+18,Brown/Adam/adam44.xml,51,[5.919860627177701], zero ,"CHI, MOT, URS, FAT, PAU, RIC",male,CHI is looking at pictures with MOT and investigator,"CHI might be identifying numbers in the picture - he says ""number two"" and ""number three"" and ""number eight"" prior to saying ""zero"" - interesting that he doesn't say ""number zero"" if that's indeed what he's doing",symbolic,output,
+19,Brown/Adam/adam44.xml,51,[5.919860627177701], zero two ,"CHI, MOT, URS, FAT, PAU, RIC",male,CHI is looking at pictures with MOT and investigator,"CHI might be identifying numbers in the picture - he says ""number two"" and ""number three"" and ""number eight"" prior to saying ""zero"" - interesting that he doesn't say ""number zero"" if that's indeed what he's doing",symbolic,output,
+20,Brown/Adam/adam47.xml,52,[5.945668135095448], it says six five four two zero seven ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers on a stamp say, investigator answers",symbolic,input,yes
+21,Brown/Adam/adam47.xml,52,[5.945668135095448], seven five four two zero seven ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers on a stamp say, investigator answers",symbolic,input,yes
+22,Brown/Adam/adam47.xml,52,[5.945668135095448], six zero five a b ,"CHI, MOT, URS, PAU, DIA",male,CHI and investigator playing with a rubber stamp with numbers,"CHI asks what numbers a stamp say, and answers his own question",symbolic,output,yes
+23,Brown/Adam/adam52.xml,57,[5.92991452991453], one seven zero ,"CHI, MOT, URS, DIA, ROB, PAU",male,CHI is playing with toy adding machine,CHI likely hitting numbers on toy,symbolic,output,yes
+24,Brown/Eve/eve15.xml,25,[4.913127413127413], the zero ,"CHI, MOT, FAT, COL, RIC",female,CHI and MOT are looking at a footage meter,"CHI asks what a number is on the meter, mother answers",symbolic,input,yes
+25,Brown/Sarah/sarah035.xml,35,[2.615], zero o ,"CHI, MOT, FAT, GLO",female,"CHI is on MOT's lap, pretending to swim","Unclear - mother possibly indicating that child has no more ""swimming kicks"" left",,input,
+26,Brown/Sarah/sarah055.xml,40,[3.294478527607362], um looks like an zero to me ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,"CHI asks what a number is, investigator responds that it looks like a 0",symbolic,input,yes
+27,Brown/Sarah/sarah055.xml,40,[3.294478527607362], oh you give me the zero now ,"CHI, MOT, KEN, GRA, NAN",female,CHI is playing with plastic ABCs,Grandmother asks the child for the plastic zero,symbolic,input,yes
+28,Brown/Sarah/sarah104.xml,52,[4.288135593220339], is it an zero ,"CHI, MOT, FAT, GAI, MEL, ",female,CHI is drawing and talking with investigator (MEL),"CHI is writing letters and numbers, and the investigator asks CHI whether a letter/number is a zero. CHI answers in the affirmative. ",symbolic,input,yes
+29,Brown/Sarah/sarah114.xml,55,[4.4124293785310735], i guess that is zero ,"CHI, MOT, MEL, GAI",female,CHI is writing and drawing with investigator (MEL),"CHI is copying what the investigator wrote earlier - the investigator might have asked a clarifying question earlier about what character the child was writing, and then agrees that the child did write a a zero",symbolic,input,yes
+30,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well now you have to go make a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT tells CHI she needs to make a zero as her move in the game,symbolic,input,yes
+31,Brown/Sarah/sarah115.xml,55,[4.569377990430622], well no you have to go make a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT tells CHI she needs to make a zero as her move in the game,symbolic,input,yes
+32,Brown/Sarah/sarah115.xml,55,[4.569377990430622], what do you want   or zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT asks CHI whether she wants to be X or O,symbolic,input,yes
+33,Brown/Sarah/sarah115.xml,55,[4.569377990430622], oh you re zero huh ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+34,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+35,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re supposed to put the zero here so you can win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+36,Brown/Sarah/sarah115.xml,55,[4.569377990430622], there see if you put the zero there you would win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+37,Brown/Sarah/sarah115.xml,55,[4.569377990430622], you re gonna put it in there the zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+38,Brown/Sarah/sarah115.xml,55,[4.569377990430622], see you should o put that zero down there so i couldn t win ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,input,yes
+39,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+40,Brown/Sarah/sarah115.xml,55,[4.569377990430622], zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+41,Brown/Sarah/sarah115.xml,55,[4.569377990430622], a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+42,Brown/Sarah/sarah115.xml,55,[4.569377990430622], um zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+43,Brown/Sarah/sarah115.xml,55,[4.569377990430622], how d you know i wanted a zero ,"CHI, MOT, GAI, ANN, MEL",female,MOT and CHI are playing tic tac toe,MOT and CHI talking about X and O in tic tac toe,symbolic,output,yes
+44,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or an o ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - MOT is helping with explanation,symbolic,input,yes
+45,Brown/Sarah/sarah136.xml,61,[5.21505376344086], no zero or an   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - MOT is helping with explanation,symbolic,input,yes
+46,Brown/Sarah/sarah136.xml,61,[5.21505376344086], oh okay i ll take zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe - GAI says that she'll be the zero,symbolic,input,yes
+47,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you want zero or um ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+48,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a o ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,"CHI is explaining to GAI how to play tic-tac-toe, CHI asks GAI whether she wants to be 'zero' or an o - doesn't seem to have perfectly mapped zero to symbolic form",symbolic,output,no
+49,Brown/Sarah/sarah136.xml,61,[5.21505376344086], zero or a   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,"CHI is explaining to GAI how to play tic-tac-toe, CHI asks GAI whether she wants to be 'zero' or an x after being corrected by MOT",symbolic,output,yes
+50,Brown/Sarah/sarah136.xml,61,[5.21505376344086], y want zero or a   ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+51,Brown/Sarah/sarah136.xml,61,[5.21505376344086], that means you have to you want a zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+52,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i i want zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+53,Brown/Sarah/sarah136.xml,61,[5.21505376344086], i want zero i said ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+54,Brown/Sarah/sarah136.xml,61,[5.21505376344086], you re zero ,"CHI, MOT, GAI, ROG, BET",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI is explaining to GAI how to play tic-tac-toe,symbolic,output,yes
+55,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], you ll have a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,GAI asks CHI if she's O in tic-tac-toe,symbolic,input,yes
+56,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
+57,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], a zero ,"CHI, MOT, GAI",female,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
+58,Brown/Sarah/sarah137.xml,61,[4.8901098901098905], i ll have a zero okay ,"CHI, MOT, GAI",male,CHI and investigator (GAI) are playing tic-tac-toe,CHI confirms that she is zero/O in tic-tac-toe,symbolic,output,yes
+59,Clark/shem10.xml,29,[4.9109947643979055], there it goes to zero ,"CHI, MOT, INV",male,CHI and investigator are playing with a tape recorder,Investigator points out that the numbers on the recorder go to zero,symbolic,input,yes
+60,Clark/shem11.xml,29,[6.4068627450980395], yeah this stopped all the little numbers stopped at zero ,"CHI, MOT, INV",male,CHI and investigator are playing with the UV meter,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
+61,Clark/shem14.xml,30,[6.509025270758123], yeah it goes back to zero ,"CHI, MOT, INV, FAT",male,CHI and investigator are playing with tape recorder,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
+62,Clark/shem14.xml,30,[6.509025270758123], oh there it goes it going on to zero now see ,"CHI, MOT, INV, FAT",male,CHI and investigator are playing with tape recorder,Investigator points out that the numbers on the meter go to zero,symbolic,input,yes
+63,Clark/shem16.xml,31,[6.876923076923077], you re turning it to zero ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,Adult (MRX) asks if the child is turning the counter to zero,symbolic,input,yes
+64,Clark/shem16.xml,31,[6.876923076923077], i turn it to zero ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,CHI states that he is going to turn the counter to zero,symbolic,output,yes
+65,Clark/shem16.xml,31,[6.876923076923077], turn it to zero wha dis this ,"CHI, MOT, FAT, MRX",male,CHI is playing with the counter on the tape recorder,CHI states that he is going to turn the counter to zero,symbolic,output,yes
+66,Clark/shem19.xml,32,[8.252225519287833], zero zero zero zero zero zero zero ,"CHI, INV",male,CHI is playing with a phone,"INV asks child what the phone number is, and child answers",symbolic,output,yes
+67,Clark/shem38.xml,37,[8.495145631067961], now we re gonna do a c for cindy and z for zero ,"CHI, FAT, INV",male,CHI and INV seem to be playing with a toy that has letters,INV says that the child needs to press 'z' for 'zero',,input,yes
+68,Cornell/lsno121.xml,60,[5.175438596491228], jessica is zero ,"CHI, MOT, NUR",male,CHI and MOT are talking about ages,MOT says that a baby sister is 'zero',,input,yes
+69,Cornell/lsno121.xml,60,[5.175438596491228], six and zero ,"CHI, MOT, NUR",male,NUR asks CHI how old siblings are,CHI responds siblings are six and zero,,output,yes
+70,Cornell/mom0502.xml,[None],[0], no five and a dot then you put a zero ,"WEN (child), MOT, NIC (child), ALT (child), ERL (child), FAT, GRA",,MOT asks ERL how he would write the time on a clock,MOT asks ERL how he would write the time on a clock,,output,yes
+71,Cornell/mom0502.xml,[None],[0], why does it say one two zero zero ,"WEN (child), MOT, NIC (child), ALT (child), ERL (child), FAT, GRA",,ALT asks why something (lightbulb?) says 1200,ALT asks why something (lightbulb?) says 1200,symbolic,output,yes
+72,Cornell/mom07.xml,[None],[0], it s almost below zero ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,Family is talking about Halloween costumes,DAN (child) says that the temperature is almost below zero,,output,yes
+73,Cornell/mom07.xml,[None],[0], where s your zero ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,DAN (child) and MOT are helping JEN with her homework,DAN (child) asks JEN why she put a zero in the answer for her homework,symbolic,output,yes
+74,Cornell/mom07.xml,[None],[0], why d you put a zero may i ask ,"JEN (child), MOT, FAT, GRA, DANA (child), GRP",,DAN (child) and MOT are helping JEN with her homework,DAN (child) asks JEN why she put a zero in the answer for her homework,symbolic,output,yes
+75,Gathercole/07.xml,[None],[0], zero ,"SAA (Sasha target child), NIC (Nicole target child), BRI (Brian target child), RAC (Rachel child), NAT (Nathan child), BRY (Bryan child), ALI (Ali child), MAT (Matthew child), UNK (anonymous child), BOB (Bobbi adult), VIR (investigator), GIL (unidentified)",,Children are talking about numbers and mathematics,"BRI says he knows that one minus one is two, but VIR corrects him and says that it is zero",symbolic,input,yes
+76,Gathercole/07.xml,[None],[0], zero ,"SAA (Sasha target child), NIC (Nicole target child), BRI (Brian target child), RAC (Rachel child), NAT (Nathan child), BRY (Bryan child), ALI (Ali child), MAT (Matthew child), UNK (anonymous child), BOB (Bobbi adult), VIR (investigator), GIL (unidentified)",,VIR is instructing BRI about zero,"VIR is teaching BRI with pencils that if he has one and takes it away, then he has zero pencils - she says later 'you have none, right?'",symbolic,input,yes
+77,Gathercole/08.xml,[None],[0], no you re you re zero ,"MEG (Megan target child), SAR (Sarah target child), LIL (Lily target child), RAC (Rachel target child), GAY (Gay adult), MIC (Michael child), KEN (Kenny child), CON (Connie child), BOB (Bobbi adult), TEA (teacher), VIR (Virginia investigator), UNK (Unidentified)",,VIR is talking about not having any lunch with SAR,"SAR says ""no you're a zero"", but unclear if she's referring to not having any lunch or to something else",,output,
+78,Gathercole/08.xml,[None],[0], you re zero ,"MEG (Megan target child), SAR (Sarah target child), LIL (Lily target child), RAC (Rachel target child), GAY (Gay adult), MIC (Michael child), KEN (Kenny child), CON (Connie child), BOB (Bobbi adult), TEA (teacher), VIR (Virginia investigator), UNK (Unidentified)",,Children are talking about lunch,LIL repeats what SAR says,,output,
+79,Gathercole/08.xml,[None],[0], how come you re zero ,"MEG (Megan target child), SAR (Sarah target child), LIL (Lily target child), RAC (Rachel target child), GAY (Gay adult), MIC (Michael child), KEN (Kenny child), CON (Connie child), BOB (Bobbi adult), TEA (teacher), VIR (Virginia investigator), UNK (Unidentified)",,Children are talking about lunch,VIR asks LIL why she's a zero - LIL responds that it's because she already ate her lunch,,input,
+80,Gleason/Dinner/frank.xml,62,[4.34], three three three seven nine eight zero ,"CHI, MOT, FAT",male,Home dinner conversation,"MOT asks CHI what his phone number is, child answers",symbolic,output,yes
+81,Gleason/Father/charlie.xml,36,[4.266666666666667], zero if it s a number right ,"CHI, FAT, INV",male,Lab visit with FAT,"Counting quarters - FAT asks CHI how many quarters there are, and CHI at first says 'o', and FAT says 'zero, exactly, if that's a number.'",nonexistence,input,yes
+82,Gleason/Father/charlie.xml,36,[4.266666666666667], oh that s a zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy, talking about taking turns; unclear what the father is referencing here",,input,
+83,Gleason/Father/charlie.xml,36,[4.266666666666667], five and zero ,"CHI, FAT, INV",male,Lab visit with FAT,FAT and CHI are playing with a toy which seems to have numbers. FAT points out a 'hard number' (50) is five and zero. This comes after the child identifies the numbers independently as 'five' and 'o' (which child seems to use for 'zero'),symbolic,input,yes
+84,Gleason/Father/charlie.xml,36,[4.266666666666667], when you see five and zero together it s a fifty ,"CHI, FAT, INV",male,Lab visit with FAT,FAT and CHI are playing with a toy which seems to have numbers. FAT points out a 'hard number' (50) is five and zero. This comes after the child identifies the numbers independently as 'five' and 'o' (which child seems to use for 'zero'),symbolic,input,yes
+85,Gleason/Father/charlie.xml,36,[4.266666666666667], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"FAT asks CHI what a number is, child responds",symbolic,output,yes
+86,Gleason/Father/charlie.xml,36,[4.266666666666667], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"FAT asks CHI what a number is, child responds, FAT repeats response",symbolic,input,yes
+87,Gleason/Father/eddie.xml,[None],[3.986899563318777], okay hit that zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, FAT tells CHI to hit a 'zero' button",symbolic,input,yes
+88,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with cash register, FAT asks CHI what a button does, CHI responds 'zero'",,output,
+89,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with cash register, FAT asks CHI what a button does, CHI responds 'zero', FAT repeats response",,input,yes
+90,Gleason/Father/guy.xml,37,[3.1677018633540373], zero means that we would get it for nothing ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT playing with cash register, FAT tells CHI that 'zero' means there wouldn't be any charge",nonexistence,input,yes
+91,Gleason/Father/guy.xml,37,[3.1677018633540373], do you know what five zero says ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV asks child what the 50 button says",symbolic,input,yes
+92,Gleason/Father/guy.xml,37,[3.1677018633540373], and what s five zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV asks child what the 50 button says",,input,yes
+93,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, FAT asks child what a button does, child responds 'zero'",,output,
+94,Gleason/Father/guy.xml,37,[3.1677018633540373], zero zero zero ,"CHI, FAT, INV",male,Lab visit with FAT,CHI and FAT are playing with a toy cash register unclear what child is referring to here,,output,
+95,Gleason/Father/guy.xml,37,[3.1677018633540373], five zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV asks child what the 50 button says, child responds",symbolic,output,yes
+96,Gleason/Father/guy.xml,37,[3.1677018633540373], zero ,"CHI, FAT, INV",male,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, INV points to 50 and asks what number s/he said it was, child responds 'five' and then later 'zero'",symbolic,output,yes
+97,Gleason/Father/helen.xml,59,[5.256756756756757], zero ,"CHI, FAT, INV",female,Lab visit with FAT,"CHI and FAT are playing with a toy cash register, FAT asks child to find a nine, child finds a 'zero', FAT asks for clarification",symbolic,input,yes
+98,Gleason/Father/helen.xml,59,[5.256756756756757], i got zero ,"CHI, FAT, INV",female,Lab visit with FAT,"CHI and FAT playing with cash register, FAT asks CHI to find a 'nine', CHI says she has a 'zero'",,,
+99,Gleason/Mother/eddie.xml,51,[4.32], um one and zero ,"CHI, MOT, INV",male,Lab visit with MOT,"CHI and MOT playing with cash register, MOT asks CHI how much a coffee is, CHI responds",symbolic,output,yes
+100,Gleason/Mother/eddie.xml,51,[4.32], a zero ,"CHI, MOT, INV",male,Lab visit with MOT,"CHI and MOT playing with cash register, MOT asks CHI what amount a button is, prompts child by saying there's a 1 with a 0 behind it",symbolic,input,yes
+101,Gleason/Mother/guy.xml,37,[3.751152073732719], zero ,"CHI, MOT, INV",male,Lab visit with MOT,"Seems like CHI and MOT are playing with the cash register, but unclear",,output,
+102,Gleason/Mother/helen.xml,59,[4.792642140468227], no that s zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with cash register toy, MOT corrects child - seems like child mistook 'zero' button for 1 dollar",,input,
+103,Gleason/Mother/helen.xml,59,[4.792642140468227], it s five and zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with toy cash register, MOT asks what the 50 button is, child answers",symbolic,output,yes
+104,Gleason/Mother/isadora.xml,42,[4.064655172413793], that s a zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with toy cash register, MOT asks what a button is",symbolic,input,yes
+105,Gleason/Mother/martin.xml,30,[2.930817610062893], that s number one zero ,"CHI, MOT, INV",male,Lab visit with MOT,"CHI and MOT playing with toy cash register, MOT points out what a number is",symbolic,input,yes
+106,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s a zero ,"CHI, MOT, Inv",female,Lab visit with MOT,"CHI and MOT playing with a toy cash register, child asks MOT what a number is, MOT responds",symbolic,input,yes
+107,Gleason/Mother/theresa.xml,48,[5.557620817843866], that s zero ,"CHI, MOT, Inv",female,Lab visit with MOT,CHI and MOT playing with a toy cash register - this is possibly referencing the price of an item,,input,yes
+108,Gleason/Mother/theresa.xml,48,[5.557620817843866], for zero i ll take it ,"CHI, MOT, Inv",female,Lab visit with MOT,CHI and MOT playing with a toy cash register - this is possibly referencing the price of an item,,input,yes
+109,Gleason/Mother/theresa.xml,48,[5.557620817843866], zero ,"CHI, MOT, INV",female,Lab visit with MOT,"CHI and MOT playing with a toy cash register, child asks MOT what a number is, MOT responds, CHI repeats answer",symbolic,output,yes
+110,Hall/BlackPro/anc.xml,57,[5.887884267631103], it makes it that much even sweeter sixseeing as to she got zero this year nothing at all ,"CHI, EXP, FAT, MOT, UNK, GRO, TEL_TV",,Prior to departure for school,MOT and FAT and EXP are talking about money that MOT got for graduate studies,nonexistence,input,yes
+111,Hall/BlackPro/jaf.xml,57,[4.363957597173145], the plane arrives at four zero one ,"CHI, MOT, BRO, EXP, UNK, FAD (female adult), MCH (male child), FCH (female child), TCA (teacher's aide - adult), FAT  ",,Prior to departure for school,MOT is on phone,symbolic,input,yes
+112,Hall/BlackPro/trh.xml,57,[7.090737240075614], ten nine seven six five four three two one zero blas off ,"EXP, CHI , MOT, FAD, MAD< MCH, UNK, FCH, GRO, TEL_TV, BRO, TEA (teacher), TCA, SIS",,Prior to departure for school,Male Child is playing with a toy - possibly rocketship?,count_number,output,yes
+113,Hall/BlackPro/trh.xml,57,[7.090737240075614], zero sisters ,"EXP, CHI , MOT, FAD, MAD< MCH, UNK, FCH, GRO, TEL_TV, BRO, TEA (teacher), TCA, SIS",,Prior to departure for school,CHI asks EXP if s/he has brothers or sisters,nonexistence,input,yes
+114,Hall/WhitePro/job.xml,57,[7.728278041074249], so we re batting zero on that eh ,"CHI, FAT, EXP, MOT, MAD, FAD, MCH, FCH, TEA, TCA, UNK, GRA (grandmother), GRF (grandfather)",male,"before school, father is getting Joey ready for school.","MOT and FAT are talking about selling raffle tickets to someone, MOT says she failed to sell someone a ticket, FAT responds",nonexistence,input,yes
+115,Hall/WhiteWork/mig.xml,57,[5.823569482288828], put the nine and then the zero ,"CHI, MOT, BRO, EXP, FAT, MCH, MAD, FAD, UNK, FCH, TEA, SIS, GRO",,in school,Children seem to be doing some kind of block counting exercise - SIS is helping Michael (target child??) with this worksheet,symbolic,input,yes
+116,Hall/WhiteWork/mig.xml,57,[5.823569482288828], no no the zero goes after ,"CHI, MOT, BRO, EXP, FAT, MCH, MAD, FAD, UNK, FCH, TEA, SIS, GRO",,in school,Children seem to be doing some kind of block counting exercise - TEA tells a child where to put a 0,symbolic,input,yes
+117,Hall/WhiteWork/mig.xml,57,[5.823569482288828], is one more than zero ,"CHI, MOT, BRO, EXP, FAT, MCH, MAD, FAD, UNK, FCH, TEA, SIS, GRO",,in school,Children seem to be doing some kind of block counting exercise - TEA asks CHI is 1 is more than 0,,input,yes
+118,Hall/WhiteWork/mig.xml,57,[5.823569482288828], okay one is more than zero so it means what ,"CHI, MOT, BRO, EXP, FAT, MCH, MAD, FAD, UNK, FCH, TEA, SIS, GRO",,in school,Children seem to be doing some kind of block counting exercise - TEA is pressing CHI on what 'zero' means,,input,yes
+119,Hall/WhiteWork/mig.xml,57,[5.823569482288828], um zero ,"CHI, MOT, BRO, EXP, FAT, MCH, MAD, FAD, UNK, FCH, TEA, SIS, GRO",,in school,"Children seem to be doing some kind of block counting exercise - TEA asks CHI is 1 is more than 0, CHI answers, but doesn't seem to understand",,output,
+120,Hall/WhiteWork/sut.xml,57,[6.240773286467487], so beach bab i beach bab i zero ,"FAT, SIS, CHI, EXP, UNK, FAD, MAD, MCH, TEA, FCH, GRO",,getting ready for school,"CHI and FAT are playing, CHI is singing - unclear why CHI says 'zero'",,output,no
+121,HSLLD/HV1/MT/jesmt1.xml,43,[5.338028169014085], and zero was standing at zero feet     ,,,,,,,
+122,HSLLD/HV1/MT/kevmt1.xml,46,[3.978723404255319], was that the kid gets off mom wants the the zero and the the thing goes like that ,,,,,,,
+123,HSLLD/HV1/TP/nedtp1.xml,59,[3.1666666666666665], four two seven one o zero one no four two seven two one seven five ,,,,,,,
+124,HSLLD/HV1/TP/shotp1.xml,43,[3.4953271028037385], zero ,,,,,,,
+125,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
+126,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
+127,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], a zero ,,,,,,,
+128,HSLLD/HV2/MT/petmt2.xml,55,[5.282828282828283], i did seven zero six six five two one nine ,,,,,,,
+129,HSLLD/HV2/MT/rosmt2.xml,57,[5.1976744186046515], maybe she s a three with a zero after the three ,,,,,,,
+130,HSLLD/HV2/TP/emitp2.xml,51,[4.804878048780488], zero two five six six two one ,,,,,,,
+131,HSLLD/HV2/TP/nictp2.xml,53,[3.3838862559241707], that s a one and a zero ,,,,,,,
+132,HSLLD/HV3/ET/teret3.xml,67,[4.617283950617284], zero ,,,,,,,
+133,HSLLD/HV3/ET/treet3.xml,67,[4.617283950617284], zero ,,,,,,,
+134,HSLLD/HV3/MT/anamt3.xml,70,[5.03125], eight eight nine one one zero zero three ,,,,,,,
+135,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], add a zero ,,,,,,,
+136,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], put a zero ne t to fourteen chi ,,,,,,,
+137,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], just add a zero ,,,,,,,
+138,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know he does the concept of adding the zero um to ,,,,,,,
+139,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know but then i said put the zero after the four ,,,,,,,
+140,HSLLD/HV3/MT/kurmt3.xml,67,[4.425531914893617], at six zero ,,,,,,,
+141,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], baseball     one zero zero one zero zero zero ,,,,,,,
+142,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], one point zero zero zero because it s a     when you pitch it um     ,,,,,,,
+143,HSLLD/HV5/MT/trimt5.xml,89,[8.511111111111111], less than zero ,,,,,,,
+144,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], www they take about size zero and a half ,,,,,,,
+145,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], i mean below zero and a half ,,,,,,,
+146,HSLLD/HV7/MD/anamd7.xml,[None],[0], i ll be a zero www ,,,,,,,
+147,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], it doesn t start at zero ,,,,,,,
+148,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], well see on the tv it says two three o zero zero ,,,,,,,
+149,HSLLD/HV7/MT/rosmt7.xml,117,[5.615384615384615], zero or marco or what ,,,,,,,
+150,Kuczaj/abe101.xml,41,[7.850467289719626], zero ,,,,,,,
+151,Kuczaj/abe121.xml,44,[7.992424242424242], no if you grate it up i will two zero ,,,,,,,
+152,Kuczaj/abe121.xml,44,[7.992424242424242], is that two zero ,,,,,,,
+153,Kuczaj/abe121.xml,44,[7.992424242424242], i think it s two zero ,,,,,,,
+154,Kuczaj/abe121.xml,44,[7.992424242424242], it is two zero ,,,,,,,
+155,Kuczaj/abe201.xml,58,[7.829268292682927], mom everytime i laugh zero cough ,,,,,,,
+156,MacWhinney/61b1.xml,66,[11.893333333333333], zero ,,,,,,,
+157,MacWhinney/65a1.xml,69,[6.735632183908046], two zero two zero ,,,,,,,
+158,MacWhinney/65a1.xml,69,[6.735632183908046], zero ,,,,,,,
+159,MacWhinney/65a1.xml,69,[6.735632183908046], two zero five one ,,,,,,,
+160,MacWhinney/65a1.xml,69,[6.735632183908046], i can t get zero ,,,,,,,
+161,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+162,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+163,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+164,MacWhinney/65a1.xml,69,[6.735632183908046], eight two three two zero five one ,,,,,,,
+165,MacWhinney/76a1.xml,78,[7.2105263157894735], just press one button and it does all those numbers that you punch you know eight zero zero five six three two nine four eight ,,,,,,,
+166,MacWhinney/76b1.xml,78,[8.909090909090908], zero ,,,,,,,
+167,MacWhinney/76b1.xml,78,[8.909090909090908], zero ,,,,,,,
+168,MacWhinney/89b2.xml,89,[4.057142857142857], fifteen take away zero is fifteen ,,,,,,,
+169,Post/Lew/lew02.xml,24,[1.6917808219178083], three five zero ,,,,,,,
+170,Post/Lew/lew02.xml,24,[1.6917808219178083], mash the five now the zero ,,,,,,,
+171,Post/Lew/lew02.xml,24,[1.6917808219178083], you can mash all at once three five zero ,,,,,,,
+172,Post/Tow/tow01.xml,19,[1.871212121212121], zero ,,,,,,,
+173,Providence/Alex/ale09.xml,21,[1.6873239436619718], zero ,,,,,,,
+174,Providence/Alex/ale10.xml,21,[1.9292035398230087], what s zero ,,,,,,,
+175,Providence/Alex/ale14.xml,23,[1.4817518248175183], thaza that is a zero ,,,,,,,
+176,Providence/Alex/ale14.xml,23,[1.4817518248175183], o oh zero ,,,,,,,
+177,Providence/Alex/ale14.xml,23,[1.4817518248175183], where s your zero ,,,,,,,
+178,Providence/Alex/ale14.xml,23,[1.4817518248175183], zero ,,,,,,,
+179,Providence/Alex/ale19.xml,26,[1.7857142857142858], zero ,,,,,,,
+180,Providence/Alex/ale35.xml,33,[2.6504065040650406], zero nine zero seven ,,,,,,,
+181,Providence/Alex/ale37.xml,34,[2.669826224328594], what s that supposed to be oh a zero ,,,,,,,
+182,Providence/Alex/ale37.xml,34,[2.669826224328594], zero ,,,,,,,
+183,Providence/Alex/ale37.xml,34,[2.669826224328594], zero ,,,,,,,
+184,Providence/Alex/ale49.xml,40,[3.1227436823104693], two zero zero three ,,,,,,,
+185,Providence/Ethan/eth20.xml,20,[2.836244541484716], the show is at two o clock and it s twelve oh zero nine ,,,,,,,
+186,Providence/Ethan/eth25.xml,22,[3.8], and sleep in zero gravity when you re in a space ship you float in the air ,,,,,,,
+187,Providence/Ethan/eth44.xml,32,[3.0706401766004414], there s the number eight there s the number two number two again there s a zero and there s the three ,,,,,,,
+188,Providence/Ethan/eth47.xml,34,[3.943469785575049], so he is floating up woo this is fun zero gravity is fun     ,,,,,,,
+189,Providence/Ethan/eth47.xml,34,[3.943469785575049], the spaceship could float away too i guess in zero gravity ,,,,,,,
+190,Providence/Lily/lil26.xml,24,[2.7415506958250497], zero very good honey ,,,,,,,
+191,Providence/Lily/lil26.xml,24,[2.7415506958250497], zero ,,,,,,,
+192,Providence/Lily/lil36.xml,27,[4.625], okay it s two zero two ,,,,,,,
+193,Providence/Lily/lil37.xml,28,[5.458471760797342], zero ,,,,,,,
+194,Providence/Lily/lil37.xml,28,[5.458471760797342], zero ,,,,,,,
+195,Providence/Lily/lil49b.xml,31,[5.682568807339449], it s zero ,,,,,,,
+196,Providence/Lily/lil49b.xml,31,[5.682568807339449], zero ,,,,,,,
+197,Providence/Lily/lil57.xml,33,[3.7886904761904763], but it can be hundreds of degrees below zero during the long nights ,,,,,,,
+198,Providence/Naima/nai26.xml,20,[3.3815028901734103], where is the zero is the zero lost ,,,,,,,
+199,Providence/Naima/nai26.xml,20,[3.3815028901734103], oh you have it in yer your hand a red zero ,,,,,,,
+200,Providence/Naima/nai26.xml,20,[3.3815028901734103], where did the zero go ,,,,,,,
+201,Providence/Naima/nai39.xml,24,[4.101045296167247], you don t really have to borrow that i think that s a zero in front of mommy ,,,,,,,
+202,Providence/Naima/nai77.xml,36,[6.898591549295775], well not zero nursing but you didn t wake up to nurse until four thirty ,,,,,,,
+203,Providence/Naima/nai77.xml,36,[6.898591549295775], zero nursing ,,,,,,,
+204,Providence/Naima/nai79.xml,37,[4.844444444444444], zero     on the cape ,,,,,,,
+205,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine ,,,,,,,
+206,Providence/Violet/vio26.xml,27,[2.986062717770035], ten o zero nine ,,,,,,,
+207,Providence/Violet/vio36.xml,31,[4.374647887323944], and sleep in zero gravity ,,,,,,,
+208,Providence/Violet/vio43.xml,35,[4.235772357723577], see a one and a zero makes ten ,,,,,,,
+209,Providence/William/wil26.xml,30,[2.639784946236559], ten is a one and a zero ,,,,,,,
+210,Sawyer/2-07-92.xml,[None],[0], five four three two one zero blastoff ,,,,,,,
+211,Snow/800518.xml,45,[3.634831460674157], zero ,,,,,,,
+212,Valian/18a.xml,29,[4.727748691099476], yeah it goes one to ten and no zero to nine zero to nine ,,,,,,,
+213,VanKleeck/rachel1.xml,44,[5.661764705882353], four five zero nine eight ,,,,,,,
+214,Weist/Matt/mat23.xml,40,[3.938775510204082], five cents five o zero ,,,,,,,
+215,Weist/Matt/mat23.xml,40,[3.938775510204082], five o zero nine ,,,,,,,
+216,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars ,,,,,,,
+217,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars each ringing them up ,,,,,,,
+218,Weist/Matt/mat46.xml,53,[5.946666666666666], but each one only costs like zero cents right ,,,,,,,
+219,Weist/Matt/mat46.xml,53,[5.946666666666666], yup zero dollars ,,,,,,,
+220,Weist/Matt/mat46.xml,53,[5.946666666666666], zero dollars ,,,,,,,
+221,Weist/Matt/mat56.xml,60,[7.684210526315789], you may have one two or zero and i don t want to hear about any more it s starting to make me feel like you re not doing a good job ,,,,,,,
+222,Weist/Roman/rom25.xml,43,[12.074324324324325], five o zero five     years ,,,,,,,
+223,Weist/Roman/rom42.xml,56,[5.9245283018867925], zero zero six ,,,,,,,
+224,Weist/Roman/rom42.xml,56,[5.9245283018867925], no but where is zero ,,,,,,,
+225,Weist/Roman/rom42.xml,56,[5.9245283018867925], zero zero ,,,,,,,
