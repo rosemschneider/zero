@@ -120,35 +120,35 @@
 118,Hall/WhiteWork/mig.xml,57,[5.823569482288828], okay one is more than zero so it means what ,"CHI, MOT, BRO, EXP, FAT, MCH, MAD, FAD, UNK, FCH, TEA, SIS, GRO",,in school,Children seem to be doing some kind of block counting exercise - TEA is pressing CHI on what 'zero' means,,input,yes
 119,Hall/WhiteWork/mig.xml,57,[5.823569482288828], um zero ,"CHI, MOT, BRO, EXP, FAT, MCH, MAD, FAD, UNK, FCH, TEA, SIS, GRO",,in school,"Children seem to be doing some kind of block counting exercise - TEA asks CHI is 1 is more than 0, CHI answers, but doesn't seem to understand",,output,
 120,Hall/WhiteWork/sut.xml,57,[6.240773286467487], so beach bab i beach bab i zero ,"FAT, SIS, CHI, EXP, UNK, FAD, MAD, MCH, TEA, FCH, GRO",,getting ready for school,"CHI and FAT are playing, CHI is singing - unclear why CHI says 'zero'",,output,no
-121,HSLLD/HV1/MT/jesmt1.xml,43,[5.338028169014085], and zero was standing at zero feet     ,,,,,,,
-122,HSLLD/HV1/MT/kevmt1.xml,46,[3.978723404255319], was that the kid gets off mom wants the the zero and the the thing goes like that ,,,,,,,
-123,HSLLD/HV1/TP/nedtp1.xml,59,[3.1666666666666665], four two seven one o zero one no four two seven two one seven five ,,,,,,,
-124,HSLLD/HV1/TP/shotp1.xml,43,[3.4953271028037385], zero ,,,,,,,
-125,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
-126,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,,,,,,,
-127,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], a zero ,,,,,,,
-128,HSLLD/HV2/MT/petmt2.xml,55,[5.282828282828283], i did seven zero six six five two one nine ,,,,,,,
-129,HSLLD/HV2/MT/rosmt2.xml,57,[5.1976744186046515], maybe she s a three with a zero after the three ,,,,,,,
-130,HSLLD/HV2/TP/emitp2.xml,51,[4.804878048780488], zero two five six six two one ,,,,,,,
-131,HSLLD/HV2/TP/nictp2.xml,53,[3.3838862559241707], that s a one and a zero ,,,,,,,
-132,HSLLD/HV3/ET/teret3.xml,67,[4.617283950617284], zero ,,,,,,,
-133,HSLLD/HV3/ET/treet3.xml,67,[4.617283950617284], zero ,,,,,,,
-134,HSLLD/HV3/MT/anamt3.xml,70,[5.03125], eight eight nine one one zero zero three ,,,,,,,
-135,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], add a zero ,,,,,,,
-136,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], put a zero ne t to fourteen chi ,,,,,,,
-137,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], just add a zero ,,,,,,,
-138,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know he does the concept of adding the zero um to ,,,,,,,
-139,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know but then i said put the zero after the four ,,,,,,,
-140,HSLLD/HV3/MT/kurmt3.xml,67,[4.425531914893617], at six zero ,,,,,,,
-141,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], baseball     one zero zero one zero zero zero ,,,,,,,
-142,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], one point zero zero zero because it s a     when you pitch it um     ,,,,,,,
-143,HSLLD/HV5/MT/trimt5.xml,89,[8.511111111111111], less than zero ,,,,,,,
-144,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], www they take about size zero and a half ,,,,,,,
-145,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], i mean below zero and a half ,,,,,,,
-146,HSLLD/HV7/MD/anamd7.xml,[None],[0], i ll be a zero www ,,,,,,,
-147,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], it doesn t start at zero ,,,,,,,
-148,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], well see on the tv it says two three o zero zero ,,,,,,,
-149,HSLLD/HV7/MT/rosmt7.xml,117,[5.615384615384615], zero or marco or what ,,,,,,,
+121,HSLLD/HV1/MT/jesmt1.xml,43,[5.338028169014085], and zero was standing at zero feet     ,"CHI, MOT, BRO, FAT",female,at home,"BRO and MOT are talking about height, it seems - BRO starts off by saying he is 4 feet. I think he is matching his age to his height here, because he says ""two at two feet"" and ""one at one feet"" but it's not clear. It seems like he understands what 'zero' means, though",nonexistence,input,yes
+122,HSLLD/HV1/MT/kevmt1.xml,46,[3.978723404255319], was that the kid gets off mom wants the the zero and the the thing goes like that ,"CHI, MOT, BRO",male,at home,"Eating dinner, I have no idea what BRO is trying to convey",,input,
+123,HSLLD/HV1/TP/nedtp1.xml,59,[3.1666666666666665], four two seven one o zero one no four two seven two one seven five ,"CHI, MOT, SIS, TYR, GRM, INV",male,at home,SIS is reciting a phone number. Note that the transcriber put in 'zero' when the child actually said 'o',symbolic,input,yes
+124,HSLLD/HV1/TP/shotp1.xml,43,[3.4953271028037385], zero ,"CHI, MOT, INV1, INV2",female,at home,"MOT and CHI are playing with toys, CHI is playing with a toy telephone, MOT telling her a phone number",symbolic,input,yes
+125,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,"CHI, MOT, SIS",female,at home,SIS is helping clean up some rice - she says 'none on the floor' followed by 'zero on the floor',nonexistence,input,yes
+126,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], zero on the floor ,"CHI, MOT, SIS",female,at home,"SIS is helping clean up some rice - she says 'none on the floor' followed by 'zero on the floor', CHI says 'a zero', and SIS repeats herself",nonexistence,input,yes
+127,HSLLD/HV2/MT/brnmt2.xml,59,[5.777777777777778], a zero ,"CHI, MOT, SIS",female,at home,"SIS is helping clean up some rice - she says 'none on the floor' followed by 'zero on the floor', CHI says 'a zero'",nonexistence,input,yes
+128,HSLLD/HV2/MT/petmt2.xml,55,[5.282828282828283], i did seven zero six six five two one nine ,"CHI, MOT",male,"at home, meal time",MOT asks what numbers CHI wrote down in school,symbolic,output,yes
+129,HSLLD/HV2/MT/rosmt2.xml,57,[5.1976744186046515], maybe she s a three with a zero after the three ,"CHI, FAT, MOT, SIS",female,"at home, meal time","FAT asks how old someone is, CHI answers 'three', mother says that she has to be older - maybe 'three' with a 'zero' after the 'three'",symbolic,input,yes
+130,HSLLD/HV2/TP/emitp2.xml,51,[4.804878048780488], zero two five six six two one ,"CHI, MOT, INV1",female,"at  home, playing with toys","MOT and CHI playing with a toy telephone, MOT tells CHI to dial their phone number",symbolic,output,yes
+131,HSLLD/HV2/TP/nictp2.xml,53,[3.3838862559241707], that s a one and a zero ,"CHI, MOT, INV",female,"at home, playing with toys","MOT and CHI try on hats with numbers, MOT asks what number child is, CHI initially says 'six', but MOT points out it's a 10",symbolic,input,yes
+132,HSLLD/HV3/ET/teret3.xml,67,[4.617283950617284], zero ,"CHI, MOT, SIS, INV",female,"at home, explanatory task with magnets",MOT asks CHI to read the time,symbolic,output,yes
+133,HSLLD/HV3/ET/treet3.xml,67,[4.617283950617284], zero ,COULD NOT FIND,,,,,,
+134,HSLLD/HV3/MT/anamt3.xml,70,[5.03125], eight eight nine one one zero zero three ,"CHI, MOT, BRO",female,"home, meal time","unclear - BRO says that he can do something, and writes down numbers. Potentially a phone number?",symbolic,input,
+135,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], add a zero ,"CHI, MOT, BRO, FAT",male,"home, meal time","MOT and CHI are BRO are talking about time, and then doing some addition problems. CHI initially says that 70 plus 70 is 80, but BRO corrects him, asking first what 7 plus 7 is, then tells CHI to add a 0 to that",symbolic,input,yes
+136,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], put a zero ne t to fourteen chi ,"CHI, MOT, BRO, FAT",male,"home, meal time","MOT and CHI are BRO are talking about time, and then doing some addition problems. CHI initially says that 70 plus 70 is 80, but BRO corrects him, asking first what 7 plus 7 is, then tells CHI to add a 0 to that",symbolic,input,yes
+137,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], just add a zero ,"CHI, MOT, BRO, FAT",male,"home, meal time","MOT and CHI are BRO are talking about time, and then doing some addition problems. CHI initially says that 70 plus 70 is 80, but BRO corrects him, asking first what 7 plus 7 is, then tells CHI to add a 0 to that",symbolic,input,yes
+138,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know he does the concept of adding the zero um to ,"CHI, MOT, BRO, FAT",male,"home, meal time","MOT and CHI are BRO are talking about time, and then doing some addition problems. Unclear what MOT is referring to - maybe just that the child knows how to add a 0 to a number to change the place values?",symbolic,input,yes
+139,HSLLD/HV3/MT/ethmt3.xml,67,[4.252252252252252], i know but then i said put the zero after the four ,"CHI, MOT, BRO, FAT",male,"home, meal time","MOT and CHI are BRO are talking about time, and then doing some addition problems. BRO says that he is telling CHI how to solve problem.",symbolic,input,yes
+140,HSLLD/HV3/MT/kurmt3.xml,67,[4.425531914893617], at six zero ,"CHI, MOT, SIS",male,"home, meal time",CHI is trying to tell time,symbolic,output,yes
+141,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], baseball     one zero zero one zero zero zero ,"CHI, MOT, BRO, FAT",male,"home, meal time","CHI states he is saving up for a game, ""1 million game,"" then starts to list the digits",symbolic,output,yes
+142,HSLLD/HV5/MT/davmt5.xml,88,[4.932038834951456], one point zero zero zero because it s a     when you pitch it um     ,"CHI, MOT, BRO, FAT",male,"home, meal time",unclear - CHI seems like he is still talking about baseball nintendo game?,,output,
+143,HSLLD/HV5/MT/trimt5.xml,89,[8.511111111111111], less than zero ,"CHI, MOT",female,"home, meal time","MOT and CHI are talking about math problems CHI got wrong. CHI asks a negative is, MOT responds",,input,yes
+144,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], www they take about size zero and a half ,"CHI, MOT, SIS, BRO, FAT",female,"home, meal time","family is talking about ice skating, MOT says she will bring cat and dog, SIS says they would take very small skates",symbolic,input,yes
+145,HSLLD/HV5/MT/vicmt5.xml,90,[7.762711864406779], i mean below zero and a half ,"CHI, MOT, SIS, BRO, FAT",female,"home, meal time","family is talking about ice skating, MOT says she will bring cat and dog, SIS says they would take very small skates",symbolic,input,yes
+146,HSLLD/HV7/MD/anamd7.xml,[None],[0], i ll be a zero www ,"MOT, INV",NA,NA,"mother defintitions - unclear what this refers to, but there is no child present",NA,NA,NA
+147,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], it doesn t start at zero ,"CHI, MOT, FAT",male,"home, meal time","FAT and CHI talking about how long a movie is, FAT states that movie doesn't start at 0",symbolic,input,yes
+148,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], well see on the tv it says two three o zero zero ,"CHI, MOT, FAT",MALE,"home, meal time","FAT and CHI talking about how long a movie is, CHI reads time on VCR",symbolic,output,yes
+149,HSLLD/HV7/MT/rosmt7.xml,117,[5.615384615384615], zero or marco or what ,"CHI, MOT, FAT",female,"home, meal time",FAT is thinking of names of the Marx brothers,NA,input,NA
 150,Kuczaj/abe101.xml,41,[7.850467289719626], zero ,,,,,,,
 151,Kuczaj/abe121.xml,44,[7.992424242424242], no if you grate it up i will two zero ,,,,,,,
 152,Kuczaj/abe121.xml,44,[7.992424242424242], is that two zero ,,,,,,,
