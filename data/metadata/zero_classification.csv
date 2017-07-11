@@ -149,12 +149,12 @@
 147,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], it doesn t start at zero ,"CHI, MOT, FAT",male,"home, meal time","FAT and CHI talking about how long a movie is, FAT states that movie doesn't start at 0",symbolic,input,yes
 148,HSLLD/HV7/MD/jammt7.xml,124,[7.396341463414634], well see on the tv it says two three o zero zero ,"CHI, MOT, FAT",MALE,"home, meal time","FAT and CHI talking about how long a movie is, CHI reads time on VCR",symbolic,output,yes
 149,HSLLD/HV7/MT/rosmt7.xml,117,[5.615384615384615], zero or marco or what ,"CHI, MOT, FAT",female,"home, meal time",FAT is thinking of names of the Marx brothers,NA,input,NA
-150,Kuczaj/abe101.xml,41,[7.850467289719626], zero ,,,,,,,
-151,Kuczaj/abe121.xml,44,[7.992424242424242], no if you grate it up i will two zero ,,,,,,,
-152,Kuczaj/abe121.xml,44,[7.992424242424242], is that two zero ,,,,,,,
-153,Kuczaj/abe121.xml,44,[7.992424242424242], i think it s two zero ,,,,,,,
-154,Kuczaj/abe121.xml,44,[7.992424242424242], it is two zero ,,,,,,,
-155,Kuczaj/abe201.xml,58,[7.829268292682927], mom everytime i laugh zero cough ,,,,,,,
+150,Kuczaj/abe101.xml,41,[7.850467289719626], zero ,"CHI, FAT",male,FAT and CHI are playing with a ball,"Unclear - the CHI asks if they can do it some more, then says 'zero okay?' ",,output,
+151,Kuczaj/abe121.xml,44,[7.992424242424242], no if you grate it up i will two zero ,"CHI, FAT, MOT",male,meal time,"I'm not sure, but I think CHI is playing with some darts and reading the numbers",symbolic,output,no
+152,Kuczaj/abe121.xml,44,[7.992424242424242], is that two zero ,"CHI, FAT, MOT",male,meal time,"Unclear - playing with darts, CHI reading numbers?",symbolic,output,no
+153,Kuczaj/abe121.xml,44,[7.992424242424242], i think it s two zero ,"CHI, FAT, MOT",male,meal time,"Unclear - playing with darts, CHI reading numbers?",symbolic,output,no
+154,Kuczaj/abe121.xml,44,[7.992424242424242], it is two zero ,"CHI, FAT, MOT",male,meal time,"Unclear - playing with darts, CHI reading numbers? Worth noting that MOT says the number is actually two-five",symbolic,output,no
+155,Kuczaj/abe201.xml,58,[7.829268292682927], mom everytime i laugh zero cough ,"CHI, FAT, MOT",male,meal time,Uncelar ,,output,
 156,MacWhinney/61b1.xml,66,[11.893333333333333], zero ,,,,,,,
 157,MacWhinney/65a1.xml,69,[6.735632183908046], two zero two zero ,,,,,,,
 158,MacWhinney/65a1.xml,69,[6.735632183908046], zero ,,,,,,,
