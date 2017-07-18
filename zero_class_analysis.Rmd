@@ -1,0 +1,117 @@
+---
+title: "Zero analysis"
+author: "Rose Schneider"
+date: "7/18/2017"
+output: html_document
+---
+
+#Preliminaries
+```{r setup, include=FALSE}
+rm(list=ls())
+library(knitr)
+opts_chunk$set(cache=FALSE, message=FALSE, warning=FALSE, error=FALSE)  
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(markdown)
+library(magrittr)
+library(langcog)
+theme_set(theme_bw())
+
+setwd("~/Documents/Projects/zero/")
+```
+
+#Data
+Read in zero classification csv. Note that classifications have been done by hand, on the basis of the utterance in the context of the full corpus transcript. 
+```{r}
+zero_df <- read.csv('data/metadata/zero_classification.csv')
+```
+##Data cleaning
+Excluding utterances from siblings for now - only focusing on parent/adult input. Also filtering out any utterances that could not be classified or identified. Also filtering no age data.
+```{r}
+zero_df %<>%
+  filter(notes != "sibling", 
+         !is.na(zero_type), 
+         age != "[None]")
+```
+
+Create age bins
+```{r}
+#convert age to numeric
+zero_df %<>%
+  mutate(age = as.numeric(as.character(age)))
+
+zero_df %<>%
+  mutate(agebins = cut(age, c(10, 16, 22, 28, 34,
+                              40, 46, 52, 58, 64, 
+                              70, 76, 84, 90, 96, 
+                              104, 110, 116, 122, 128), include.lowest = TRUE))
+```
+
+#Graphs
+##Input vs. output over development
+```{r}
+ms.inout <- zero_df %>%
+  group_by(agebins, input_output)%>%
+  summarise(n = n())
+
+quartz()
+ggplot(ms.inout,aes(x=agebins, y=n, fill=input_output, group = input_output)) + 
+  geom_bar(stat="identity", position = position_dodge()) +
+  labs(x = "Age bin (months)", y = "Count") +
+  scale_fill_solarized("Production/Reception")
+```
+
+##How is it used over development?
+```{r}
+ms.ref <- zero_df %>%
+  group_by(input_output, zero_type, agebins)%>%
+  summarise(n = n())
+
+quartz()
+ggplot(ms.ref,aes(x=agebins, y=n, fill = zero_type, group = zero_type)) + 
+  geom_bar(stat="identity", position = position_dodge()) +
+  labs(x = "Age bin (months)", y = "Count") +
+  scale_fill_solarized("Production/Reception") + 
+  facet_grid(zero_type~input_output, scale = "free_x")
+```
+That's a crazy graph, so let's simplify it a bit - nonexistence and both symbolic
+```{r}
+ms.ref.simp <- zero_df %>%
+  group_by(input_output, zero_type, agebins)%>%
+  summarise(n = n())%>%
+  filter(zero_type != "count_number", 
+         zero_type != "noun", 
+         zero_type != "other", 
+         zero_type != "symbol")
+
+quartz()
+ggplot(ms.ref.simp,aes(x=agebins, y=n, fill = zero_type, group = zero_type)) + 
+  geom_bar(stat="identity", position = position_dodge()) +
+  labs(x = "Age bin (months)", y = "Count") +
+  scale_fill_solarized("Function") + 
+  facet_grid(zero_type~input_output, scale = "free_x")
+```
+
+What is it used to refer to?
+```{r}
+ms.context <- zero_df %>%
+  group_by(input_output,referent)%>%
+  summarise(n = n())
+
+ms.context$referent <- factor(ms.context$referent, levels=unique(with(ms.context, referent
+                                  [order(ms.context$n, referent, 
+                                  decreasing = TRUE)])))
+
+quartz()
+ggplot(ms.context,aes(x=referent, y=n, fill = input_output)) + 
+  geom_bar(stat="identity", position = position_dodge()) +
+  labs(x = "Referent", y = "Count") +
+  scale_fill_solarized("Production/Reception") + 
+  facet_grid(~input_output, scale = "free_x")
+```
+
