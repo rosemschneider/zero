@@ -52,7 +52,28 @@ zero_df %<>%
                               104, 110, 116, 122, 128), include.lowest = TRUE))
 ```
 
+How many input v. output?
+```{r}
+sstats <- zero_df %>%
+  group_by(input_output)%>%
+  summarise(n = n())
+```
+
 #Graphs
+##How many utterances are there
+```{r}
+ms.kids <- zero_df %>%
+  group_by(fileid, agebins)%>%
+  summarise(n = n())
+
+quartz()
+ggplot(ms.kids,aes(x=agebins, y=n, fill = agebins)) + 
+  geom_bar(stat="identity", position = position_dodge()) +
+  labs(x = "Age bin (months)", y = "Number of utterances in bin") + 
+  guides(fill = FALSE) +
+  scale_y_continuous(breaks=seq(0,10,1))
+```
+
 ##Input vs. output over development
 ```{r}
 ms.inout <- zero_df %>%
@@ -61,9 +82,9 @@ ms.inout <- zero_df %>%
 
 quartz()
 ggplot(ms.inout,aes(x=agebins, y=n, fill=input_output, group = input_output)) + 
-  geom_bar(stat="identity", position = position_dodge()) +
-  labs(x = "Age bin (months)", y = "Count") +
-  scale_fill_solarized("Production/Reception")
+  geom_bar(stat="identity") +
+  labs(x = "Age bin (months)", y = "Number of utterances") +
+  scale_fill_solarized("Production/Reception", drop = FALSE)
 ```
 
 ##How is it used over development?
@@ -94,14 +115,16 @@ ggplot(ms.ref.simp,aes(x=agebins, y=n, fill = zero_type, group = zero_type)) +
   geom_bar(stat="identity", position = position_dodge()) +
   labs(x = "Age bin (months)", y = "Count") +
   scale_fill_solarized("Function") + 
-  facet_grid(zero_type~input_output, scale = "free_x")
+  facet_grid(zero_type~input_output, scale = "free_x") +
+  scale_y_continuous(breaks=seq(0,12,2))
 ```
 
 What is it used to refer to?
 ```{r}
 ms.context <- zero_df %>%
   group_by(input_output,referent)%>%
-  summarise(n = n())
+  summarise(n = n())%>%
+  filter(!is.na(referent))
 
 ms.context$referent <- factor(ms.context$referent, levels=unique(with(ms.context, referent
                                   [order(ms.context$n, referent, 
@@ -112,6 +135,6 @@ ggplot(ms.context,aes(x=referent, y=n, fill = input_output)) +
   geom_bar(stat="identity", position = position_dodge()) +
   labs(x = "Referent", y = "Count") +
   scale_fill_solarized("Production/Reception") + 
-  facet_grid(~input_output, scale = "free_x")
+  facet_grid(~input_output, scale = "free_x") + theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
