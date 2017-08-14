@@ -63,7 +63,7 @@ sstats <- zero_df %>%
 ##How many utterances are there
 ```{r}
 ms.kids <- zero_df %>%
-  group_by(fileid, agebins)%>%
+  group_by(agebins)%>%
   summarise(n = n())
 
 quartz()
@@ -71,7 +71,7 @@ ggplot(ms.kids,aes(x=agebins, y=n, fill = agebins)) +
   geom_bar(stat="identity", position = position_dodge()) +
   labs(x = "Age bin (months)", y = "Number of utterances in bin") + 
   guides(fill = FALSE) +
-  scale_y_continuous(breaks=seq(0,10,1))
+  scale_y_continuous(breaks=seq(0,40,4))
 ```
 
 ##Input vs. output over development
@@ -84,7 +84,8 @@ quartz()
 ggplot(ms.inout,aes(x=agebins, y=n, fill=input_output, group = input_output)) + 
   geom_bar(stat="identity") +
   labs(x = "Age bin (months)", y = "Number of utterances") +
-  scale_fill_solarized("Production/Reception", drop = FALSE)
+  scale_fill_solarized("Production/Reception", drop = FALSE) +
+  scale_y_continuous(breaks=seq(0,40,4))
 ```
 
 ##How is it used over development?
@@ -138,3 +139,10 @@ ggplot(ms.context,aes(x=referent, y=n, fill = input_output)) +
   facet_grid(~input_output, scale = "free_x") + theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
+Is nonexistence used correctly?   
+```{r}
+ms.none <- zero_df %>%
+  filter(zero_type == "nonexistence_negation")%>%
+  group_by(input_output, used_correctly)%>%
+  summarise(n = n())
+```
